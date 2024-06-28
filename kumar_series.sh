@@ -1,0 +1,66 @@
+#!/bin/bash
+
+#SBATCH --ntasks=6                      # number of MPI processes
+#SBATCH --mem-per-cpu=4G               # memory; default unit is megabytes
+
+
+./run_RNAseq_hg19_CPM_v5.sh /data/fastq/Kumar2021/H9_hESC_naive_EZH2i_RNA_Kumar2021_rep1_GSM5823922
+./run_RNAseq_hg19_CPM_v5.sh /data/fastq/Kumar2021/H9_hESC_naive_EZH2i_RNA_Kumar2021_rep2_GSM5823923
+./run_RNAseq_hg19_CPM_v5.sh /data/fastq/Kumar2021/H9_hESC_naive_EZH2i_RNA_Kumar2021_rep3_GSM5823924
+./run_RNAseq_hg19_CPM_v5.sh /data/fastq/Kumar2021/H9_hESC_naive_RNA_Kumar2021_rep1_GSM5823919
+./run_RNAseq_hg19_CPM_v5.sh /data/fastq/Kumar2021/H9_hESC_naive_RNA_Kumar2021_rep2_GSM5823920
+./run_RNAseq_hg19_CPM_v5.sh /data/fastq/Kumar2021/H9_hESC_naive_RNA_Kumar2021_rep3_GSM5823921
+./run_RNAseq_hg19_CPM_v5.sh /data/fastq/Kumar2021/H9_hESC_primed_EZH2i_RNA_Kumar2021_rep1_GSM5823928
+./run_RNAseq_hg19_CPM_v5.sh /data/fastq/Kumar2021/H9_hESC_primed_EZH2i_RNA_Kumar2021_rep2_GSM5823929
+./run_RNAseq_hg19_CPM_v5.sh /data/fastq/Kumar2021/H9_hESC_primed_EZH2i_RNA_Kumar2021_rep3_GSM5823930
+./run_RNAseq_hg19_CPM_v5.sh /data/fastq/Kumar2021/H9_hESC_primed_RNA_Kumar2021_rep1_GSM5823925
+./run_RNAseq_hg19_CPM_v5.sh /data/fastq/Kumar2021/H9_hESC_primed_RNA_Kumar2021_rep2_GSM5823926
+./run_RNAseq_hg19_CPM_v5.sh /data/fastq/Kumar2021/H9_hESC_primed_RNA_Kumar2021_rep3_GSM5823927
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_EZH2i_H2Aub_ChIP_Kumar2021_rep1_GSM5493443
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_EZH2i_H2Aub_ChIP_Kumar2021_rep2_GSM5493444
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_EZH2i_H2Aub_ChIP_Kumar2021_rep3_GSM5493445
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_EZH2i_H3K27me3_ChIP_Kumar2021_rep1_GSM5493455
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_EZH2i_H3K27me3_ChIP_Kumar2021_rep2_GSM5493456
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_EZH2i_H3K27me3_ChIP_Kumar2021_rep3_GSM5493457
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_EZH2i_H3K4me3_ChIP_Kumar2021_rep1_GSM5493467
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_EZH2i_H3K4me3_ChIP_Kumar2021_rep2_GSM5493468
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_EZH2i_H3K4me3_ChIP_Kumar2021_rep3_GSM5493469
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_EZH2i_input_ChIP_Kumar2021_rep1_GSM5823910
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_EZH2i_input_ChIP_Kumar2021_rep2_GSM5823911
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_EZH2i_input_ChIP_Kumar2021_rep3_GSM5823912
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_H2Aub_ChIP_Kumar2021_rep1_GSM5493440
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_H2Aub_ChIP_Kumar2021_rep2_GSM5493441
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_H2Aub_ChIP_Kumar2021_rep3_GSM5493442
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_H3K27me3_ChIP_Kumar2021_rep1_GSM5493452
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_H3K27me3_ChIP_Kumar2021_rep2_GSM5493453
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_H3K27me3_ChIP_Kumar2021_rep3_GSM5493454
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_H3K4me3_ChIP_Kumar2021_rep1_GSM5493464
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_H3K4me3_ChIP_Kumar2021_rep2_GSM5493465
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_H3K4me3_ChIP_Kumar2021_rep3_GSM5493466
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_input_ChIP_Kumar2021_rep1_GSM5823907
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_input_ChIP_Kumar2021_rep2_GSM5823908
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_naive_input_ChIP_Kumar2021_rep3_GSM5823909
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_EZH2i_H2Aub_ChIP_Kumar2021_rep1_GSM5493449
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_EZH2i_H2Aub_ChIP_Kumar2021_rep2_GSM5493450
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_EZH2i_H2Aub_ChIP_Kumar2021_rep3_GSM5493451
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_EZH2i_H3K27me3_ChIP_Kumar2021_rep1_GSM5493461
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_EZH2i_H3K27me3_ChIP_Kumar2021_rep2_GSM5493462
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_EZH2i_H3K27me3_ChIP_Kumar2021_rep3_GSM5493463
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_EZH2i_H3K4me3_ChIP_Kumar2021_rep1_GSM5493473
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_EZH2i_H3K4me3_ChIP_Kumar2021_rep2_GSM5493474
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_EZH2i_H3K4me3_ChIP_Kumar2021_rep3_GSM5493475
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_EZH2i_input_ChIP_Kumar2021_rep1_GSM5823916
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_EZH2i_input_ChIP_Kumar2021_rep2_GSM5823917
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_EZH2i_input_ChIP_Kumar2021_rep3_GSM5823918
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_H2Aub_ChIP_Kumar2021_rep1_GSM5493446
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_H2Aub_ChIP_Kumar2021_rep2_GSM5493447
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_H2Aub_ChIP_Kumar2021_rep3_GSM5493448
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_H3K27me3_ChIP_Kumar2021_rep1_GSM5493458
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_H3K27me3_ChIP_Kumar2021_rep2_GSM5493459
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_H3K27me3_ChIP_Kumar2021_rep3_GSM5493460
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_H3K4me3_ChIP_Kumar2021_rep1_GSM5493470
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_H3K4me3_ChIP_Kumar2021_rep2_GSM5493471
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_H3K4me3_ChIP_Kumar2021_rep3_GSM5493472
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_input_ChIP_Kumar2021_rep1_GSM5823913
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_input_ChIP_Kumar2021_rep2_GSM5823914
+./run_ChIPseq_hg19_CPM.sh /data/fastq/Kumar2021/H9_hESC_primed_input_ChIP_Kumar2021_rep3_GSM5823915

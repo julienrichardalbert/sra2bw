@@ -1,0 +1,3 @@
+./run_DNAme_mm10_trimV1.sh /data/fastq/Li2018/R1_mESC_TetTKO_DNAme_MethylCseq_Li2018_GSM2746088
+./run_DNAme_mm10_trimV1.sh /data/fastq/Li2018/R1_mESC_TetWT_DNAme_MethylCseq_Li2018_GSM2746087
+./run_DNAme_mm10_trimV1.sh /data/fastq/Li2018/TT2_mESC_EedKO_DNAme_MethylCseq_Li2018_GSM2746084

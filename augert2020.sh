@@ -1,0 +1,5 @@
+./run_CUTnTAG_mm10_noSpike.sh /data/fastq/Augert2020/mouse_sclc_IgG_CnR_MaxKO_MAXrescue_Augert2020_rep2_GSM4379909
+./run_CUTnTAG_mm10_noSpike.sh /data/fastq/Augert2020/mouse_sclc_IgG_CnR_MaxKO_MAXrescue_Augert2020_rep3_GSM4379911
+./run_CUTnTAG_mm10_noSpike.sh /data/fastq/Augert2020/mouse_sclc_MAX_CnR_MaxKO_MAXrescue_Augert2020_rep1_GSM4379907
+./run_CUTnTAG_mm10_noSpike.sh /data/fastq/Augert2020/mouse_sclc_MAX_CnR_MaxKO_MAXrescue_Augert2020_rep2_GSM4379910
+./run_CUTnTAG_mm10_noSpike.sh /data/fastq/Augert2020/mouse_sclc_MAX_CnR_MaxKO_MAXrescue_Augert2020_rep3_GSM4379912

@@ -1,0 +1,2 @@
+./run_CUTnTAG_mm10_noSpike.sh /data/fastq/Mei2021/BP_L2C_Pcgf1_6_WT_H3K27me3_CUTnRUN_Mei2021_GSM4916280
+./run_CUTnTAG_mm10_noSpike.sh /data/fastq/Mei2021/BP_L2C_Pcgf1_6_matdKO_H3K27me3CUTnRUN_Mei2021_GSM4916281

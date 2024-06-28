@@ -1,0 +1,12 @@
+./run_ChIPseq_hg19_CPM.sh /data/fastq/H9_hESC_naive_EZH2i_H3K27me3_ChIP_Kumar2021_rep1_GSM5493455
+./run_ChIPseq_hg19_CPM.sh /data/fastq/H9_hESC_naive_EZH2i_H3K27me3_ChIP_Kumar2021_rep2_GSM5493456
+./run_ChIPseq_hg19_CPM.sh /data/fastq/H9_hESC_naive_EZH2i_H3K27me3_ChIP_Kumar2021_rep3_GSM5493457
+./run_ChIPseq_hg19_CPM.sh /data/fastq/H9_hESC_naive_H3K27me3_ChIP_Kumar2021_rep1_GSM5493452
+./run_ChIPseq_hg19_CPM.sh /data/fastq/H9_hESC_naive_H3K27me3_ChIP_Kumar2021_rep2_GSM5493453
+./run_ChIPseq_hg19_CPM.sh /data/fastq/H9_hESC_naive_H3K27me3_ChIP_Kumar2021_rep3_GSM5493454
+./run_ChIPseq_hg19_CPM.sh /data/fastq/H9_hESC_primed_EZH2i_H3K27me3_ChIP_Kumar2021_rep1_GSM5493461
+./run_ChIPseq_hg19_CPM.sh /data/fastq/H9_hESC_primed_EZH2i_H3K27me3_ChIP_Kumar2021_rep2_GSM5493462
+./run_ChIPseq_hg19_CPM.sh /data/fastq/H9_hESC_primed_EZH2i_H3K27me3_ChIP_Kumar2021_rep3_GSM5493463
+./run_ChIPseq_hg19_CPM.sh /data/fastq/H9_hESC_primed_H3K27me3_ChIP_Kumar2021_rep1_GSM5493458
+./run_ChIPseq_hg19_CPM.sh /data/fastq/H9_hESC_primed_H3K27me3_ChIP_Kumar2021_rep2_GSM5493459
+./run_ChIPseq_hg19_CPM.sh /data/fastq/H9_hESC_primed_H3K27me3_ChIP_Kumar2021_rep3_GSM5493460

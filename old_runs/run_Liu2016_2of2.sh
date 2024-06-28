@@ -1,0 +1,4 @@
+./run_ChIPseq_mm10_CPM.sh /data/fastq/BDF_2C_H3K27me3_ChIPseq_Liu2016_GSM2082674_rep2
+./run_ChIPseq_mm10_CPM.sh /data/fastq/BDF_2C_H3K27me3_ChIPseq_Liu2016_GSM2082675_rep3
+./run_ChIPseq_mm10_CPM.sh /data/fastq/BDF_4C_H3K27me3_ChIPseq_Liu2016_GSM2082680_rep1
+./run_ChIPseq_mm10_CPM.sh /data/fastq/BDF_4C_H3K27me3_ChIPseq_Liu2016_GSM2082682_rep3

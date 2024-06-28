@@ -1,0 +1,19 @@
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/BP_E2C_KDM6B_OE_WT_RNA_Chen2021_rep1_GSM4646559
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/BP_E2C_KDM6B_OE_WT_RNA_Chen2021_rep2_GSM4646560
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/BB_L2C_RNA_Chen2021_rep1_GSM4970027
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/BB_L2C_RNA_Chen2021_rep2_GSM4970028
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/BB_MII_oocyte_RNA_Chen2021_rep1_GSM4970025
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/BB_MII_oocyte_RNA_Chen2021_rep2_GSM4970026
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/BP_4C_Eed_matKO_RNA_Chen2021_rep1_GSM4970023
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/BP_4C_Eed_matKO_RNA_Chen2021_rep2_GSM4970024
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/BP_4C_Eed_WT_RNA_Chen2021_rep1_GSM4970021
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/BP_4C_Eed_WT_RNA_Chen2021_rep2_GSM4970022
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/BP_4C_KDM6B_OE_mut_RNA_Chen2021_rep1_GSM4970017
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/BP_4C_KDM6B_OE_mut_RNA_Chen2021_rep2_GSM4970018
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/BP_4C_KDM6B_OE_WT_RNA_Chen2021_rep1_GSM4970019
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/BP_4C_KDM6B_OE_WT_RNA_Chen2021_rep2_GSM4970020
+./run_CUTnTAG_mm10_noSpike.sh /data/fastq/BP_4C_PR-DUB_OE_mut_H3K27me3_CUTnRUN_Chen2021_rep1_GSM4646545
+./run_CUTnTAG_mm10_noSpike.sh /data/fastq/BP_4C_PR-DUB_OE_mut_H3K27me3_CUTnRUN_Chen2021_rep2_GSM4646546
+./run_CUTnTAG_mm10_noSpike.sh /data/fastq/BP_4C_PR-DUB_OE_WT_H3K27me3_CUTnRUN_Chen2021_rep1_GSM4646547
+./run_CUTnTAG_mm10_noSpike.sh /data/fastq/BP_4C_PR-DUB_OE_WT_H3K27me3_CUTnRUN_Chen2021_rep2_GSM4646548
+

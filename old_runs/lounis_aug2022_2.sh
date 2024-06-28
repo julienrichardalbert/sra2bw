@@ -1,0 +1,10 @@
+./run_CUTnTAG_mm10_trimV1.sh /data/fastq/Lounis_2CLC_ATAC_092022/DASH_Kdm5cKO_ATAC_LY092022_rep1
+./run_CUTnTAG_mm10_trimV1.sh /data/fastq/Lounis_2CLC_ATAC_092022/DASH_Kdm5cKO_ATAC_LY092022_rep2
+./run_CUTnTAG_mm10_trimV1.sh /data/fastq/Lounis_2CLC_ATAC_092022/DASH_Mcm3apKO_ATAC_LY092022_rep1
+./run_CUTnTAG_mm10_trimV1.sh /data/fastq/Lounis_2CLC_ATAC_092022/DASH_Mcm3apKO_ATAC_LY092022_rep2
+./run_CUTnTAG_mm10_trimV1.sh /data/fastq/Lounis_2CLC_ATAC_092022/DASH_SpopKO_ATAC_LY092022_rep1
+./run_CUTnTAG_mm10_trimV1.sh /data/fastq/Lounis_2CLC_ATAC_092022/DASH_SpopKO_ATAC_LY092022_rep2
+./run_CUTnTAG_mm10_trimV1.sh /data/fastq/Lounis_2CLC_ATAC_092022/DASH_WT_ATAC_LY092022_rep1
+./run_CUTnTAG_mm10_trimV1.sh /data/fastq/Lounis_2CLC_ATAC_092022/DASH_WT_ATAC_LY092022_rep2
+./run_CUTnTAG_mm10_trimV1.sh /data/fastq/Lounis_2CLC_ATAC_092022/DASH_Zbtb14KO_ATAC_LY092022_rep1
+./run_CUTnTAG_mm10_trimV1.sh /data/fastq/Lounis_2CLC_ATAC_092022/DASH_Zbtb14KO_ATAC_LY092022_rep2

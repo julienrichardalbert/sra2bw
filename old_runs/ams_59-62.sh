@@ -1,0 +1,3 @@
+./run_CUTnTAG_hg19_noSpike.sh /data/fastq/2022_10_H3K36me2_CnT_AMS/E14_serum_WT_H3K36me2_CnT_C75412_ams60
+./run_CUTnTAG_hg19_noSpike.sh /data/fastq/2022_10_H3K36me2_CnT_AMS/E14_serum_WT_H3K36me2_CnT_MA5_14867_ams59
+

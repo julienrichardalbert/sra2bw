@@ -1,0 +1,10 @@
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/159_ESC_serum_DnmtTKO_DNAse_Domcke2015_rep1_GSM1657366
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/159_ESC_serum_DnmtTKO_DNAse_Domcke2015_rep2_GSM1657367
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/159_ESC_serum_DnmtTKO_RNA_Domcke2015_rep1_GSM1657371
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/159_ESC_serum_DnmtTKO_RNA_Domcke2015_rep2_GSM1657372
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/159_ESC_serum_DnmtTKO_RNA_Domcke2015_rep3_GSM1657373
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/159_ESC_serum_DnmtWT_DNAse_Domcke2015_rep1_GSM1657364
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/159_ESC_serum_DnmtWT_DNAse_Domcke2015_rep2_GSM1657365
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/159_ESC_serum_DnmtWT_RNA_Domcke2015_rep1_GSM1657368
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/159_ESC_serum_DnmtWT_RNA_Domcke2015_rep2_GSM1657369
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/159_ESC_serum_DnmtWT_RNA_Domcke2015_rep3_GSM1657370

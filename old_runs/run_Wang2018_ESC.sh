@@ -1,0 +1,8 @@
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/R1_H3K27me3_ChIP_Wang2018_rep1_GSM2588587
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/R1_H3K27me3_ChIP_Wang2018_rep2_GSM2588588
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/R1_H3K4me3_ChIP_Wang2018_rep1_GSM2588585
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/R1_H3K4me3_ChIP_Wang2018_rep2_GSM2588586
+./run_ChIPseq_mm10_CPM_v1.sh /data/fastq/R1_H3K27me3_ChIP_Wang2018_rep1_GSM2588587
+./run_ChIPseq_mm10_CPM_v1.sh /data/fastq/R1_H3K27me3_ChIP_Wang2018_rep2_GSM2588588
+./run_ChIPseq_mm10_CPM_v1.sh /data/fastq/R1_H3K4me3_ChIP_Wang2018_rep1_GSM2588585
+./run_ChIPseq_mm10_CPM_v1.sh /data/fastq/R1_H3K4me3_ChIP_Wang2018_rep2_GSM2588586

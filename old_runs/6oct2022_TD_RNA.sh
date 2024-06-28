@@ -1,0 +1,15 @@
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/E14_serum_H3K27me3_CnT-BS_Wade2021_rep1_GSM5583571
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/E14_serum_H3K27me3_CnT_Wade2021_rep1_GSM5583572
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/E14_serum_H3K4me1_CnT_Wade2021_rep2_GSM5412770
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/E14_TKO_H3.3_doxNeg_RNA_TD122021
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/E14_TKO_H3.3_doxPos_RNA_rep1_TD122021
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/E14_TKO_H3.3_doxPos_RNA_rep2_TD122021
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/E14_TKO_K4M_doxNeg_RNA_TD122021
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/E14_TKO_K4M_doxPos_RNA_rep1_TD122021
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/E14_TKO_K4M_doxPos_RNA_rep2_TD122021
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/E14_WT_H3.3_doxNeg_RNA_TD122021
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/E14_WT_H3.3_doxPos_RNA_rep1_TD122021
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/E14_WT_H3.3_doxPos_RNA_rep2_TD122021
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/E14_WT_K4M_doxNeg_RNA_TD122021
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/E14_WT_K4M_doxPos_RNA_rep1_TD122021
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/E14_WT_K4M_doxPos_RNA_rep2_TD122021

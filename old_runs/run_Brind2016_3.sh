@@ -1,0 +1,3 @@
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/BrindAmour2016/BB_E13.5_PGC_male_Setdb1HetM_RNA_BrindAmour2016_rep2_GSM1477416
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/BrindAmour2016/BB_E13.5_PGC_male_Setdb1KO_RNA_BrindAmour2016_rep1_GSM1477419
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/BrindAmour2016/BB_E13.5_PGC_male_Setdb1KO_RNA_BrindAmour2016_rep2_GSM1477420

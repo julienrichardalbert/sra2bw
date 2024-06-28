@@ -1,0 +1,7 @@
+./run_CUTnTAG_mm10_noSpike.sh /scratch/crop_TU_092022/E14_WT_D0_MAX-AID_AUX_CnR_092022_TU09_headcrop20
+./run_CUTnTAG_mm10_noSpike.sh /scratch/crop_TU_092022/E14_WT_D0_MAX-AID_CnR_092022_TU08_headcrop20
+./run_CUTnTAG_mm10_noSpike.sh /scratch/crop_TU_092022/E14_WT_D0_MAX_CnR_092022_TU07_headcrop20
+./run_CUTnTAG_mm10_noSpike.sh /scratch/crop_TU_092022/E14_WT_D2_IgG_CnR_092022_TU12_headcrop20
+./run_CUTnTAG_mm10_noSpike.sh /scratch/crop_TU_092022/E14_WT_D2_MAX-AID_CnR_092022_TU11_headcrop20
+./run_CUTnTAG_mm10_noSpike.sh /scratch/crop_TU_092022/E14_WT_D2_MAX_CnR_092022_TU10_headcrop20
+./run_CUTnTAG_mm10_noSpike.sh /scratch/crop_TU_092022/E14_WT_D7_MAX_CnR_092022_TU13_headcrop20

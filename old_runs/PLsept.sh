@@ -1,0 +1,15 @@
+./run_epimethyltag_mm10.sh /data/fastq/E14_serum_H3K27me3_CnT-BS_Wade2021_rep1_GSM5583571
+./run_epimethyltag_mm10.sh /data/fastq/E14_serum_H3K27me3_CnT_Wade2021_rep1_GSM5583572
+./run_epimethyltag_mm10.sh /data/fastq/E14_serum_H3K4me1_CnT-BS_Wade2021_rep1_GSM5412769
+./run_epimethyltag_mm10.sh /data/fastq/E14_serum_H3K4me1_CnT_Wade2021_rep1_GSM5412773
+./run_epimethyltag_mm10.sh /data/priscillia_data/fastq/WT2i_IgG_MCnT_rep1_2208
+./run_epimethyltag_mm10.sh /data/priscillia_data/fastq/WT2i_K27ac_MCnT_rep1_2208
+./run_epimethyltag_mm10.sh /data/priscillia_data/fastq/WT2i_K27me3_MCnT_rep1_2208
+./run_epimethyltag_mm10.sh /data/priscillia_data/fastq/WT2i_K27me3_MCnT_rep2_2208
+./run_epimethyltag_mm10.sh /data/priscillia_data/fastq/WT2i_K27me3_NC_rep2_2208
+./run_epimethyltag_mm10.sh /data/priscillia_data/fastq/WT2i_K4me1_MCnT_rep1_2208
+./run_epimethyltag_mm10.sh /data/priscillia_data/fastq/WT_D0_MATAC_rep1_2208
+./run_epimethyltag_mm10.sh /data/priscillia_data/fastq/WT_D0_MATAC_rep2_2208
+./run_epimethyltag_mm10.sh /data/priscillia_data/fastq/WT_D2_MATAC_rep1_2208
+./run_epimethyltag_mm10.sh /data/priscillia_data/fastq/WT_D4_MATAC_rep1_2208
+./run_epimethyltag_mm10.sh /data/priscillia_data/fastq/WT_D7_MATAC_rep1_2208

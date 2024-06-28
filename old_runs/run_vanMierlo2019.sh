@@ -1,0 +1,9 @@
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/vanMierlo2019/E14_mESC_2i_Aza_EedKO_RNA_vanMierlo2019_GSM2711866
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/vanMierlo2019/E14_mESC_2i_Aza_RNA_vanMierlo2019_GSM2711864
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/vanMierlo2019/E14_mESC_2i_EedKO_RNA_vanMierlo2019_GSM2711865
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/vanMierlo2019/E14_mESC_2i_RNA_vanMierlo2019_GSM2711863
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/vanMierlo2019/E14_mESC_2i_H3K27me3_ChIPseq_vanMierlo2019_rep1_GSM3080981
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/vanMierlo2019/E14_mESC_2i_H3K27me3_ChIPseq_vanMierlo2019_rep2_GSM3080982
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/vanMierlo2019/E14_mESC_2i_H3K36me3_ChIPseq_vanMierlo2019_GSM3080983
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/vanMierlo2019/E14_mESC_2i_input_ChIPseq_vanMierlo2019_GSM3080984
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/vanMierlo2019/E14_mESC_2iSerum_H3K27me3_ChIPseq_vanMierlo2019_rep1_GSM3080985

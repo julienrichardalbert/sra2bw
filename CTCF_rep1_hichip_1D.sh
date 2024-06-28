@@ -1,0 +1,8 @@
+./run_HiChIP_1D_mm10_v1.sh /scratch/CTCF_HICHIP/E14_D0_TKO_CTCF_HiChIP_deep_shallow_AMS112022_rep1_R1
+./run_HiChIP_1D_mm10_v1.sh /scratch/CTCF_HICHIP/E14_D0_TKO_CTCF_HiChIP_deep_shallow_AMS112022_rep1_R2
+./run_HiChIP_1D_mm10_v1.sh /scratch/CTCF_HICHIP/E14_D0_WT_CTCF_HiChIP_deep_shallow_AMS112022_rep1_R1
+./run_HiChIP_1D_mm10_v1.sh /scratch/CTCF_HICHIP/E14_D0_WT_CTCF_HiChIP_deep_shallow_AMS112022_rep1_R2
+./run_HiChIP_1D_mm10_v1.sh /scratch/CTCF_HICHIP/E14_D4_TKO_CTCF_HiChIP_deep_shallow_AMS112022_rep1_R1
+./run_HiChIP_1D_mm10_v1.sh /scratch/CTCF_HICHIP/E14_D4_TKO_CTCF_HiChIP_deep_shallow_AMS112022_rep1_R2
+./run_HiChIP_1D_mm10_v1.sh /scratch/CTCF_HICHIP/E14_D4_WT_CTCF_HiChIP_deep_shallow_AMS112022_rep1_R1
+./run_HiChIP_1D_mm10_v1.sh /scratch/CTCF_HICHIP/E14_D4_WT_CTCF_HiChIP_deep_shallow_AMS112022_rep1_R2

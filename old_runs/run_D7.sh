@@ -1,0 +1,5 @@
+./run_CUTnTAG_mm10_noSpike.sh /data/fastq/E14_D7_TKO_H3K27me3_CUTnTAG_AMS062021_nuclei
+./run_CUTnTAG_mm10_noSpike.sh /data/fastq/E14_D7_TKO_H3K27me3_CUTnTAG_AMS062021_rep1
+./run_CUTnTAG_mm10_noSpike.sh /data/fastq/E14_D7_TKO_H3K27me3_CUTnTAG_AMS062021_rep2
+./run_CUTnTAG_mm10_noSpike.sh /data/fastq/E14_D7_WT_H3K27me3_CUTnTAG_AMS062021_rep1
+./run_CUTnTAG_mm10_noSpike.sh /data/fastq/E14_D7_WT_H3K27me3_CUTnTAG_AMS062021_rep2

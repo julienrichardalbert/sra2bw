@@ -1,0 +1,10 @@
+./run_CUTnTAG_mm10_trimV1.sh /scratch/crop5/DASH_Kdm5cKO_ATAC_LY092022_rep1_crop36
+./run_CUTnTAG_mm10_trimV1.sh /scratch/crop5/DASH_Kdm5cKO_ATAC_LY092022_rep2_crop36
+./run_CUTnTAG_mm10_trimV1.sh /scratch/crop5/DASH_Mcm3apKO_ATAC_LY092022_rep1_crop36
+./run_CUTnTAG_mm10_trimV1.sh /scratch/crop5/DASH_Mcm3apKO_ATAC_LY092022_rep2_crop36
+./run_CUTnTAG_mm10_trimV1.sh /scratch/crop5/DASH_SpopKO_ATAC_LY092022_rep1_crop36
+./run_CUTnTAG_mm10_trimV1.sh /scratch/crop5/DASH_SpopKO_ATAC_LY092022_rep2_crop36
+./run_CUTnTAG_mm10_trimV1.sh /scratch/crop5/DASH_WT_ATAC_LY092022_rep1_crop36
+./run_CUTnTAG_mm10_trimV1.sh /scratch/crop5/DASH_WT_ATAC_LY092022_rep2_crop36
+./run_CUTnTAG_mm10_trimV1.sh /scratch/crop5/DASH_Zbtb14KO_ATAC_LY092022_rep1_crop36
+./run_CUTnTAG_mm10_trimV1.sh /scratch/crop5/DASH_Zbtb14KO_ATAC_LY092022_rep2_crop36

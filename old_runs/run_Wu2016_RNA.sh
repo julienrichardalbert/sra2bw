@@ -1,0 +1,14 @@
+./run_RNAseq_preAlnPCRrm_mm10_CPM_48GbTEST.sh /data/fastq/Wu2016/BB_MII_oocyte_RNA_Wu2016_rep2_GSM1933936
+./run_RNAseq_preAlnPCRrm_mm10_CPM_48GbTEST.sh /data/fastq/Wu2016/BD_1C_RNA_Wu2016_rep1_GSM1625860
+./run_RNAseq_preAlnPCRrm_mm10_CPM_48GbTEST.sh /data/fastq/Wu2016/BD_1C_RNA_Wu2016_rep2_GSM1625861
+./run_RNAseq_preAlnPCRrm_mm10_CPM_48GbTEST.sh /data/fastq/Wu2016/BD_4C_RNA_Wu2016_rep1_GSM1625864
+./run_RNAseq_preAlnPCRrm_mm10_CPM_48GbTEST.sh /data/fastq/Wu2016/BD_4C_RNA_Wu2016_rep2_GSM1625865
+./run_RNAseq_preAlnPCRrm_mm10_CPM_48GbTEST.sh /data/fastq/Wu2016/BD_8C_RNA_Wu2016_rep1_GSM1625866
+./run_RNAseq_preAlnPCRrm_mm10_CPM_48GbTEST.sh /data/fastq/Wu2016/BD_8C_RNA_Wu2016_rep2_GSM1625867
+./run_RNAseq_preAlnPCRrm_mm10_CPM_48GbTEST.sh /data/fastq/Wu2016/BD_E2C_RNA_Wu2016_rep1_GSM1933937
+./run_RNAseq_preAlnPCRrm_mm10_CPM_48GbTEST.sh /data/fastq/Wu2016/BD_E2C_RNA_Wu2016_rep2_GSM1933938
+./run_RNAseq_preAlnPCRrm_mm10_CPM_48GbTEST.sh /data/fastq/Wu2016/BD_ICM_RNA_Wu2016_rep1_GSM1625868
+./run_RNAseq_preAlnPCRrm_mm10_CPM_48GbTEST.sh /data/fastq/Wu2016/BD_ICM_RNA_Wu2016_rep2_GSM1625869
+./run_RNAseq_preAlnPCRrm_mm10_CPM_48GbTEST.sh /data/fastq/Wu2016/BD_ICM_RNA_Wu2016_rep3_GSM1625872
+./run_RNAseq_preAlnPCRrm_mm10_CPM_48GbTEST.sh /data/fastq/Wu2016/BD_L2C_RNA_Wu2016_rep1_GSM1625862
+./run_RNAseq_preAlnPCRrm_mm10_CPM_48GbTEST.sh /data/fastq/Wu2016/BD_L2C_RNA_Wu2016_rep2_GSM1625863

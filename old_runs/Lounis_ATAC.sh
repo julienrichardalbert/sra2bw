@@ -1,0 +1,10 @@
+./run_ChIPseq_mm10_CPM_v1.sh /scratch/crop5/DASH_Kdm5cKO_ATAC_LY092022_rep1_crop75
+./run_ChIPseq_mm10_CPM_v1.sh /scratch/crop5/DASH_Kdm5cKO_ATAC_LY092022_rep2_crop75
+./run_ChIPseq_mm10_CPM_v1.sh /scratch/crop5/DASH_Mcm3apKO_ATAC_LY092022_rep1_crop75
+./run_ChIPseq_mm10_CPM_v1.sh /scratch/crop5/DASH_Mcm3apKO_ATAC_LY092022_rep2_crop75
+./run_ChIPseq_mm10_CPM_v1.sh /scratch/crop5/DASH_SpopKO_ATAC_LY092022_rep1_crop75
+./run_ChIPseq_mm10_CPM_v1.sh /scratch/crop5/DASH_SpopKO_ATAC_LY092022_rep2_crop75
+./run_ChIPseq_mm10_CPM_v1.sh /scratch/crop5/DASH_WT_ATAC_LY092022_rep1_crop75
+./run_ChIPseq_mm10_CPM_v1.sh /scratch/crop5/DASH_WT_ATAC_LY092022_rep2_crop75
+./run_ChIPseq_mm10_CPM_v1.sh /scratch/crop5/DASH_Zbtb14KO_ATAC_LY092022_rep1_crop75
+./run_ChIPseq_mm10_CPM_v1.sh /scratch/crop5/DASH_Zbtb14KO_ATAC_LY092022_rep2_crop75

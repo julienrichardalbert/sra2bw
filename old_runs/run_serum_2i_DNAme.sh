@@ -1,0 +1,6 @@
+./run_DNAme_mm10_trimV1.sh /data/fastq/J1_mESC_2i_EedKO_WGBS_vanMierlo2019_rep1_GSM3080992
+./run_DNAme_mm10_trimV1.sh /data/fastq/J1_mESC_2i_EedKO_WGBS_vanMierlo2019_rep2_GSM3080993
+./run_DNAme_mm10_trimV1.sh /data/fastq/E14_mESC_2i_WGBS_Marks2013_rep1_GSM1027572
+./run_DNAme_mm10_trimV1.sh /data/fastq/E14_mESC_2i_WGBS_Marks2013_rep2_GSM1127954
+./run_DNAme_mm10_trimV1.sh /data/fastq/E14_mESC_serum_WGBS_Marks2013_rep1_GSM1027571
+./run_DNAme_mm10_trimV1.sh /data/fastq/E14_mESC_serum_WGBS_Marks2013_rep2_GSM1127953

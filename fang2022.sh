@@ -1,0 +1,6 @@
+./run_CUTnTAG_mm10_noSpike.sh /data/fastq/Fang2022/J1_serum_Nsd1KO_H3K36me2_CUTnRUN_Fang2022_GSM5175822_rep1
+./run_CUTnTAG_mm10_noSpike.sh /data/fastq/Fang2022/J1_serum_Nsd1KO_H3K36me2_CUTnRUN_Fang2022_GSM5175823_rep2
+./run_CUTnTAG_mm10_noSpike.sh /data/fastq/Fang2022/J1_serum_Nsd1KO_H3K36me2_CUTnRUN_Fang2022_GSM5175824_rep3
+./run_CUTnTAG_mm10_noSpike.sh /data/fastq/Fang2022/J1_serum_Nsd1KO_H3K36me2_CUTnRUN_Fang2022_GSM5175825_rep4
+./run_CUTnTAG_mm10_noSpike.sh /data/fastq/Fang2022/J1_serum_Nsd1WT_H3K36me2_CUTnRUN_Fang2022_GSM5175826_rep1
+./run_CUTnTAG_mm10_noSpike.sh /data/fastq/Fang2022/J1_serum_Nsd1WT_H3K36me2_CUTnRUN_Fang2022_GSM5175827_rep2

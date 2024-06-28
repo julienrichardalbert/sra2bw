@@ -1,0 +1,12 @@
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/Oksuz2018/E14_ESC_2i_0hr_EED-HA_ChIP_Oksuz2018_GSM2475233
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/Oksuz2018/E14_ESC_2i_0hr_H3K27me3_ChIP_Oksuz2018_GSM2475228
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/Oksuz2018/E14_ESC_2i_0hr_input_ChIP_Oksuz2018_GSM2475238
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/Oksuz2018/E14_ESC_2i_12hr_H3K27me3_ChIP_Oksuz2018_GSM2475229
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/Oksuz2018/E14_ESC_2i_36hr_H3K27me3_ChIP_Oksuz2018_GSM2475231
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/Oksuz2018/E14_ESC_2i_EED_WT_H3K27me3_ChIP_Oksuz2018_rep1_GSM2475239
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/Oksuz2018/E14_ESC_2i_EED_WT_H3K27me3_ChIP_Oksuz2018_rep2_GSM2475245
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/Oksuz2018/E14_ESC_2i_EED_WT_input_ChIP_Oksuz2018_rep1_GSM2475244
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/Oksuz2018/E14_ESC_2i_EED_WT_input_ChIP_Oksuz2018_rep2_GSM2475250
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/Oksuz2018/E14_ESC_2i_EED_Y365A_H3K27me3_ChIP_Oksuz2018_rep1_GSM2475241
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/Oksuz2018/E14_ESC_2i_EED_Y365A_H3K27me3_ChIP_Oksuz2018_rep2_GSM2475248
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/Oksuz2018/E14_ESC_2i_JARID2_ChIP_Oksuz2018_GSM2475225

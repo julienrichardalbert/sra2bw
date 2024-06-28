@@ -1,0 +1,12 @@
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/Li2018/TT2_mESC_EedKO_RNAseq_Li2018_GSM2746091
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/Li2018/TT2_mESC_RNAseq_Li2018_GSM2746090
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Li2018/R1_mESC_Dnmt3abDKO_EED_ChIPseq_Li2018_GSM2899075_rep1
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Li2018/R1_mESC_Dnmt3abDKO_EED_ChIPseq_Li2018_GSM2899076_rep2
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Li2018/TT2_mESC_EED_ChIPseq_Li2018_GSM2746092_rep1
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Li2018/TT2_mESC_EED_ChIPseq_Li2018_GSM2899074_rep2
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Li2018/TT2_mESC_EedKO_H3K27ac_ChIPseq_Li2018_GSM274608
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Li2018/TT2_mESC_EedKO_H3K27me3_ChIPseq_Li2018_GSM2746081
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Li2018/TT2_mESC_EedKO_H3K4me3_ChIPseq_Li2018_GSM2746079
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Li2018/TT2_mESC_H3K27ac_ChIPseq_Li2018_GSM2746082
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Li2018/TT2_mESC_H3K27me3_ChIPseq_Li2018_GSM2746080
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Li2018/TT2_mESC_H3K4me3_ChIPseq_Li2018_GSM2746078

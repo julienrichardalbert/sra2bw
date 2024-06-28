@@ -1,0 +1,17 @@
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Wang2018/BDF_E6.5_Epi_H3K27me3_ChIPseq_Wang2018_GSM2588597_rep1
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Wang2018/BDF_E6.5_Epi_H3K27me3_ChIPseq_Wang2018_GSM2588598_rep2
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Wang2018/BDF_E6.5_Epi_H3K27me3_ChIPseq_Wang2018_GSM2588599_rep3
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Wang2018/BDF_E6.5_ExE_H3K27me3_ChIPseq_Wang2018_GSM2588605_rep1
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Wang2018/BDF_E6.5_ExE_H3K27me3_ChIPseq_Wang2018_GSM2588606_rep2
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Wang2018/BDF_E6.5_ExE_H3K27me3_ChIPseq_Wang2018_GSM2588607_rep3
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Wang2018/BDF_E6.5_ExE_H3K27me3_ChIPseq_Wang2018_GSM2588624_rep1
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Wang2018/BDF_E6.5_ExE_H3K27me3_ChIPseq_Wang2018_GSM2588625_rep2
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Wang2018/BDF_E6.5_ExE_H3K27me3_ChIPseq_Wang2018_GSM2588626_rep3
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Wang2018/BDF_E7.5_Epi_H3K27me3_ChIPseq_Wang2018_GSM2588614_rep1
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Wang2018/BDF_E7.5_Epi_H3K27me3_ChIPseq_Wang2018_GSM2588615_rep2
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Wang2018/BDF_E8.5_Epi_H3K27me3_ChIPseq_Wang2018_GSM2588632_rep1
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Wang2018/BDF_E8.5_Epi_H3K27me3_ChIPseq_Wang2018_GSM2588633_rep2
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Wang2018/BDF_E8.5_Epi_H3K27me3_ChIPseq_Wang2018_GSM2588634_rep3
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Wang2018/BDF_zygote_H3K27me3_ChIPseq_Wang2018_GSM2588568_rep1
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Wang2018/BDF_zygote_H3K27me3_ChIPseq_Wang2018_GSM2588569_rep2
+./run_ChIPseq_mm10_CPM.sh /data/fastq/Wang2018/BDF_zygote_H3K27me3_ChIPseq_Wang2018_GSM2588570_rep3

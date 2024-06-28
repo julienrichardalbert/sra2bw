@@ -1,0 +1,8 @@
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/Zhang2018/BD_E7.5_Ecto_RNA_Zhang2018_GSM20272019_rep2
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/Zhang2018/BD_E7.5_Endo_RNA_Zhang2018_GSM20272024_rep1
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/Zhang2018/BD_E7.5_Endo_RNA_Zhang2018_GSM20272025_rep2
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/Zhang2018/BD_E7.5_Meso_RNA_Zhang2018_GSM20272022_rep1
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/Zhang2018/BD_E7.5_Meso_RNA_Zhang2018_GSM20272023_rep2
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/Zhang2018/BD_E7.5_PrimStreak_RNA_Zhang2018_GSM20272020_rep1
+./run_RNAseq_preAlnPCRrm_mm10_CPM.sh /data/fastq/Zhang2018/BD_E7.5_PrimStreak_RNA_Zhang2018_GSM20272021_rep2
+

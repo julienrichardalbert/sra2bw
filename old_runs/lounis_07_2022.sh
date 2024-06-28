@@ -1,0 +1,4 @@
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/2022_07_Lounis_BEND3_ChIP/DASH_serum_BEND3_ChIP_LY072022_rep1
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/2022_07_Lounis_BEND3_ChIP/DASH_serum_BEND3_ChIP_LY072022_rep2
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/2022_07_Lounis_BEND3_ChIP/DASH_serum_input_ChIP_LY072022_rep1
+./run_ChIPseq_mm10_CPM_v5.sh /data/fastq/2022_07_Lounis_BEND3_ChIP/DASH_serum_input_ChIP_LY072022_rep2

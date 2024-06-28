@@ -1,0 +1,46 @@
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_2i_DNAseI_ChIP_Joshi2015_GSM1856456
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_2i_H3K27ac_ChIP_rep1_Joshi2015_GSM1908114
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_2i_H3K27ac_ChIP_rep2_Joshi2015_GSM1908115
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_2i_H3K27ac_ChIP_rep3_Joshi2015_GSM1856426
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_2i_H3K27me3_ChIP_rep1_Joshi2015_GSM1856433
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_2i_H3K27me3_ChIP_rep2_Joshi2015_GSM1856434
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_2i_H3K4me1_ChIP_Joshi2015_GSM1856424
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_2i_RING1B_ChIP_rep1_Joshi2015_GSM1856442
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_2i_RING1B_ChIP_rep2_Joshi2015_GSM1856443
+
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/E14_2i_RNA_ChIP_rep1_Joshi2015_GSM1856453
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/E14_2i_RNA_ChIP_rep2_Joshi2015_GSM1856454
+
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_2i_SUZ12_ChIP_rep1_Joshi2015_GSM1856449
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_2i_SUZ12_ChIP_rep2_Joshi2015_GSM1856450
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_2i_input_ChIP_Joshi2015_GSM1856436
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_DNAseI_ChIP_Joshi2015_GSM1856455
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_H3K27ac_ChIP_rep1_Joshi2015_GSM1908108
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_H3K27ac_ChIP_rep2_Joshi2015_GSM1908109
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_H3K27ac_ChIP_rep3_Joshi2015_GSM1856425
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_H3K27me3_ChIP_rep1_Joshi2015_GSM1856427
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_H3K27me3_ChIP_rep2_Joshi2015_GSM1856428
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_H3K4me1_ChIP_Joshi2015_GSM1856423
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_RING1B_ChIP_rep1_Joshi2015_GSM1856437
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_RING1B_ChIP_rep2_Joshi2015_GSM1856438
+
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/E14_serum_RNA_ChIP_rep1_Joshi2015_GSM1856451
+./run_RNAseq_mm10_CPM_v5.sh /data/fastq/E14_serum_RNA_ChIP_rep2_Joshi2015_GSM1856452
+
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_SUZ12_ChIP_rep1_Joshi2015_GSM1856444
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_SUZ12_ChIP_rep2_Joshi2015_GSM1856445
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_input_ChIP_Joshi2015_GSM1856435
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_to_2i_d1_H3K27ac_ChIP_rep1_Joshi2015_GSM1908110
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_to_2i_d1_H3K27ac_ChIP_rep2_Joshi2015_GSM1908111
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_to_2i_d1_H3K27me3_ChIP_rep1_Joshi2015_GSM1856429
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_to_2i_d1_H3K27me3_ChIP_rep2_Joshi2015_GSM1856430
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_to_2i_d1_RING1B_ChIP_rep1_Joshi2015_GSM1856439
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_to_2i_d1_RING1B_ChIP_rep2_Joshi2015_GSM1856440
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_to_2i_d1_SUZ12_ChIP_rep1_Joshi2015_GSM1856446
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_to_2i_d1_SUZ12_ChIP_rep2_Joshi2015_GSM1856447
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_to_2i_d3_H3K27ac_ChIP_rep1_Joshi2015_GSM1908112
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_to_2i_d3_H3K27ac_ChIP_rep2_Joshi2015_GSM1908113
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_to_2i_d3_H3K27me3_ChIP_rep1_Joshi2015_GSM1856431
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_to_2i_d3_H3K27me3_ChIP_rep2_Joshi2015_GSM1856432
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_to_2i_d3_RING1B_ChIP_Joshi2015_GSM1856441
+./run_ChIPseq_mm10_CPM.sh /data/fastq/E14_serum_to_2i_d3_SUZ12_ChIP_Joshi2015_GSM1856448
