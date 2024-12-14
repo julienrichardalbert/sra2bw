@@ -1,0 +1,409 @@
+SCRATCH: /scratch
+[setupVariables] Data are paired-end. at [Fri Aug 30 07:01:26 PM CEST 2024]
+[checkDependencies] Checking Dependencies [Fri Aug 30 07:01:26 PM CEST 2024] at [Fri Aug 30 07:01:26 PM CEST 2024]
+[setup checkDependencies] trimmomatic... at [Fri Aug 30 07:01:26 PM CEST 2024]
+[setup checkDependencies] STAR... at [Fri Aug 30 07:01:26 PM CEST 2024]
+[setup checkDependencies] bismark... at [Fri Aug 30 07:01:26 PM CEST 2024]
+[setup checkDependencies] bowtie2... at [Fri Aug 30 07:01:26 PM CEST 2024]
+[setup checkDependencies] samtools... at [Fri Aug 30 07:01:26 PM CEST 2024]
+[setup checkDependencies] picard... at [Fri Aug 30 07:01:26 PM CEST 2024]
+[setup checkDependencies] awk... at [Fri Aug 30 07:01:26 PM CEST 2024]
+[setup checkDependencies] bamCoverage... at [Fri Aug 30 07:01:26 PM CEST 2024]
+[setup checkDependencies] fastqc... at [Fri Aug 30 07:01:26 PM CEST 2024]
+[setup checkDependencies] fastq_screen... at [Fri Aug 30 07:01:26 PM CEST 2024]
+[setup checkDependencies] stringtie... at [Fri Aug 30 07:01:26 PM CEST 2024]
+[setup checkDependencies] clumpify.sh... at [Fri Aug 30 07:01:26 PM CEST 2024]
+PAIRED: true
+[setUpLogFile] Script started at [Fri Aug 30 07:01:26 PM CEST 2024] at [Fri Aug 30 07:01:26 PM CEST 2024]
+[fastQC] started on raw FASTQs at [Fri Aug 30 07:01:26 PM CEST 2024]
+Started analysis of C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1_raw.fastq.gz
+Started analysis of C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2_raw.fastq.gz
+Approx 5% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1_raw.fastq.gz
+Approx 5% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2_raw.fastq.gz
+Approx 10% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1_raw.fastq.gz
+Approx 10% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2_raw.fastq.gz
+Approx 15% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1_raw.fastq.gz
+Approx 15% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2_raw.fastq.gz
+Approx 20% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1_raw.fastq.gz
+Approx 20% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2_raw.fastq.gz
+Approx 25% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1_raw.fastq.gz
+Approx 25% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2_raw.fastq.gz
+Approx 30% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1_raw.fastq.gz
+Approx 30% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2_raw.fastq.gz
+Approx 35% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1_raw.fastq.gz
+Approx 35% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2_raw.fastq.gz
+Approx 40% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1_raw.fastq.gz
+Approx 40% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2_raw.fastq.gz
+Approx 45% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1_raw.fastq.gz
+Approx 45% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2_raw.fastq.gz
+Approx 50% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1_raw.fastq.gz
+Approx 50% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2_raw.fastq.gz
+Approx 55% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1_raw.fastq.gz
+Approx 55% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2_raw.fastq.gz
+Approx 60% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1_raw.fastq.gz
+Approx 60% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2_raw.fastq.gz
+Approx 65% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1_raw.fastq.gz
+Approx 65% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2_raw.fastq.gz
+Approx 70% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1_raw.fastq.gz
+Approx 70% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2_raw.fastq.gz
+Approx 75% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1_raw.fastq.gz
+Approx 75% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2_raw.fastq.gz
+Approx 80% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1_raw.fastq.gz
+Approx 80% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2_raw.fastq.gz
+Approx 85% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1_raw.fastq.gz
+Approx 85% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2_raw.fastq.gz
+Approx 90% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1_raw.fastq.gz
+Approx 90% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2_raw.fastq.gz
+Approx 95% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1_raw.fastq.gz
+Approx 95% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2_raw.fastq.gz
+Analysis complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1_raw.fastq.gz
+Analysis complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2_raw.fastq.gz
+[fastQC] on raw FASTQs finished succesfully. Will remove PCR duplicates now at [Fri Aug 30 07:04:31 PM CEST 2024]
+Reads are length: 54 at [Fri Aug 30 07:04:31 PM CEST 2024]
+Reads with same sequence 1 or fewer substitutions will be marked as PCR duplicates at [Fri Aug 30 07:04:31 PM CEST 2024]
+Removal of PCR duplicates complete! at [Fri Aug 30 07:38:22 PM CEST 2024]
+[trimReads] Started using version trimV5 parameters at [Fri Aug 30 07:38:22 PM CEST 2024]
+ILLUMINACLIP:/data/reference_genomes/adapters/adapters.fa:2:30:10 SLIDINGWINDOW:4:20 MINLEN:24
+[trimReads] Trimming C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1.fastq.gz and C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2.fastq.gz... at [Fri Aug 30 07:38:22 PM CEST 2024]
+[trimReads] Finished successfully at [Fri Aug 30 07:39:37 PM CEST 2024]
+[fastQC] started on C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1.fastq.gz C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2.fastq.gz C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R2.fastq.gz at [Fri Aug 30 07:39:37 PM CEST 2024]
+Started analysis of C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1.fastq.gz
+Started analysis of C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2.fastq.gz
+Started analysis of C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz
+Started analysis of C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R2.fastq.gz
+Approx 5% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1.fastq.gz
+Approx 5% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz
+Approx 5% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2.fastq.gz
+Approx 5% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R2.fastq.gz
+Approx 10% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1.fastq.gz
+Approx 10% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz
+Approx 10% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R2.fastq.gz
+Approx 10% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2.fastq.gz
+Approx 15% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1.fastq.gz
+Approx 15% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz
+Approx 15% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R2.fastq.gz
+Approx 20% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1.fastq.gz
+Approx 15% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2.fastq.gz
+Approx 20% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz
+Approx 20% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R2.fastq.gz
+Approx 25% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1.fastq.gz
+Approx 25% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz
+Approx 20% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2.fastq.gz
+Approx 25% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R2.fastq.gz
+Approx 30% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz
+Approx 30% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1.fastq.gz
+Approx 25% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2.fastq.gz
+Approx 35% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz
+Approx 30% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R2.fastq.gz
+Approx 35% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1.fastq.gz
+Approx 40% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz
+Approx 35% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R2.fastq.gz
+Approx 30% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2.fastq.gz
+Approx 40% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1.fastq.gz
+Approx 45% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz
+Approx 40% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R2.fastq.gz
+Approx 35% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2.fastq.gz
+Approx 45% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1.fastq.gz
+Approx 50% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz
+Approx 45% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R2.fastq.gz
+Approx 50% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1.fastq.gz
+Approx 40% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2.fastq.gz
+Approx 55% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz
+Approx 50% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R2.fastq.gz
+Approx 55% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1.fastq.gz
+Approx 60% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz
+Approx 45% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2.fastq.gz
+Approx 55% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R2.fastq.gz
+Approx 65% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz
+Approx 60% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1.fastq.gz
+Approx 50% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2.fastq.gz
+Approx 60% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R2.fastq.gz
+Approx 70% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz
+Approx 65% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1.fastq.gz
+Approx 65% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R2.fastq.gz
+Approx 75% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz
+Approx 55% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2.fastq.gz
+Approx 70% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1.fastq.gz
+Approx 80% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz
+Approx 70% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R2.fastq.gz
+Approx 75% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1.fastq.gz
+Approx 60% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2.fastq.gz
+Approx 85% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz
+Approx 75% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R2.fastq.gz
+Approx 80% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1.fastq.gz
+Approx 65% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2.fastq.gz
+Approx 90% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz
+Approx 80% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R2.fastq.gz
+Approx 85% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1.fastq.gz
+Approx 95% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz
+Approx 85% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R2.fastq.gz
+Approx 70% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2.fastq.gz
+Approx 90% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1.fastq.gz
+Analysis complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz
+Approx 90% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R2.fastq.gz
+Approx 95% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1.fastq.gz
+Approx 75% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2.fastq.gz
+Approx 95% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R2.fastq.gz
+Analysis complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R1.fastq.gz
+Approx 80% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2.fastq.gz
+Analysis complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R2.fastq.gz
+Approx 85% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2.fastq.gz
+Approx 90% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2.fastq.gz
+Approx 95% complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2.fastq.gz
+Analysis complete for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_R2.fastq.gz
+[fastQC] finished succesfully at [Fri Aug 30 07:40:25 PM CEST 2024]
+[fastqScreen] started on C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz at [Fri Aug 30 07:40:25 PM CEST 2024]
+Using fastq_screen v0.15.1
+Couldn't find fastq_screen.conf at '/home/robin/bin/miniconda3/share/fastq-screen-0.15.2-0/fastq_screen.conf'
+[fastqScreen] finished successfully at [Fri Aug 30 07:40:25 PM CEST 2024]
+[STAR alignment] started with reference /data/reference_genomes/mm10 at [Fri Aug 30 07:40:25 PM CEST 2024]
+	STAR --runMode alignReads --genomeDir /data/reference_genomes/mm10 --runThreadN 12 --limitBAMsortRAM 4G --readFilesCommand zcat --readFilesIn C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R1.fastq.gz C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_R2.fastq.gz --outFilterType BySJout --outSAMtype SAM
+	STAR version: 2.7.9a   compiled: 2021-05-04T09:43:56-0400 vega:/home/dobin/data/STAR/STARcode/STAR.master/source
+Aug 30 19:40:25 ..... started STAR run
+Aug 30 19:40:25 ..... loading genome
+Aug 30 19:41:21 ..... started mapping
+Aug 30 19:42:53 ..... finished mapping
+Aug 30 19:42:53 ..... finished successfully
+[STAR alignment] finished successfully at [Fri Aug 30 07:42:56 PM CEST 2024]
+[sam grooming] started at [Fri Aug 30 07:43:25 PM CEST 2024]
+19:43:26.256 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/robin/bin/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Fri Aug 30 19:43:26 CEST 2024] CleanSam --INPUT C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_raw.sam --OUTPUT C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_cleaned.sam --TMP_DIR . --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+[Fri Aug 30 19:43:26 CEST 2024] Executing as robin@epipax.ijm.univ-paris-diderot.priv on Linux 6.1.0-23-amd64 amd64; OpenJDK 64-Bit Server VM 1.8.0_332-b09; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: Version:2.26.2
+INFO	2024-08-30 19:43:26	CleanSam	Seen many non-increasing record positions. Printing Read-names as well.
+INFO	2024-08-30 19:43:31	CleanSam	Processed     1,000,000 records.  Elapsed time: 00:00:04s.  Time for last 1,000,000:    4s.  Last read position: chr9:94,513,375.  Last read name: SRR15859258.27298099
+INFO	2024-08-30 19:43:35	CleanSam	Processed     2,000,000 records.  Elapsed time: 00:00:08s.  Time for last 1,000,000:    4s.  Last read position: chr7:45,873,765.  Last read name: SRR15859258.21452986
+INFO	2024-08-30 19:43:40	CleanSam	Processed     3,000,000 records.  Elapsed time: 00:00:14s.  Time for last 1,000,000:    5s.  Last read position: chr5:110,683,321.  Last read name: SRR15859258.44414347
+INFO	2024-08-30 19:43:45	CleanSam	Processed     4,000,000 records.  Elapsed time: 00:00:18s.  Time for last 1,000,000:    4s.  Last read position: chr11:78,023,577.  Last read name: SRR15859258.46347584
+INFO	2024-08-30 19:43:50	CleanSam	Processed     5,000,000 records.  Elapsed time: 00:00:24s.  Time for last 1,000,000:    5s.  Last read position: chr3:103,043,215.  Last read name: SRR15859258.39003129
+INFO	2024-08-30 19:43:54	CleanSam	Processed     6,000,000 records.  Elapsed time: 00:00:28s.  Time for last 1,000,000:    4s.  Last read position: chr16:11,143,996.  Last read name: SRR15859258.29437966
+INFO	2024-08-30 19:43:58	CleanSam	Processed     7,000,000 records.  Elapsed time: 00:00:32s.  Time for last 1,000,000:    3s.  Last read position: chr12:79,130,900.  Last read name: SRR15859258.33647566
+INFO	2024-08-30 19:44:03	CleanSam	Processed     8,000,000 records.  Elapsed time: 00:00:36s.  Time for last 1,000,000:    4s.  Last read position: chr6:71,301,936.  Last read name: SRR15859258.34195094
+INFO	2024-08-30 19:44:07	CleanSam	Processed     9,000,000 records.  Elapsed time: 00:00:41s.  Time for last 1,000,000:    4s.  Last read position: chr9:40,804,302.  Last read name: SRR15859258.22642365
+INFO	2024-08-30 19:44:12	CleanSam	Processed    10,000,000 records.  Elapsed time: 00:00:45s.  Time for last 1,000,000:    4s.  Last read position: chr6:50,610,497.  Last read name: SRR15859258.28787775
+INFO	2024-08-30 19:44:16	CleanSam	Processed    11,000,000 records.  Elapsed time: 00:00:50s.  Time for last 1,000,000:    4s.  Last read position: chr15:62,981,201.  Last read name: SRR15859258.24834631
+INFO	2024-08-30 19:44:21	CleanSam	Processed    12,000,000 records.  Elapsed time: 00:00:54s.  Time for last 1,000,000:    4s.  Last read position: chr6:39,420,268.  Last read name: SRR15859258.12395333
+INFO	2024-08-30 19:44:25	CleanSam	Processed    13,000,000 records.  Elapsed time: 00:00:58s.  Time for last 1,000,000:    4s.  Last read position: chrM:506.  Last read name: SRR15859258.39566361
+INFO	2024-08-30 19:44:29	CleanSam	Processed    14,000,000 records.  Elapsed time: 00:01:03s.  Time for last 1,000,000:    4s.  Last read position: chr11:102,844,158.  Last read name: SRR15859258.3521462
+INFO	2024-08-30 19:44:34	CleanSam	Processed    15,000,000 records.  Elapsed time: 00:01:07s.  Time for last 1,000,000:    4s.  Last read position: chr2:12,667,819.  Last read name: SRR15859258.17401611
+INFO	2024-08-30 19:44:38	CleanSam	Processed    16,000,000 records.  Elapsed time: 00:01:12s.  Time for last 1,000,000:    4s.  Last read position: chr16:96,004,020.  Last read name: SRR15859258.18329249
+INFO	2024-08-30 19:44:42	CleanSam	Processed    17,000,000 records.  Elapsed time: 00:01:16s.  Time for last 1,000,000:    4s.  Last read position: chr6:69,516,424.  Last read name: SRR15859258.12759463
+INFO	2024-08-30 19:44:47	CleanSam	Processed    18,000,000 records.  Elapsed time: 00:01:20s.  Time for last 1,000,000:    4s.  Last read position: chr10:79,545,091.  Last read name: SRR15859258.44007369
+INFO	2024-08-30 19:44:51	CleanSam	Processed    19,000,000 records.  Elapsed time: 00:01:25s.  Time for last 1,000,000:    4s.  Last read position: chr1:162,705,151.  Last read name: SRR15859258.21377607
+[Fri Aug 30 19:44:59 CEST 2024] picard.sam.CleanSam done. Elapsed time: 1.56 minutes.
+Runtime.totalMemory()=585105408
+19:45:00.832 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/robin/bin/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Fri Aug 30 19:45:00 CEST 2024] SamFormatConverter --INPUT C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_cleaned.sam --OUTPUT C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_unsorted.bam --TMP_DIR . --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+[Fri Aug 30 19:45:00 CEST 2024] Executing as robin@epipax.ijm.univ-paris-diderot.priv on Linux 6.1.0-23-amd64 amd64; OpenJDK 64-Bit Server VM 1.8.0_332-b09; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: Version:2.26.2
+INFO	2024-08-30 19:45:01	SamFormatConverter	Seen many non-increasing record positions. Printing Read-names as well.
+INFO	2024-08-30 19:45:09	SamFormatConverter	Processed     1,000,000 records.  Elapsed time: 00:00:08s.  Time for last 1,000,000:    8s.  Last read position: chr9:94,513,375.  Last read name: SRR15859258.27298099
+INFO	2024-08-30 19:45:16	SamFormatConverter	Processed     2,000,000 records.  Elapsed time: 00:00:14s.  Time for last 1,000,000:    6s.  Last read position: chr7:45,873,765.  Last read name: SRR15859258.21452986
+INFO	2024-08-30 19:45:22	SamFormatConverter	Processed     3,000,000 records.  Elapsed time: 00:00:20s.  Time for last 1,000,000:    6s.  Last read position: chr5:110,683,321.  Last read name: SRR15859258.44414347
+INFO	2024-08-30 19:45:28	SamFormatConverter	Processed     4,000,000 records.  Elapsed time: 00:00:27s.  Time for last 1,000,000:    6s.  Last read position: chr11:78,023,577.  Last read name: SRR15859258.46347584
+INFO	2024-08-30 19:45:35	SamFormatConverter	Processed     5,000,000 records.  Elapsed time: 00:00:34s.  Time for last 1,000,000:    7s.  Last read position: chr3:103,043,215.  Last read name: SRR15859258.39003129
+INFO	2024-08-30 19:45:42	SamFormatConverter	Processed     6,000,000 records.  Elapsed time: 00:00:40s.  Time for last 1,000,000:    6s.  Last read position: chr16:11,143,996.  Last read name: SRR15859258.29437966
+INFO	2024-08-30 19:45:48	SamFormatConverter	Processed     7,000,000 records.  Elapsed time: 00:00:46s.  Time for last 1,000,000:    6s.  Last read position: chr12:79,130,900.  Last read name: SRR15859258.33647566
+INFO	2024-08-30 19:45:54	SamFormatConverter	Processed     8,000,000 records.  Elapsed time: 00:00:52s.  Time for last 1,000,000:    5s.  Last read position: chr6:71,301,936.  Last read name: SRR15859258.34195094
+INFO	2024-08-30 19:46:00	SamFormatConverter	Processed     9,000,000 records.  Elapsed time: 00:00:58s.  Time for last 1,000,000:    6s.  Last read position: chr9:40,804,302.  Last read name: SRR15859258.22642365
+INFO	2024-08-30 19:46:07	SamFormatConverter	Processed    10,000,000 records.  Elapsed time: 00:01:05s.  Time for last 1,000,000:    6s.  Last read position: chr6:50,610,497.  Last read name: SRR15859258.28787775
+INFO	2024-08-30 19:46:13	SamFormatConverter	Processed    11,000,000 records.  Elapsed time: 00:01:11s.  Time for last 1,000,000:    6s.  Last read position: chr15:62,981,201.  Last read name: SRR15859258.24834631
+INFO	2024-08-30 19:46:19	SamFormatConverter	Processed    12,000,000 records.  Elapsed time: 00:01:17s.  Time for last 1,000,000:    6s.  Last read position: chr6:39,420,268.  Last read name: SRR15859258.12395333
+INFO	2024-08-30 19:46:25	SamFormatConverter	Processed    13,000,000 records.  Elapsed time: 00:01:23s.  Time for last 1,000,000:    5s.  Last read position: chrM:506.  Last read name: SRR15859258.39566361
+INFO	2024-08-30 19:46:31	SamFormatConverter	Processed    14,000,000 records.  Elapsed time: 00:01:29s.  Time for last 1,000,000:    5s.  Last read position: chr11:102,844,158.  Last read name: SRR15859258.3521462
+INFO	2024-08-30 19:46:38	SamFormatConverter	Processed    15,000,000 records.  Elapsed time: 00:01:36s.  Time for last 1,000,000:    6s.  Last read position: chr2:12,667,819.  Last read name: SRR15859258.17401611
+INFO	2024-08-30 19:46:43	SamFormatConverter	Processed    16,000,000 records.  Elapsed time: 00:01:42s.  Time for last 1,000,000:    5s.  Last read position: chr16:96,004,020.  Last read name: SRR15859258.18329249
+INFO	2024-08-30 19:46:49	SamFormatConverter	Processed    17,000,000 records.  Elapsed time: 00:01:48s.  Time for last 1,000,000:    5s.  Last read position: chr6:69,516,424.  Last read name: SRR15859258.12759463
+INFO	2024-08-30 19:46:55	SamFormatConverter	Processed    18,000,000 records.  Elapsed time: 00:01:54s.  Time for last 1,000,000:    5s.  Last read position: chr10:79,545,091.  Last read name: SRR15859258.44007369
+INFO	2024-08-30 19:47:01	SamFormatConverter	Processed    19,000,000 records.  Elapsed time: 00:02:00s.  Time for last 1,000,000:    5s.  Last read position: chr1:162,705,151.  Last read name: SRR15859258.21377607
+[Fri Aug 30 19:47:07 CEST 2024] picard.sam.SamFormatConverter done. Elapsed time: 2.11 minutes.
+Runtime.totalMemory()=735576064
+19:47:09.667 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/robin/bin/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Fri Aug 30 19:47:09 CEST 2024] SortSam --INPUT C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_unsorted.bam --OUTPUT C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_sorted.bam --SORT_ORDER coordinate --TMP_DIR . --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+[Fri Aug 30 19:47:09 CEST 2024] Executing as robin@epipax.ijm.univ-paris-diderot.priv on Linux 6.1.0-23-amd64 amd64; OpenJDK 64-Bit Server VM 1.8.0_332-b09; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: Version:2.26.2
+INFO	2024-08-30 19:47:09	SortSam	Seen many non-increasing record positions. Printing Read-names as well.
+INFO	2024-08-30 19:48:03	SortSam	Read    10,000,000 records.  Elapsed time: 00:00:53s.  Time for last 10,000,000:   53s.  Last read position: chr6:50,610,497.  Last read name: SRR15859258.28787775
+INFO	2024-08-30 19:48:54	SortSam	Finished reading inputs, merging and writing to output now.
+INFO	2024-08-30 19:49:29	SortSam	Wrote    10,000,000 records from a sorting collection.  Elapsed time: 00:02:19s.  Time for last 10,000,000:   34s.  Last read position: chr2:101,314,076
+[Fri Aug 30 19:50:00 CEST 2024] picard.sam.SortSam done. Elapsed time: 2.85 minutes.
+Runtime.totalMemory()=1340604416
+19:50:01.782 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/robin/bin/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Fri Aug 30 19:50:01 CEST 2024] MarkDuplicates --INPUT C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_sorted.bam --OUTPUT C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170.bam --METRICS_FILE C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_markDupeMetrics.txt --REMOVE_DUPLICATES false --TMP_DIR . --MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP 50000 --MAX_FILE_HANDLES_FOR_READ_ENDS_MAP 8000 --SORTING_COLLECTION_SIZE_RATIO 0.25 --TAG_DUPLICATE_SET_MEMBERS false --REMOVE_SEQUENCING_DUPLICATES false --TAGGING_POLICY DontTag --CLEAR_DT true --DUPLEX_UMI false --ADD_PG_TAG_TO_READS true --ASSUME_SORTED false --DUPLICATE_SCORING_STRATEGY SUM_OF_BASE_QUALITIES --PROGRAM_RECORD_ID MarkDuplicates --PROGRAM_GROUP_NAME MarkDuplicates --READ_NAME_REGEX <optimized capture of last three ':' separated fields as numeric values> --OPTICAL_DUPLICATE_PIXEL_DISTANCE 100 --MAX_OPTICAL_DUPLICATE_SET_SIZE 300000 --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+[Fri Aug 30 19:50:01 CEST 2024] Executing as robin@epipax.ijm.univ-paris-diderot.priv on Linux 6.1.0-23-amd64 amd64; OpenJDK 64-Bit Server VM 1.8.0_332-b09; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: Version:2.26.2
+INFO	2024-08-30 19:50:01	MarkDuplicates	Start of doWork freeMemory: 501501424; totalMemory: 514850816; maxMemory: 1908932608
+INFO	2024-08-30 19:50:01	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2024-08-30 19:50:01	MarkDuplicates	Will retain up to 6916422 data points before spilling to disk.
+WARNING	2024-08-30 19:50:02	AbstractOpticalDuplicateFinderCommandLineProgram	A field field parsed out of a read name was expected to contain an integer and did not. Read name: SRR15859258.18857628. Cause: String 'SRR15859258.18857628' did not start with a parsable number.
+INFO	2024-08-30 19:50:06	MarkDuplicates	Read     1,000,000 records.  Elapsed time: 00:00:04s.  Time for last 1,000,000:    4s.  Last read position: chr11:17,946,757
+INFO	2024-08-30 19:50:06	MarkDuplicates	Tracking 234 as yet unmatched pairs. 234 records in RAM.
+INFO	2024-08-30 19:50:10	MarkDuplicates	Read     2,000,000 records.  Elapsed time: 00:00:08s.  Time for last 1,000,000:    3s.  Last read position: chr11:107,035,468
+INFO	2024-08-30 19:50:10	MarkDuplicates	Tracking 69 as yet unmatched pairs. 69 records in RAM.
+INFO	2024-08-30 19:50:13	MarkDuplicates	Read     3,000,000 records.  Elapsed time: 00:00:11s.  Time for last 1,000,000:    3s.  Last read position: chr12:108,942,978
+INFO	2024-08-30 19:50:13	MarkDuplicates	Tracking 4 as yet unmatched pairs. 4 records in RAM.
+INFO	2024-08-30 19:50:19	MarkDuplicates	Read     4,000,000 records.  Elapsed time: 00:00:16s.  Time for last 1,000,000:    5s.  Last read position: chr13:112,505,631
+INFO	2024-08-30 19:50:19	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2024-08-30 19:50:23	MarkDuplicates	Read     5,000,000 records.  Elapsed time: 00:00:21s.  Time for last 1,000,000:    4s.  Last read position: chr15:36,061,631
+INFO	2024-08-30 19:50:23	MarkDuplicates	Tracking 1 as yet unmatched pairs. 1 records in RAM.
+INFO	2024-08-30 19:50:31	MarkDuplicates	Read     6,000,000 records.  Elapsed time: 00:00:29s.  Time for last 1,000,000:    7s.  Last read position: chr16:64,770,797
+INFO	2024-08-30 19:50:31	MarkDuplicates	Tracking 20 as yet unmatched pairs. 20 records in RAM.
+INFO	2024-08-30 19:50:36	MarkDuplicates	Read     7,000,000 records.  Elapsed time: 00:00:34s.  Time for last 1,000,000:    4s.  Last read position: chr18:21,129,415
+INFO	2024-08-30 19:50:36	MarkDuplicates	Tracking 27 as yet unmatched pairs. 27 records in RAM.
+INFO	2024-08-30 19:50:39	MarkDuplicates	Read     8,000,000 records.  Elapsed time: 00:00:37s.  Time for last 1,000,000:    3s.  Last read position: chr1:10,199,897
+INFO	2024-08-30 19:50:39	MarkDuplicates	Tracking 69 as yet unmatched pairs. 69 records in RAM.
+INFO	2024-08-30 19:50:51	MarkDuplicates	Read     9,000,000 records.  Elapsed time: 00:00:49s.  Time for last 1,000,000:   11s.  Last read position: chr1:161,890,474
+INFO	2024-08-30 19:50:51	MarkDuplicates	Tracking 20 as yet unmatched pairs. 20 records in RAM.
+INFO	2024-08-30 19:50:55	MarkDuplicates	Read    10,000,000 records.  Elapsed time: 00:00:53s.  Time for last 1,000,000:    4s.  Last read position: chr2:101,314,076
+INFO	2024-08-30 19:50:55	MarkDuplicates	Tracking 18 as yet unmatched pairs. 18 records in RAM.
+INFO	2024-08-30 19:50:59	MarkDuplicates	Read    11,000,000 records.  Elapsed time: 00:00:57s.  Time for last 1,000,000:    3s.  Last read position: chr3:54,346,648
+INFO	2024-08-30 19:50:59	MarkDuplicates	Tracking 94 as yet unmatched pairs. 94 records in RAM.
+INFO	2024-08-30 19:51:03	MarkDuplicates	Read    12,000,000 records.  Elapsed time: 00:01:01s.  Time for last 1,000,000:    4s.  Last read position: chr4:70,210,713
+INFO	2024-08-30 19:51:03	MarkDuplicates	Tracking 1 as yet unmatched pairs. 1 records in RAM.
+INFO	2024-08-30 19:51:07	MarkDuplicates	Read    13,000,000 records.  Elapsed time: 00:01:05s.  Time for last 1,000,000:    4s.  Last read position: chr5:25,443,820
+INFO	2024-08-30 19:51:07	MarkDuplicates	Tracking 66 as yet unmatched pairs. 66 records in RAM.
+INFO	2024-08-30 19:51:11	MarkDuplicates	Read    14,000,000 records.  Elapsed time: 00:01:09s.  Time for last 1,000,000:    3s.  Last read position: chr5:131,472,438
+INFO	2024-08-30 19:51:11	MarkDuplicates	Tracking 197 as yet unmatched pairs. 197 records in RAM.
+INFO	2024-08-30 19:51:18	MarkDuplicates	Read    15,000,000 records.  Elapsed time: 00:01:16s.  Time for last 1,000,000:    7s.  Last read position: chr6:100,867,027
+INFO	2024-08-30 19:51:18	MarkDuplicates	Tracking 67 as yet unmatched pairs. 67 records in RAM.
+INFO	2024-08-30 19:51:22	MarkDuplicates	Read    16,000,000 records.  Elapsed time: 00:01:20s.  Time for last 1,000,000:    3s.  Last read position: chr7:66,172,153
+INFO	2024-08-30 19:51:22	MarkDuplicates	Tracking 30 as yet unmatched pairs. 30 records in RAM.
+INFO	2024-08-30 19:51:30	MarkDuplicates	Read    17,000,000 records.  Elapsed time: 00:01:28s.  Time for last 1,000,000:    8s.  Last read position: chr8:64,124,929
+INFO	2024-08-30 19:51:30	MarkDuplicates	Tracking 26 as yet unmatched pairs. 26 records in RAM.
+INFO	2024-08-30 19:51:34	MarkDuplicates	Read    18,000,000 records.  Elapsed time: 00:01:32s.  Time for last 1,000,000:    3s.  Last read position: chr9:56,223,813
+INFO	2024-08-30 19:51:34	MarkDuplicates	Tracking 10580 as yet unmatched pairs. 10580 records in RAM.
+INFO	2024-08-30 19:51:39	MarkDuplicates	Read    19,000,000 records.  Elapsed time: 00:01:37s.  Time for last 1,000,000:    4s.  Last read position: chrM:9,419
+INFO	2024-08-30 19:51:39	MarkDuplicates	Tracking 16 as yet unmatched pairs. 16 records in RAM.
+INFO	2024-08-30 19:51:43	MarkDuplicates	Read 19875685 records. 0 pairs never matched.
+INFO	2024-08-30 19:51:46	MarkDuplicates	After buildSortedReadEndLists freeMemory: 1584006112; totalMemory: 1598554112; maxMemory: 1908932608
+INFO	2024-08-30 19:51:46	MarkDuplicates	Will retain up to 59654144 duplicate indices before spilling to disk.
+INFO	2024-08-30 19:51:46	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2024-08-30 19:51:47	OpticalDuplicateFinder	Large duplicate set. size = 1014
+INFO	2024-08-30 19:51:47	OpticalDuplicateFinder	compared         1,000 ReadEnds to others.  Elapsed time: 00:00:00s.  Time for last 1,000:    0s.  Last read position: -1:-1
+INFO	2024-08-30 19:51:49	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2024-08-30 19:51:53	MarkDuplicates	Sorting list of duplicate records.
+INFO	2024-08-30 19:51:53	MarkDuplicates	After generateDuplicateIndexes freeMemory: 1027271960; totalMemory: 1519386624; maxMemory: 1908932608
+INFO	2024-08-30 19:51:53	MarkDuplicates	Marking 3277564 records as duplicates.
+INFO	2024-08-30 19:51:53	MarkDuplicates	Found 0 optical duplicate clusters.
+INFO	2024-08-30 19:51:53	MarkDuplicates	Reads are assumed to be ordered by: coordinate
+INFO	2024-08-30 19:52:43	MarkDuplicates	Written    10,000,000 records.  Elapsed time: 00:00:50s.  Time for last 10,000,000:   50s.  Last read position: chr2:101,314,076
+INFO	2024-08-30 19:53:30	MarkDuplicates	Writing complete. Closing input iterator.
+INFO	2024-08-30 19:53:30	MarkDuplicates	Duplicate Index cleanup.
+INFO	2024-08-30 19:53:30	MarkDuplicates	Getting Memory Stats.
+INFO	2024-08-30 19:53:30	MarkDuplicates	Before output close freeMemory: 1572722112; totalMemory: 1589116928; maxMemory: 1908932608
+INFO	2024-08-30 19:53:30	MarkDuplicates	Closed outputs. Getting more Memory Stats.
+INFO	2024-08-30 19:53:30	MarkDuplicates	After output close freeMemory: 1573246400; totalMemory: 1589641216; maxMemory: 1908932608
+[Fri Aug 30 19:53:30 CEST 2024] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 3.49 minutes.
+Runtime.totalMemory()=1589641216
+[sam grooming] finished successfully at [Fri Aug 30 07:53:33 PM CEST 2024]
+[collecting rRNA metrics] started at [Fri Aug 30 07:53:53 PM CEST 2024]
+19:53:54.699 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/robin/bin/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Fri Aug 30 19:53:54 CEST 2024] CollectRnaSeqMetrics --REF_FLAT /data/reference_genomes/mm10/mm10_RefSeq_refFlat.bed --RIBOSOMAL_INTERVALS /data/reference_genomes/mm10/mm10_rRNA.bed --STRAND_SPECIFICITY FIRST_READ_TRANSCRIPTION_STRAND --INPUT C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170.bam --OUTPUT C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_RNAmetrics.txt --MINIMUM_LENGTH 500 --RRNA_FRAGMENT_PERCENTAGE 0.8 --METRIC_ACCUMULATION_LEVEL ALL_READS --END_BIAS_BASES 100 --ASSUME_SORTED true --STOP_AFTER 0 --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+[Fri Aug 30 19:53:54 CEST 2024] Executing as robin@epipax.ijm.univ-paris-diderot.priv on Linux 6.1.0-23-amd64 amd64; OpenJDK 64-Bit Server VM 1.8.0_332-b09; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: Version:2.26.2
+INFO	2024-08-30 19:53:55	CollectRnaSeqMetrics	Loaded 24105 genes.
+INFO	2024-08-30 19:54:00	SinglePassSamProgram	Processed     1,000,000 records.  Elapsed time: 00:00:04s.  Time for last 1,000,000:    4s.  Last read position: chr11:17,946,757
+INFO	2024-08-30 19:54:03	SinglePassSamProgram	Processed     2,000,000 records.  Elapsed time: 00:00:07s.  Time for last 1,000,000:    3s.  Last read position: chr11:107,035,468
+INFO	2024-08-30 19:54:06	SinglePassSamProgram	Processed     3,000,000 records.  Elapsed time: 00:00:10s.  Time for last 1,000,000:    2s.  Last read position: chr12:108,942,978
+INFO	2024-08-30 19:54:09	SinglePassSamProgram	Processed     4,000,000 records.  Elapsed time: 00:00:13s.  Time for last 1,000,000:    2s.  Last read position: chr13:112,505,631
+INFO	2024-08-30 19:54:12	SinglePassSamProgram	Processed     5,000,000 records.  Elapsed time: 00:00:16s.  Time for last 1,000,000:    3s.  Last read position: chr15:36,061,631
+INFO	2024-08-30 19:54:15	SinglePassSamProgram	Processed     6,000,000 records.  Elapsed time: 00:00:19s.  Time for last 1,000,000:    3s.  Last read position: chr16:64,770,797
+INFO	2024-08-30 19:54:18	SinglePassSamProgram	Processed     7,000,000 records.  Elapsed time: 00:00:23s.  Time for last 1,000,000:    3s.  Last read position: chr18:21,129,415
+INFO	2024-08-30 19:54:21	SinglePassSamProgram	Processed     8,000,000 records.  Elapsed time: 00:00:26s.  Time for last 1,000,000:    3s.  Last read position: chr1:10,199,897
+INFO	2024-08-30 19:54:24	SinglePassSamProgram	Processed     9,000,000 records.  Elapsed time: 00:00:29s.  Time for last 1,000,000:    3s.  Last read position: chr1:161,890,474
+INFO	2024-08-30 19:54:29	SinglePassSamProgram	Processed    10,000,000 records.  Elapsed time: 00:00:34s.  Time for last 1,000,000:    4s.  Last read position: chr2:101,314,076
+INFO	2024-08-30 19:54:32	SinglePassSamProgram	Processed    11,000,000 records.  Elapsed time: 00:00:37s.  Time for last 1,000,000:    3s.  Last read position: chr3:54,346,648
+INFO	2024-08-30 19:54:35	SinglePassSamProgram	Processed    12,000,000 records.  Elapsed time: 00:00:40s.  Time for last 1,000,000:    3s.  Last read position: chr4:70,210,713
+INFO	2024-08-30 19:54:39	SinglePassSamProgram	Processed    13,000,000 records.  Elapsed time: 00:00:43s.  Time for last 1,000,000:    3s.  Last read position: chr5:25,443,820
+INFO	2024-08-30 19:54:42	SinglePassSamProgram	Processed    14,000,000 records.  Elapsed time: 00:00:46s.  Time for last 1,000,000:    3s.  Last read position: chr5:131,472,438
+INFO	2024-08-30 19:54:45	SinglePassSamProgram	Processed    15,000,000 records.  Elapsed time: 00:00:49s.  Time for last 1,000,000:    2s.  Last read position: chr6:100,867,027
+INFO	2024-08-30 19:54:48	SinglePassSamProgram	Processed    16,000,000 records.  Elapsed time: 00:00:53s.  Time for last 1,000,000:    3s.  Last read position: chr7:66,172,153
+INFO	2024-08-30 19:54:51	SinglePassSamProgram	Processed    17,000,000 records.  Elapsed time: 00:00:56s.  Time for last 1,000,000:    3s.  Last read position: chr8:64,124,929
+INFO	2024-08-30 19:54:56	SinglePassSamProgram	Processed    18,000,000 records.  Elapsed time: 00:01:00s.  Time for last 1,000,000:    4s.  Last read position: chr9:56,223,813
+INFO	2024-08-30 19:54:58	SinglePassSamProgram	Processed    19,000,000 records.  Elapsed time: 00:01:03s.  Time for last 1,000,000:    2s.  Last read position: chrM:9,419
+[Fri Aug 30 19:55:01 CEST 2024] picard.analysis.CollectRnaSeqMetrics done. Elapsed time: 1.12 minutes.
+Runtime.totalMemory()=1138229248
+[trueStats] Collecting alignment statistics for C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170.bam at [Fri Aug 30 07:55:22 PM CEST 2024]
+[preseq] started on C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170.bam at [Fri Aug 30 07:56:13 PM CEST 2024]
+[preseq] finished successfully at [Fri Aug 30 07:58:34 PM CEST 2024]
+[stringTie] Performing de novo assembly of transcripts at [Fri Aug 30 07:58:57 PM CEST 2024]
+Warning: gene "NM_001085552" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001085545" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001085551" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001099643" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001243001" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001099643" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001243001" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001277184" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001085552" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001085545" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001085551" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001085553" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001243011" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001270685" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_029106" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001270685" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_031171" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_010759" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001142750" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_153109" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_177918" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001099321" (on chrX) has reference transcripts on both strands?
+Warning: gene "NR_126545" (on chrY) has reference transcripts on both strands?
+Warning: gene "NR_126546" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001113395" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001177569" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001166384" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001270513" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001270514" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001270515" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001270516" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_011253" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001166384" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001270513" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001270516" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_011253" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001160143" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_207162" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001160143" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_207162" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001037748" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001160141" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001025241" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001037748" (on chrY) has reference transcripts on both strands?
+Warning: gene "NR_038299" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001160143" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_207162" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001160143" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_207162" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001037748" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001160141" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_023546" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001160143" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001037748" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001160143" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001037748" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001160137" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001160141" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001025241" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001037748" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001037748" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001160136" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001037748" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_023546" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_023546" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001025241" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001037748" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001011820" (on chr13) has reference transcripts on both strands?
+Warning: gene "NR_045474" (on chr13) has reference transcripts on both strands?
+[stringTie] De novo transcriptome assembly completed successfully at [Fri Aug 30 08:00:44 PM CEST 2024]
+[bamToWigCPMsmoothKeepDup] Started with bin size: 1 and smoothing over 0 bp and KEEPING DUPLICATES at [Fri Aug 30 08:00:44 PM CEST 2024]
+There are 18771573 alignments, of which 334920 are completely within a blacklist region.
+Due to filtering, 75.3359417219276% of the aforementioned alignments will be used 13889426.159554014
+[bamToWigCPMsmoothKeepDup] finished successfully at [Fri Aug 30 08:06:52 PM CEST 2024]
+[file cleanup] started. Good job! at [Fri Aug 30 08:06:52 PM CEST 2024]
+cp: cannot stat '*.pdf': No such file or directory
+mv: cannot stat '*.bed': No such file or directory
+mv: preserving times for '/data/bigWigs/C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_mm10_kpDup_q255_b1_s0_CPM.bw': Operation not permitted
+mv: preserving permissions for ‘/data/bigWigs/C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_mm10_kpDup_q255_b1_s0_CPM.bw’: Operation not permitted
+mv: preserving times for '/data/bams/C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_mm10.bam': Operation not permitted
+mv: preserving permissions for ‘/data/bams/C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_mm10.bam’: Operation not permitted
+mv: preserving times for '/data/bams/C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_mm10.bam.bai': Operation not permitted
+mv: preserving permissions for ‘/data/bams/C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_mm10.bam.bai’: Operation not permitted
+mv: preserving times for '/data/stringTie/C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_mm10.gtf': Operation not permitted
+mv: preserving permissions for ‘/data/stringTie/C57BL6x129_FG_oocyte_RNA_SasakiLab2022_rep3_GSM5575170_trimV5_mm10.gtf’: Operation not permitted

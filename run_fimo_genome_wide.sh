@@ -25,17 +25,18 @@ printProgress "Processing file $INPUT and motif $MOTIF"
 
 printProgress "Running FIMO..."
 # fimo --thresh 1e-2 --max-stored-scores 9999999 -o "${INPUT%.*}"_"${MOTIF%.*}"_fimo $MOTIF "${INPUT%.*}".fasta
-fimo --thresh 1e-2 --max-stored-scores 9999999 -o "${INPUT%.*}"_"${MOTIF%.*}"_fimo $MOTIF $INPUT
+fimo --thresh 1e-10 --max-stored-scores 9999999 -o "${INPUT%.*}"_"${MOTIF%.*}"_fimo $MOTIF $INPUT
 
-awk -v cutoff=$CUTOFF '{OFS=FS="\t"}{ if ($8 < cutoff) print $0}' "${INPUT%.*}"_"${MOTIF%.*}"_fimo/best_site.narrowPeak | cut -f1-3,6,8 | sort -k1,1 -k2,2n > "${INPUT%.*}"_p"${CUTOFF}"_"${MOTIF%.*}"_motifs.bed
-PEAK_COUNT=$(wc -l $INPUT | cut -f1 -d ' ')
-MOTIF_COUNT=$(wc -l "${INPUT%.*}"_p"${CUTOFF}"_"${MOTIF%.*}"_motifs.bed | cut -f1 -d ' ')
-PERCENTAGE=$(echo $(( 100 * $MOTIF_COUNT/$PEAK_COUNT )))
 
-echo "Found $MOTIF_COUNT motifs in $PEAK_COUNT peaks using a pval cutoff of $CUTOFF"
-echo "Percent of peaks with motif: $PERCENTAGE"
-printProgress "Outputting a list of peaks with at least one significant motif"
-bedtools intersect -wa -a $INPUT -b "${INPUT%.*}"_p"${CUTOFF}"_"${MOTIF%.*}"_motifs.bed > "${INPUT%.*}"_p"${CUTOFF}"_"${MOTIF%.*}"_peaks.bed
-rm -r "${INPUT%.*}"_"${MOTIF%.*}"_fimo
-rm "${INPUT%.*}".fasta
+#awk -v cutoff=$CUTOFF '{OFS=FS="\t"}{ if ($8 < cutoff) print $0}' "${INPUT%.*}"_"${MOTIF%.*}"_fimo/best_site.narrowPeak | cut -f1-3,6,8 | sort -k1,1 -k2,2n > "${INPUT%.*}"_p"${CUTOFF}"_"${MOTIF%.*}"_motifs.bed
+#PEAK_COUNT=$(wc -l $INPUT | cut -f1 -d ' ')
+#MOTIF_COUNT=$(wc -l "${INPUT%.*}"_p"${CUTOFF}"_"${MOTIF%.*}"_motifs.bed | cut -f1 -d ' ')
+#PERCENTAGE=$(echo $(( 100 * $MOTIF_COUNT/$PEAK_COUNT )))
+
+#echo "Found $MOTIF_COUNT motifs in $PEAK_COUNT peaks using a pval cutoff of $CUTOFF"
+#echo "Percent of peaks with motif: $PERCENTAGE"
+#printProgress "Outputting a list of peaks with at least one significant motif"
+#bedtools intersect -wa -a $INPUT -b "${INPUT%.*}"_p"${CUTOFF}"_"${MOTIF%.*}"_motifs.bed > "${INPUT%.*}"_p"${CUTOFF}"_"${MOTIF%.*}"_peaks.bed
+#rm -r "${INPUT%.*}"_"${MOTIF%.*}"_fimo
+#rm "${INPUT%.*}".fasta
 printProgress "Done!"

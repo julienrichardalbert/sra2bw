@@ -1,0 +1,24 @@
+SCRATCH: /scratch
+ls: cannot access '/data/fastq/Klughammer2023/Lemur_spleen_primate_RRBS_Klughammer2023_GSM5854216*_R2.fastq.gz': No such file or directory
+[masterDownload] Data are single-end. at [Sun Nov 17 06:46:23 PM CET 2024]
+[checkDependencies] Checking Dependencies [Sun Nov 17 06:46:24 PM CET 2024] at [Sun Nov 17 06:46:24 PM CET 2024]
+[setup checkDependencies] /home/robin/edirect/esearch... at [Sun Nov 17 06:46:24 PM CET 2024]
+[setup checkDependencies] /home/robin/edirect/efetch... at [Sun Nov 17 06:46:24 PM CET 2024]
+[setup checkDependencies] trimmomatic... at [Sun Nov 17 06:46:24 PM CET 2024]
+[setup checkDependencies] STAR... at [Sun Nov 17 06:46:24 PM CET 2024]
+[setup checkDependencies] bismark... at [Sun Nov 17 06:46:24 PM CET 2024]
+[setup checkDependencies] bowtie2... at [Sun Nov 17 06:46:24 PM CET 2024]
+[setup checkDependencies] samtools... at [Sun Nov 17 06:46:24 PM CET 2024]
+[setup checkDependencies] picard... at [Sun Nov 17 06:46:24 PM CET 2024]
+[setup checkDependencies] awk... at [Sun Nov 17 06:46:24 PM CET 2024]
+[setup checkDependencies] bamCoverage... at [Sun Nov 17 06:46:24 PM CET 2024]
+[setup checkDependencies] fastqc... at [Sun Nov 17 06:46:24 PM CET 2024]
+[setup checkDependencies] fastq_screen... at [Sun Nov 17 06:46:24 PM CET 2024]
+[setup checkDependencies] stringtie... at [Sun Nov 17 06:46:24 PM CET 2024]
+[setup checkDependencies] clumpify.sh... at [Sun Nov 17 06:46:24 PM CET 2024]
+PAIRED: false
+[setUpLogFile] Script started at [Sun Nov 17 06:46:24 PM CET 2024] at [Sun Nov 17 06:46:24 PM CET 2024]
+[trimReads] Started using version trimV1 parameters at [Sun Nov 17 06:46:24 PM CET 2024]
+ILLUMINACLIP:/data/reference_genomes/adapters/adapters.fa:2:30:10 SLIDINGWINDOW:4:20 MINLEN:36
+[trimReads] Trimming Lemur_spleen_primate_RRBS_Klughammer2023_GSM5854216.fastq.gz... at [Sun Nov 17 06:46:24 PM CET 2024]
+slurmstepd-epipax: error: *** JOB 7998 ON epipax CANCELLED AT 2024-11-17T18:46:36 ***

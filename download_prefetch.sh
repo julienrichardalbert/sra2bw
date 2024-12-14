@@ -11,7 +11,6 @@ source /home/robin/sra2bw/sra2bw_functions.sh
 export NCBI_API_KEY=5001bf72922d25a715ac5b4203dc71863d08 # JRA NCBI API key (how many acronyms is too many acronyms?)
 SRA_DEFAULT_PATH="/home/robin/ncbi/public/sra"
 
-
 function download () {
     OUTPUT="/data/fastq"
     SCRATCH="/scratch"
@@ -42,7 +41,14 @@ function download () {
 
         echo "downloading "$SRACODE" at [`date`] ..."
 #       $ESEARCH -db sra -query $SRACODE | $EFETCH -format runinfo | cut -d ',' -f 10 | grep https | xargs wget
+        echo "am i crazy"
+        z=$($ESEARCH -db sra -query $SRACODE)
+        echo "$z"
+        y=$(cat $z | $EFETCH -format runinfo )
+        echo "$y"
+
         SRR_CODES=$($ESEARCH -db sra -query $SRACODE | $EFETCH -format runinfo | cut -d ',' -f 1 | headRest 1 stdin)
+        echo "DEBUG - attempting to locate srr codes: "$SRR_CODES""
         for j in $SRR_CODES ; do
             $PREFETCH $j --max-size 80G --output-directory $SCRATCH_DOWNLOADS
 #            $VALIDATE $SCRATCH/"${FILE//.txt/}"_"$(date '+%y-%m-%d')_downloads"/$j

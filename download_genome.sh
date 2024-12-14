@@ -11,7 +11,7 @@ fi
 
 source /home/robin/sra2bw/sra2bw_functions.sh # load standard HTS functions
 DEPENDENCIES=($TWOBIT2FA $BISMARK_INDEX $SAMTOOLS $BOWTIE2)
-SCRATCH="/scratch2"
+SCRATCH="/scratch"
 #OUTPUT_BUILD_FOLDER
 checkDependencies # a function in sra2bw_functions.sh
 download_genome $1

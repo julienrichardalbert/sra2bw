@@ -1,0 +1,347 @@
+SCRATCH: /scratch
+ls: cannot access '/data/fastq/CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463*_R2.fastq.gz': No such file or directory
+[masterDownload] Data are single-end. at [Fri Aug 30 04:59:51 PM CEST 2024]
+[checkDependencies] Checking Dependencies [Fri Aug 30 04:59:51 PM CEST 2024] at [Fri Aug 30 04:59:51 PM CEST 2024]
+[setup checkDependencies] trimmomatic... at [Fri Aug 30 04:59:51 PM CEST 2024]
+[setup checkDependencies] STAR... at [Fri Aug 30 04:59:51 PM CEST 2024]
+[setup checkDependencies] bismark... at [Fri Aug 30 04:59:51 PM CEST 2024]
+[setup checkDependencies] bowtie2... at [Fri Aug 30 04:59:51 PM CEST 2024]
+[setup checkDependencies] samtools... at [Fri Aug 30 04:59:51 PM CEST 2024]
+[setup checkDependencies] picard... at [Fri Aug 30 04:59:51 PM CEST 2024]
+[setup checkDependencies] awk... at [Fri Aug 30 04:59:51 PM CEST 2024]
+[setup checkDependencies] bamCoverage... at [Fri Aug 30 04:59:51 PM CEST 2024]
+[setup checkDependencies] fastqc... at [Fri Aug 30 04:59:51 PM CEST 2024]
+[setup checkDependencies] fastq_screen... at [Fri Aug 30 04:59:51 PM CEST 2024]
+[setup checkDependencies] stringtie... at [Fri Aug 30 04:59:51 PM CEST 2024]
+[setup checkDependencies] clumpify.sh... at [Fri Aug 30 04:59:51 PM CEST 2024]
+PAIRED: false
+[setUpLogFile] Script started at [Fri Aug 30 04:59:51 PM CEST 2024] at [Fri Aug 30 04:59:51 PM CEST 2024]
+[fastQC] started on raw FASTQs at [Fri Aug 30 04:59:51 PM CEST 2024]
+Started analysis of CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_raw.fastq.gz
+Approx 5% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_raw.fastq.gz
+Approx 10% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_raw.fastq.gz
+Approx 15% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_raw.fastq.gz
+Approx 20% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_raw.fastq.gz
+Approx 25% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_raw.fastq.gz
+Approx 30% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_raw.fastq.gz
+Approx 35% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_raw.fastq.gz
+Approx 40% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_raw.fastq.gz
+Approx 45% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_raw.fastq.gz
+Approx 50% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_raw.fastq.gz
+Approx 55% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_raw.fastq.gz
+Approx 60% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_raw.fastq.gz
+Approx 65% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_raw.fastq.gz
+Approx 70% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_raw.fastq.gz
+Approx 75% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_raw.fastq.gz
+Approx 80% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_raw.fastq.gz
+Approx 85% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_raw.fastq.gz
+Approx 90% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_raw.fastq.gz
+Approx 95% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_raw.fastq.gz
+Analysis complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_raw.fastq.gz
+[fastQC] on raw FASTQs finished succesfully. Will remove PCR duplicates now at [Fri Aug 30 05:01:48 PM CEST 2024]
+Reads are length: 76 at [Fri Aug 30 05:01:48 PM CEST 2024]
+Reads with same sequence 1 or fewer substitutions will be marked as PCR duplicates at [Fri Aug 30 05:01:48 PM CEST 2024]
+Removal of PCR duplicates complete! at [Fri Aug 30 05:10:29 PM CEST 2024]
+[trimReads] Started using version trimV5 parameters at [Fri Aug 30 05:10:29 PM CEST 2024]
+ILLUMINACLIP:/data/reference_genomes/adapters/adapters.fa:2:30:10 SLIDINGWINDOW:4:20 MINLEN:24
+[trimReads] Trimming CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.fastq.gz... at [Fri Aug 30 05:10:29 PM CEST 2024]
+[trimReads] Finished successfully at [Fri Aug 30 05:12:39 PM CEST 2024]
+[fastQC] started on CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.fastq.gz CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz at [Fri Aug 30 05:12:39 PM CEST 2024]
+Started analysis of CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.fastq.gz
+Started analysis of CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz
+Approx 5% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.fastq.gz
+Approx 5% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz
+Approx 10% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz
+Approx 10% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.fastq.gz
+Approx 15% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz
+Approx 15% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.fastq.gz
+Approx 20% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz
+Approx 20% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.fastq.gz
+Approx 25% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz
+Approx 25% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.fastq.gz
+Approx 30% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz
+Approx 30% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.fastq.gz
+Approx 35% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz
+Approx 35% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.fastq.gz
+Approx 40% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.fastq.gz
+Approx 40% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz
+Approx 45% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz
+Approx 45% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.fastq.gz
+Approx 50% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz
+Approx 50% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.fastq.gz
+Approx 55% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz
+Approx 55% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.fastq.gz
+Approx 60% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz
+Approx 60% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.fastq.gz
+Approx 65% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz
+Approx 65% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.fastq.gz
+Approx 70% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz
+Approx 70% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.fastq.gz
+Approx 75% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz
+Approx 75% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.fastq.gz
+Approx 80% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz
+Approx 80% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.fastq.gz
+Approx 85% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz
+Approx 85% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.fastq.gz
+Approx 90% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz
+Approx 90% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.fastq.gz
+Approx 95% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz
+Approx 95% complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.fastq.gz
+Analysis complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz
+Analysis complete for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.fastq.gz
+[fastQC] finished succesfully at [Fri Aug 30 05:13:41 PM CEST 2024]
+[fastqScreen] started on CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz at [Fri Aug 30 05:13:41 PM CEST 2024]
+Using fastq_screen v0.15.1
+Couldn't find fastq_screen.conf at '/home/robin/bin/miniconda3/share/fastq-screen-0.15.2-0/fastq_screen.conf'
+[fastqScreen] finished successfully at [Fri Aug 30 05:13:41 PM CEST 2024]
+[STAR alignment] started with reference /data/reference_genomes/mm10 at [Fri Aug 30 05:13:41 PM CEST 2024]
+	STAR --runMode alignReads --genomeDir /data/reference_genomes/mm10 --runThreadN 12 --limitBAMsortRAM 4G --readFilesCommand zcat --readFilesIn CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5.fastq.gz --outFilterType BySJout --outSAMtype SAM
+	STAR version: 2.7.9a   compiled: 2021-05-04T09:43:56-0400 vega:/home/dobin/data/STAR/STARcode/STAR.master/source
+Aug 30 17:13:41 ..... started STAR run
+Aug 30 17:13:41 ..... loading genome
+Aug 30 17:15:11 ..... started mapping
+Aug 30 17:16:04 ..... finished mapping
+Aug 30 17:16:05 ..... finished successfully
+[STAR alignment] finished successfully at [Fri Aug 30 05:16:07 PM CEST 2024]
+[sam grooming] started at [Fri Aug 30 05:16:26 PM CEST 2024]
+17:16:27.764 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/robin/bin/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Fri Aug 30 17:16:27 CEST 2024] CleanSam --INPUT CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_raw.sam --OUTPUT CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_cleaned.sam --TMP_DIR . --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+[Fri Aug 30 17:16:27 CEST 2024] Executing as robin@epipax.ijm.univ-paris-diderot.priv on Linux 6.1.0-23-amd64 amd64; OpenJDK 64-Bit Server VM 1.8.0_332-b09; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: Version:2.26.2
+INFO	2024-08-30 17:16:28	CleanSam	Seen many non-increasing record positions. Printing Read-names as well.
+INFO	2024-08-30 17:16:32	CleanSam	Processed     1,000,000 records.  Elapsed time: 00:00:05s.  Time for last 1,000,000:    5s.  Last read position: chr15:44,757,511.  Last read name: SRR15034344.4360780
+INFO	2024-08-30 17:16:37	CleanSam	Processed     2,000,000 records.  Elapsed time: 00:00:09s.  Time for last 1,000,000:    4s.  Last read position: chrX:103,961,220.  Last read name: SRR15034344.3879953
+INFO	2024-08-30 17:16:41	CleanSam	Processed     3,000,000 records.  Elapsed time: 00:00:14s.  Time for last 1,000,000:    4s.  Last read position: chr15:81,925,847.  Last read name: SRR15034344.11836795
+INFO	2024-08-30 17:16:46	CleanSam	Processed     4,000,000 records.  Elapsed time: 00:00:18s.  Time for last 1,000,000:    4s.  Last read position: chrX:153,499,709.  Last read name: SRR15034344.7315660
+INFO	2024-08-30 17:16:50	CleanSam	Processed     5,000,000 records.  Elapsed time: 00:00:23s.  Time for last 1,000,000:    4s.  Last read position: chr3:32,746,508.  Last read name: SRR15034344.8156620
+INFO	2024-08-30 17:16:55	CleanSam	Processed     6,000,000 records.  Elapsed time: 00:00:27s.  Time for last 1,000,000:    4s.  Last read position: chr9:7,206,949.  Last read name: SRR15034344.6124903
+INFO	2024-08-30 17:16:59	CleanSam	Processed     7,000,000 records.  Elapsed time: 00:00:31s.  Time for last 1,000,000:    4s.  Last read position: chr18:58,012,331.  Last read name: SRR15034344.5401140
+INFO	2024-08-30 17:17:03	CleanSam	Processed     8,000,000 records.  Elapsed time: 00:00:35s.  Time for last 1,000,000:    4s.  Last read position: chr10:11,302,761.  Last read name: SRR15034344.18314008
+INFO	2024-08-30 17:17:08	CleanSam	Processed     9,000,000 records.  Elapsed time: 00:00:40s.  Time for last 1,000,000:    4s.  Last read position: chr7:105,612,418.  Last read name: SRR15034344.16148646
+INFO	2024-08-30 17:17:12	CleanSam	Processed    10,000,000 records.  Elapsed time: 00:00:44s.  Time for last 1,000,000:    4s.  Last read position: chr11:99,222,798.  Last read name: SRR15034344.21610898
+INFO	2024-08-30 17:17:17	CleanSam	Processed    11,000,000 records.  Elapsed time: 00:00:49s.  Time for last 1,000,000:    4s.  Last read position: chr17:6,337,356.  Last read name: SRR15034344.15962804
+INFO	2024-08-30 17:17:21	CleanSam	Processed    12,000,000 records.  Elapsed time: 00:00:53s.  Time for last 1,000,000:    4s.  Last read position: chr11:94,408,886.  Last read name: SRR15034344.20663603
+INFO	2024-08-30 17:17:25	CleanSam	Processed    13,000,000 records.  Elapsed time: 00:00:58s.  Time for last 1,000,000:    4s.  Last read position: chr2:157,007,940.  Last read name: SRR15034344.16844224
+[Fri Aug 30 17:17:29 CEST 2024] picard.sam.CleanSam done. Elapsed time: 1.03 minutes.
+Runtime.totalMemory()=611844096
+17:17:30.760 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/robin/bin/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Fri Aug 30 17:17:30 CEST 2024] SamFormatConverter --INPUT CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_cleaned.sam --OUTPUT CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_unsorted.bam --TMP_DIR . --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+[Fri Aug 30 17:17:30 CEST 2024] Executing as robin@epipax.ijm.univ-paris-diderot.priv on Linux 6.1.0-23-amd64 amd64; OpenJDK 64-Bit Server VM 1.8.0_332-b09; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: Version:2.26.2
+INFO	2024-08-30 17:17:31	SamFormatConverter	Seen many non-increasing record positions. Printing Read-names as well.
+INFO	2024-08-30 17:17:38	SamFormatConverter	Processed     1,000,000 records.  Elapsed time: 00:00:07s.  Time for last 1,000,000:    7s.  Last read position: chr15:44,757,511.  Last read name: SRR15034344.4360780
+INFO	2024-08-30 17:17:46	SamFormatConverter	Processed     2,000,000 records.  Elapsed time: 00:00:15s.  Time for last 1,000,000:    7s.  Last read position: chrX:103,961,220.  Last read name: SRR15034344.3879953
+INFO	2024-08-30 17:17:53	SamFormatConverter	Processed     3,000,000 records.  Elapsed time: 00:00:22s.  Time for last 1,000,000:    7s.  Last read position: chr15:81,925,847.  Last read name: SRR15034344.11836795
+INFO	2024-08-30 17:18:00	SamFormatConverter	Processed     4,000,000 records.  Elapsed time: 00:00:29s.  Time for last 1,000,000:    7s.  Last read position: chrX:153,499,709.  Last read name: SRR15034344.7315660
+INFO	2024-08-30 17:18:08	SamFormatConverter	Processed     5,000,000 records.  Elapsed time: 00:00:37s.  Time for last 1,000,000:    7s.  Last read position: chr3:32,746,508.  Last read name: SRR15034344.8156620
+INFO	2024-08-30 17:18:15	SamFormatConverter	Processed     6,000,000 records.  Elapsed time: 00:00:44s.  Time for last 1,000,000:    7s.  Last read position: chr9:7,206,949.  Last read name: SRR15034344.6124903
+INFO	2024-08-30 17:18:23	SamFormatConverter	Processed     7,000,000 records.  Elapsed time: 00:00:51s.  Time for last 1,000,000:    7s.  Last read position: chr18:58,012,331.  Last read name: SRR15034344.5401140
+INFO	2024-08-30 17:18:30	SamFormatConverter	Processed     8,000,000 records.  Elapsed time: 00:00:58s.  Time for last 1,000,000:    7s.  Last read position: chr10:11,302,761.  Last read name: SRR15034344.18314008
+INFO	2024-08-30 17:18:37	SamFormatConverter	Processed     9,000,000 records.  Elapsed time: 00:01:06s.  Time for last 1,000,000:    7s.  Last read position: chr7:105,612,418.  Last read name: SRR15034344.16148646
+INFO	2024-08-30 17:18:44	SamFormatConverter	Processed    10,000,000 records.  Elapsed time: 00:01:13s.  Time for last 1,000,000:    6s.  Last read position: chr11:99,222,798.  Last read name: SRR15034344.21610898
+INFO	2024-08-30 17:18:51	SamFormatConverter	Processed    11,000,000 records.  Elapsed time: 00:01:20s.  Time for last 1,000,000:    6s.  Last read position: chr17:6,337,356.  Last read name: SRR15034344.15962804
+INFO	2024-08-30 17:18:58	SamFormatConverter	Processed    12,000,000 records.  Elapsed time: 00:01:27s.  Time for last 1,000,000:    7s.  Last read position: chr11:94,408,886.  Last read name: SRR15034344.20663603
+INFO	2024-08-30 17:19:06	SamFormatConverter	Processed    13,000,000 records.  Elapsed time: 00:01:35s.  Time for last 1,000,000:    7s.  Last read position: chr2:157,007,940.  Last read name: SRR15034344.16844224
+[Fri Aug 30 17:19:07 CEST 2024] picard.sam.SamFormatConverter done. Elapsed time: 1.61 minutes.
+Runtime.totalMemory()=859308032
+17:19:08.782 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/robin/bin/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Fri Aug 30 17:19:08 CEST 2024] SortSam --INPUT CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_unsorted.bam --OUTPUT CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_sorted.bam --SORT_ORDER coordinate --TMP_DIR . --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+[Fri Aug 30 17:19:08 CEST 2024] Executing as robin@epipax.ijm.univ-paris-diderot.priv on Linux 6.1.0-23-amd64 amd64; OpenJDK 64-Bit Server VM 1.8.0_332-b09; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: Version:2.26.2
+INFO	2024-08-30 17:19:09	SortSam	Seen many non-increasing record positions. Printing Read-names as well.
+INFO	2024-08-30 17:20:10	SortSam	Read    10,000,000 records.  Elapsed time: 00:01:01s.  Time for last 10,000,000:   61s.  Last read position: chr11:99,222,798.  Last read name: SRR15034344.21610898
+INFO	2024-08-30 17:20:49	SortSam	Finished reading inputs, merging and writing to output now.
+INFO	2024-08-30 17:21:32	SortSam	Wrote    10,000,000 records from a sorting collection.  Elapsed time: 00:02:23s.  Time for last 10,000,000:   41s.  Last read position: chr6:83,976,956
+[Fri Aug 30 17:21:45 CEST 2024] picard.sam.SortSam done. Elapsed time: 2.61 minutes.
+Runtime.totalMemory()=1492123648
+17:21:46.477 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/robin/bin/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Fri Aug 30 17:21:46 CEST 2024] MarkDuplicates --INPUT CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_sorted.bam --OUTPUT CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.bam --METRICS_FILE CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_markDupeMetrics.txt --REMOVE_DUPLICATES false --TMP_DIR . --MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP 50000 --MAX_FILE_HANDLES_FOR_READ_ENDS_MAP 8000 --SORTING_COLLECTION_SIZE_RATIO 0.25 --TAG_DUPLICATE_SET_MEMBERS false --REMOVE_SEQUENCING_DUPLICATES false --TAGGING_POLICY DontTag --CLEAR_DT true --DUPLEX_UMI false --ADD_PG_TAG_TO_READS true --ASSUME_SORTED false --DUPLICATE_SCORING_STRATEGY SUM_OF_BASE_QUALITIES --PROGRAM_RECORD_ID MarkDuplicates --PROGRAM_GROUP_NAME MarkDuplicates --READ_NAME_REGEX <optimized capture of last three ':' separated fields as numeric values> --OPTICAL_DUPLICATE_PIXEL_DISTANCE 100 --MAX_OPTICAL_DUPLICATE_SET_SIZE 300000 --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+[Fri Aug 30 17:21:46 CEST 2024] Executing as robin@epipax.ijm.univ-paris-diderot.priv on Linux 6.1.0-23-amd64 amd64; OpenJDK 64-Bit Server VM 1.8.0_332-b09; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: Version:2.26.2
+INFO	2024-08-30 17:21:46	MarkDuplicates	Start of doWork freeMemory: 501502240; totalMemory: 514850816; maxMemory: 1908932608
+INFO	2024-08-30 17:21:46	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2024-08-30 17:21:46	MarkDuplicates	Will retain up to 6916422 data points before spilling to disk.
+WARNING	2024-08-30 17:21:46	AbstractOpticalDuplicateFinderCommandLineProgram	A field field parsed out of a read name was expected to contain an integer and did not. Read name: SRR15034344.16413651. Cause: String 'SRR15034344.16413651' did not start with a parsable number.
+INFO	2024-08-30 17:21:50	MarkDuplicates	Read     1,000,000 records.  Elapsed time: 00:00:04s.  Time for last 1,000,000:    4s.  Last read position: chr11:70,045,103
+INFO	2024-08-30 17:21:50	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-08-30 17:21:54	MarkDuplicates	Read     2,000,000 records.  Elapsed time: 00:00:07s.  Time for last 1,000,000:    3s.  Last read position: chr12:102,781,499
+INFO	2024-08-30 17:21:54	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-08-30 17:21:58	MarkDuplicates	Read     3,000,000 records.  Elapsed time: 00:00:11s.  Time for last 1,000,000:    3s.  Last read position: chr14:75,206,138
+INFO	2024-08-30 17:21:58	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-08-30 17:22:02	MarkDuplicates	Read     4,000,000 records.  Elapsed time: 00:00:15s.  Time for last 1,000,000:    3s.  Last read position: chr16:92,087,143
+INFO	2024-08-30 17:22:02	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-08-30 17:22:09	MarkDuplicates	Read     5,000,000 records.  Elapsed time: 00:00:22s.  Time for last 1,000,000:    7s.  Last read position: chr18:84,233,593
+INFO	2024-08-30 17:22:09	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-08-30 17:22:12	MarkDuplicates	Read     6,000,000 records.  Elapsed time: 00:00:26s.  Time for last 1,000,000:    3s.  Last read position: chr1:154,397,315
+INFO	2024-08-30 17:22:12	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-08-30 17:22:16	MarkDuplicates	Read     7,000,000 records.  Elapsed time: 00:00:29s.  Time for last 1,000,000:    3s.  Last read position: chr2:134,597,912
+INFO	2024-08-30 17:22:16	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-08-30 17:22:23	MarkDuplicates	Read     8,000,000 records.  Elapsed time: 00:00:36s.  Time for last 1,000,000:    6s.  Last read position: chr4:11,263,136
+INFO	2024-08-30 17:22:23	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-08-30 17:22:26	MarkDuplicates	Read     9,000,000 records.  Elapsed time: 00:00:39s.  Time for last 1,000,000:    3s.  Last read position: chr5:31,507,593
+INFO	2024-08-30 17:22:26	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-08-30 17:22:30	MarkDuplicates	Read    10,000,000 records.  Elapsed time: 00:00:43s.  Time for last 1,000,000:    3s.  Last read position: chr6:83,976,956
+INFO	2024-08-30 17:22:30	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-08-30 17:22:34	MarkDuplicates	Read    11,000,000 records.  Elapsed time: 00:00:47s.  Time for last 1,000,000:    3s.  Last read position: chr7:126,780,401
+INFO	2024-08-30 17:22:34	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-08-30 17:22:37	MarkDuplicates	Read    12,000,000 records.  Elapsed time: 00:00:51s.  Time for last 1,000,000:    3s.  Last read position: chr9:44,146,439
+INFO	2024-08-30 17:22:37	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-08-30 17:22:45	MarkDuplicates	Read    13,000,000 records.  Elapsed time: 00:00:58s.  Time for last 1,000,000:    7s.  Last read position: chrX:150,476,238
+INFO	2024-08-30 17:22:45	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-08-30 17:22:45	MarkDuplicates	Read 13107331 records. 0 pairs never matched.
+INFO	2024-08-30 17:22:47	MarkDuplicates	After buildSortedReadEndLists freeMemory: 1410412096; totalMemory: 1454899200; maxMemory: 1908932608
+INFO	2024-08-30 17:22:47	MarkDuplicates	Will retain up to 59654144 duplicate indices before spilling to disk.
+INFO	2024-08-30 17:22:47	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2024-08-30 17:22:47	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2024-08-30 17:22:50	MarkDuplicates	Sorting list of duplicate records.
+INFO	2024-08-30 17:22:50	MarkDuplicates	After generateDuplicateIndexes freeMemory: 957961424; totalMemory: 1452277760; maxMemory: 1908932608
+INFO	2024-08-30 17:22:50	MarkDuplicates	Marking 703936 records as duplicates.
+INFO	2024-08-30 17:22:50	MarkDuplicates	Found 0 optical duplicate clusters.
+INFO	2024-08-30 17:22:50	MarkDuplicates	Reads are assumed to be ordered by: coordinate
+INFO	2024-08-30 17:23:47	MarkDuplicates	Written    10,000,000 records.  Elapsed time: 00:00:57s.  Time for last 10,000,000:   57s.  Last read position: chr6:83,976,956
+INFO	2024-08-30 17:24:04	MarkDuplicates	Writing complete. Closing input iterator.
+INFO	2024-08-30 17:24:04	MarkDuplicates	Duplicate Index cleanup.
+INFO	2024-08-30 17:24:04	MarkDuplicates	Getting Memory Stats.
+INFO	2024-08-30 17:24:04	MarkDuplicates	Before output close freeMemory: 1436642608; totalMemory: 1454899200; maxMemory: 1908932608
+INFO	2024-08-30 17:24:04	MarkDuplicates	Closed outputs. Getting more Memory Stats.
+INFO	2024-08-30 17:24:04	MarkDuplicates	After output close freeMemory: 1445031216; totalMemory: 1463287808; maxMemory: 1908932608
+[Fri Aug 30 17:24:04 CEST 2024] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 2.30 minutes.
+Runtime.totalMemory()=1463287808
+[sam grooming] finished successfully at [Fri Aug 30 05:24:07 PM CEST 2024]
+[collecting rRNA metrics] started at [Fri Aug 30 05:24:23 PM CEST 2024]
+17:24:24.595 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/robin/bin/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Fri Aug 30 17:24:24 CEST 2024] CollectRnaSeqMetrics --REF_FLAT /data/reference_genomes/mm10/mm10_RefSeq_refFlat.bed --RIBOSOMAL_INTERVALS /data/reference_genomes/mm10/mm10_rRNA.bed --STRAND_SPECIFICITY FIRST_READ_TRANSCRIPTION_STRAND --INPUT CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.bam --OUTPUT CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_RNAmetrics.txt --MINIMUM_LENGTH 500 --RRNA_FRAGMENT_PERCENTAGE 0.8 --METRIC_ACCUMULATION_LEVEL ALL_READS --END_BIAS_BASES 100 --ASSUME_SORTED true --STOP_AFTER 0 --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+[Fri Aug 30 17:24:24 CEST 2024] Executing as robin@epipax.ijm.univ-paris-diderot.priv on Linux 6.1.0-23-amd64 amd64; OpenJDK 64-Bit Server VM 1.8.0_332-b09; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: Version:2.26.2
+INFO	2024-08-30 17:24:25	CollectRnaSeqMetrics	Loaded 24105 genes.
+INFO	2024-08-30 17:24:32	SinglePassSamProgram	Processed     1,000,000 records.  Elapsed time: 00:00:06s.  Time for last 1,000,000:    6s.  Last read position: chr11:70,045,103
+INFO	2024-08-30 17:24:37	SinglePassSamProgram	Processed     2,000,000 records.  Elapsed time: 00:00:12s.  Time for last 1,000,000:    5s.  Last read position: chr12:102,781,499
+INFO	2024-08-30 17:24:42	SinglePassSamProgram	Processed     3,000,000 records.  Elapsed time: 00:00:17s.  Time for last 1,000,000:    4s.  Last read position: chr14:75,206,138
+INFO	2024-08-30 17:24:48	SinglePassSamProgram	Processed     4,000,000 records.  Elapsed time: 00:00:22s.  Time for last 1,000,000:    5s.  Last read position: chr16:92,087,143
+INFO	2024-08-30 17:24:53	SinglePassSamProgram	Processed     5,000,000 records.  Elapsed time: 00:00:28s.  Time for last 1,000,000:    5s.  Last read position: chr18:84,233,593
+INFO	2024-08-30 17:24:59	SinglePassSamProgram	Processed     6,000,000 records.  Elapsed time: 00:00:34s.  Time for last 1,000,000:    5s.  Last read position: chr1:154,397,315
+INFO	2024-08-30 17:25:05	SinglePassSamProgram	Processed     7,000,000 records.  Elapsed time: 00:00:40s.  Time for last 1,000,000:    6s.  Last read position: chr2:134,597,912
+INFO	2024-08-30 17:25:10	SinglePassSamProgram	Processed     8,000,000 records.  Elapsed time: 00:00:45s.  Time for last 1,000,000:    5s.  Last read position: chr4:11,263,136
+INFO	2024-08-30 17:25:16	SinglePassSamProgram	Processed     9,000,000 records.  Elapsed time: 00:00:50s.  Time for last 1,000,000:    5s.  Last read position: chr5:31,507,593
+INFO	2024-08-30 17:25:24	SinglePassSamProgram	Processed    10,000,000 records.  Elapsed time: 00:00:58s.  Time for last 1,000,000:    7s.  Last read position: chr6:83,976,956
+INFO	2024-08-30 17:25:29	SinglePassSamProgram	Processed    11,000,000 records.  Elapsed time: 00:01:03s.  Time for last 1,000,000:    5s.  Last read position: chr7:126,780,401
+INFO	2024-08-30 17:25:34	SinglePassSamProgram	Processed    12,000,000 records.  Elapsed time: 00:01:08s.  Time for last 1,000,000:    4s.  Last read position: chr9:44,146,439
+INFO	2024-08-30 17:25:39	SinglePassSamProgram	Processed    13,000,000 records.  Elapsed time: 00:01:13s.  Time for last 1,000,000:    4s.  Last read position: chrX:150,476,238
+[Fri Aug 30 17:25:40 CEST 2024] picard.analysis.CollectRnaSeqMetrics done. Elapsed time: 1.26 minutes.
+Runtime.totalMemory()=791150592
+[trueStats] Collecting alignment statistics for CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.bam at [Fri Aug 30 05:25:55 PM CEST 2024]
+[preseq] started on CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463.bam at [Fri Aug 30 05:26:38 PM CEST 2024]
+[preseq] finished successfully at [Fri Aug 30 05:28:18 PM CEST 2024]
+[stringTie] Performing de novo assembly of transcripts at [Fri Aug 30 05:28:34 PM CEST 2024]
+Warning: gene "NM_001270423" (on chr2) has reference transcripts on both strands?
+Warning: gene "NM_146265" (on chr2) has reference transcripts on both strands?
+Warning: gene "NM_001097977" (on chr2) has reference transcripts on both strands?
+Warning: gene "NM_001085552" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001085545" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001085551" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001099643" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001243001" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001099643" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001243001" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001102678" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001109970" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001099919" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001099347" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001100610" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001110250" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001099325" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001109969" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001100609" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_009529" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001102678" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001109970" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001099919" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001099347" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001100610" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001110250" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001099325" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001109969" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001085552" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001085545" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001085551" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001085553" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001243011" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001270685" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_029106" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001270685" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001100609" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_009529" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001102678" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001109970" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001099919" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001099347" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001100610" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001110250" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001099325" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001109969" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001100609" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_009529" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001102678" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001109970" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001099919" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001099347" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001100610" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001110250" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001099325" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001109969" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001163195" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001126317" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001310684" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001142690" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001142691" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001142750" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_153109" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_177918" (on chrX) has reference transcripts on both strands?
+Warning: gene "NM_001099321" (on chrX) has reference transcripts on both strands?
+Warning: gene "NR_126545" (on chrY) has reference transcripts on both strands?
+Warning: gene "NR_126546" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001113395" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001177569" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001160143" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_207162" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001160143" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_207162" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001037748" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001160141" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001025241" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001037748" (on chrY) has reference transcripts on both strands?
+Warning: gene "NR_038299" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001160143" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_207162" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001160143" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_207162" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001037748" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001160141" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_023546" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001160143" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001160143" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001037748" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001160137" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001160141" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001025241" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001037748" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001037748" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_023546" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_023546" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001025241" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001037748" (on chrY) has reference transcripts on both strands?
+Warning: gene "NM_001166636" (on chr10) has reference transcripts on both strands?
+Warning: gene "NM_001166637" (on chr10) has reference transcripts on both strands?
+Warning: gene "NM_001011820" (on chr13) has reference transcripts on both strands?
+Warning: gene "NR_045474" (on chr13) has reference transcripts on both strands?
+[stringTie] De novo transcriptome assembly completed successfully at [Fri Aug 30 05:29:31 PM CEST 2024]
+[bamToWigCPMsmoothKeepDup] Started with bin size: 1 and smoothing over 0 bp and KEEPING DUPLICATES at [Fri Aug 30 05:29:31 PM CEST 2024]
+There are 12568409 alignments, of which 49372 are completely within a blacklist region.
+Due to filtering, 86.66811975389189% of the aforementioned alignments will be used 10850013.979194034
+[bamToWigCPMsmoothKeepDup] finished successfully at [Fri Aug 30 05:34:46 PM CEST 2024]
+[file cleanup] started. Good job! at [Fri Aug 30 05:34:47 PM CEST 2024]
+cp: cannot stat '*.pdf': No such file or directory
+mv: cannot stat '*.bed': No such file or directory
+mv: preserving times for '/data/bigWigs/CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5_mm10_kpDup_q255_b1_s0_CPM.bw': Operation not permitted
+mv: preserving permissions for ‘/data/bigWigs/CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5_mm10_kpDup_q255_b1_s0_CPM.bw’: Operation not permitted
+mv: preserving times for '/data/bams/CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5_mm10.bam': Operation not permitted
+mv: preserving permissions for ‘/data/bams/CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5_mm10.bam’: Operation not permitted
+mv: preserving times for '/data/bams/CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5_mm10.bam.bai': Operation not permitted
+mv: preserving permissions for ‘/data/bams/CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5_mm10.bam.bai’: Operation not permitted
+mv: preserving times for '/data/stringTie/CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5_mm10.gtf': Operation not permitted
+mv: preserving permissions for ‘/data/stringTie/CD1_E12.5_brain_L3mbtl3_HET_RNA_Ilnytskyy2021_rep2_GSM5416463_trimV5_mm10.gtf’: Operation not permitted

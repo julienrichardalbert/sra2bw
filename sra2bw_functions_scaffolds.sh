@@ -30,6 +30,8 @@ source /home/robin/sra2bw/epipax.config
 # UPDATE 04 Mar 2023: add -Xmx$THREADS parameter to clumpify so that I stop overloading the system
 # UPDATE 27 Jun 2023: add download_genome function
 # UPDATE 30 Jun 2023: if/else statement to prevent removing PCR duplicates from RRBS coverage files
+# UPDATE 18 NOV 2024: only using this for RRBS zoo data. add -phred33 because uploaders sucked
+
 # TODO incorporate XS field in STAR alignment (include SAM intron motif argument): why?
 
 DEPENDENCIES=($ESEARCH $EFETCH $FASTERQDUMP "$TRIMMOMATIC" "$STAR" $BISMARK $BOWTIE2 $SAMTOOLS "$PICARD" awk $BAM2FASTQ $BEDGRAPHTOBW $BAMCOVERAGE $FASTQC $FASTQSCREEN $STRINGTIE $CLUMPIFY)
@@ -287,7 +289,7 @@ function trimReads_run {
 	else #Single-End
 		checkFileExists "$FILE".fastq.gz
 		printProgress "[trimReads] Trimming "$FILE".fastq.gz..."
-		( $TRIMMOMATIC SE -threads $THREADS \
+		( $TRIMMOMATIC SE -phred33 -threads $THREADS \
 		-summary "$FILE"_trimSummary.txt \
 		"$FILE".fastq.gz \
 		"$FILE"_"$TRIMVER".fastq.gz \

@@ -1,0 +1,74 @@
+SCRATCH: /scratch
+ls: cannot access '/data/fastq/E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851*_R2.fastq.gz': No such file or directory
+[masterDownload] Data are single-end. at [Mon Jul 8 01:50:23 PM CEST 2024]
+[checkDependencies] Checking Dependencies [Mon Jul 8 01:50:23 PM CEST 2024] at [Mon Jul 8 01:50:23 PM CEST 2024]
+[setup checkDependencies] trimmomatic... at [Mon Jul 8 01:50:24 PM CEST 2024]
+[setup checkDependencies] STAR... at [Mon Jul 8 01:50:24 PM CEST 2024]
+[setup checkDependencies] bismark... at [Mon Jul 8 01:50:24 PM CEST 2024]
+[setup checkDependencies] bowtie2... at [Mon Jul 8 01:50:24 PM CEST 2024]
+[setup checkDependencies] samtools... at [Mon Jul 8 01:50:24 PM CEST 2024]
+[setup checkDependencies] picard... at [Mon Jul 8 01:50:24 PM CEST 2024]
+[setup checkDependencies] awk... at [Mon Jul 8 01:50:24 PM CEST 2024]
+[setup checkDependencies] bamCoverage... at [Mon Jul 8 01:50:24 PM CEST 2024]
+[setup checkDependencies] fastqc... at [Mon Jul 8 01:50:24 PM CEST 2024]
+[setup checkDependencies] fastq_screen... at [Mon Jul 8 01:50:24 PM CEST 2024]
+[setup checkDependencies] stringtie... at [Mon Jul 8 01:50:24 PM CEST 2024]
+[setup checkDependencies] clumpify.sh... at [Mon Jul 8 01:50:24 PM CEST 2024]
+PAIRED: false
+[setUpLogFile] Script started at [Mon Jul 8 01:50:24 PM CEST 2024] at [Mon Jul 8 01:50:24 PM CEST 2024]
+[fastQC] started on raw FASTQs at [Mon Jul 8 01:50:24 PM CEST 2024]
+Started analysis of E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851_raw.fastq.gz
+Approx 5% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851_raw.fastq.gz
+Approx 10% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851_raw.fastq.gz
+Approx 15% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851_raw.fastq.gz
+Approx 20% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851_raw.fastq.gz
+Approx 25% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851_raw.fastq.gz
+Approx 30% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851_raw.fastq.gz
+Approx 35% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851_raw.fastq.gz
+Approx 40% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851_raw.fastq.gz
+Approx 45% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851_raw.fastq.gz
+Approx 50% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851_raw.fastq.gz
+Approx 55% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851_raw.fastq.gz
+Approx 60% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851_raw.fastq.gz
+Approx 65% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851_raw.fastq.gz
+Approx 70% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851_raw.fastq.gz
+Approx 75% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851_raw.fastq.gz
+Approx 80% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851_raw.fastq.gz
+Approx 85% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851_raw.fastq.gz
+Approx 90% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851_raw.fastq.gz
+Approx 95% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851_raw.fastq.gz
+Analysis complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851_raw.fastq.gz
+[fastQC] on raw FASTQs finished succesfully. Will remove PCR duplicates now at [Mon Jul 8 01:53:17 PM CEST 2024]
+Reads are length: 52 at [Mon Jul 8 01:53:17 PM CEST 2024]
+Reads with same sequence 1 or fewer substitutions will be marked as PCR duplicates at [Mon Jul 8 01:53:17 PM CEST 2024]
+Removal of PCR duplicates complete! at [Mon Jul 8 02:11:42 PM CEST 2024]
+[trimReads] Started using version trimV5 parameters at [Mon Jul 8 02:11:42 PM CEST 2024]
+ILLUMINACLIP:/data/reference_genomes/adapters/adapters.fa:2:30:10 SLIDINGWINDOW:4:20 MINLEN:24
+[trimReads] Trimming E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851.fastq.gz... at [Mon Jul 8 02:11:42 PM CEST 2024]
+cat: E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851_trimSummary.txt: No such file or directory
+[trimReads] Finished successfully at [Mon Jul 8 02:11:43 PM CEST 2024]
+[fastQC] started on E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851.fastq.gz at [Mon Jul 8 02:11:43 PM CEST 2024]
+Started analysis of E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851.fastq.gz
+Approx 5% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851.fastq.gz
+Approx 10% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851.fastq.gz
+Approx 15% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851.fastq.gz
+Approx 20% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851.fastq.gz
+Approx 25% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851.fastq.gz
+Approx 30% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851.fastq.gz
+Approx 35% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851.fastq.gz
+Approx 40% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851.fastq.gz
+Approx 45% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851.fastq.gz
+Approx 50% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851.fastq.gz
+Approx 55% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851.fastq.gz
+Approx 60% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851.fastq.gz
+Approx 65% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851.fastq.gz
+Approx 70% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851.fastq.gz
+Approx 75% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851.fastq.gz
+Approx 80% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851.fastq.gz
+Approx 85% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851.fastq.gz
+Approx 90% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851.fastq.gz
+Approx 95% complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851.fastq.gz
+Analysis complete for E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851.fastq.gz
+[fastQC] finished succesfully at [Mon Jul 8 02:13:45 PM CEST 2024]
+[bowtie2 alignment] started with reference /data/reference_genomes/mm10/mm10 at [Mon Jul 8 02:13:45 PM CEST 2024]
+Error: File E14_mESC_serum_2i_Pcgf3-5KO_PCGF6_ChIP_Scelfo2019_GSM3483851_trimV5.fastq.gz does not exist

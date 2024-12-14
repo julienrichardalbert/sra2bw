@@ -1,0 +1,1870 @@
+SCRATCH: /scratch
+ls: cannot access '/data/fastq/Klughammer2023/Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926*_R2.fastq.gz': No such file or directory
+[masterDownload] Data are single-end. at [Mon Nov 18 11:49:28 AM CET 2024]
+[checkDependencies] Checking Dependencies [Mon Nov 18 11:49:28 AM CET 2024] at [Mon Nov 18 11:49:28 AM CET 2024]
+[setup checkDependencies] /home/robin/edirect/esearch... at [Mon Nov 18 11:49:28 AM CET 2024]
+[setup checkDependencies] /home/robin/edirect/efetch... at [Mon Nov 18 11:49:28 AM CET 2024]
+[setup checkDependencies] trimmomatic... at [Mon Nov 18 11:49:28 AM CET 2024]
+[setup checkDependencies] STAR... at [Mon Nov 18 11:49:28 AM CET 2024]
+[setup checkDependencies] bismark... at [Mon Nov 18 11:49:28 AM CET 2024]
+[setup checkDependencies] bowtie2... at [Mon Nov 18 11:49:28 AM CET 2024]
+[setup checkDependencies] samtools... at [Mon Nov 18 11:49:28 AM CET 2024]
+[setup checkDependencies] picard... at [Mon Nov 18 11:49:28 AM CET 2024]
+[setup checkDependencies] awk... at [Mon Nov 18 11:49:28 AM CET 2024]
+[setup checkDependencies] bamCoverage... at [Mon Nov 18 11:49:28 AM CET 2024]
+[setup checkDependencies] fastqc... at [Mon Nov 18 11:49:28 AM CET 2024]
+[setup checkDependencies] fastq_screen... at [Mon Nov 18 11:49:28 AM CET 2024]
+[setup checkDependencies] stringtie... at [Mon Nov 18 11:49:28 AM CET 2024]
+[setup checkDependencies] clumpify.sh... at [Mon Nov 18 11:49:28 AM CET 2024]
+PAIRED: false
+[setUpLogFile] Script started at [Mon Nov 18 11:49:28 AM CET 2024] at [Mon Nov 18 11:49:28 AM CET 2024]
+[trimReads] Started using version trimV1 parameters at [Mon Nov 18 11:49:28 AM CET 2024]
+ILLUMINACLIP:/data/reference_genomes/adapters/adapters.fa:2:30:10 SLIDINGWINDOW:4:20 MINLEN:36
+[trimReads] Trimming Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz... at [Mon Nov 18 11:49:28 AM CET 2024]
+[trimReads] Finished successfully at [Mon Nov 18 11:50:43 AM CET 2024]
+[fastQC] started on Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz at [Mon Nov 18 11:50:43 AM CET 2024]
+Started analysis of Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz
+Started analysis of Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz
+Approx 5% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz
+Approx 5% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz
+Approx 10% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz
+Approx 10% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz
+Approx 15% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz
+Approx 15% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz
+Approx 20% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz
+Approx 20% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz
+Approx 25% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz
+Approx 25% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz
+Approx 30% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz
+Approx 30% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz
+Approx 35% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz
+Approx 35% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz
+Approx 40% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz
+Approx 40% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz
+Approx 45% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz
+Approx 45% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz
+Approx 50% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz
+Approx 50% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz
+Approx 55% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz
+Approx 55% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz
+Approx 60% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz
+Approx 60% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz
+Approx 65% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz
+Approx 65% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz
+Approx 70% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz
+Approx 70% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz
+Approx 75% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz
+Approx 75% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz
+Approx 80% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz
+Approx 80% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz
+Approx 85% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz
+Approx 85% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz
+Approx 90% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz
+Approx 90% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz
+Approx 95% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz
+Approx 95% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz
+Analysis complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz
+Approx 100% complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz
+Analysis complete for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.fastq.gz
+[fastQC] finished succesfully at [Mon Nov 18 11:51:13 AM CET 2024]
+[Bismark alignment] started with reference /data/reference_genomes/xenarthra/sloth/data/GCF_015220235.1 and arguments /data/reference_genomes/xenarthra/sloth/data/GCF_015220235.1 -p 3 --bowtie2 --bam --nucleotide_coverage at [Mon Nov 18 11:51:13 AM CET 2024]
+[Bismark alignment] started with reference /data/reference_genomes/xenarthra/sloth/data/GCF_015220235.1 and arguments /data/reference_genomes/xenarthra/sloth/data/GCF_015220235.1 -p 3 --bowtie2 --bam --nucleotide_coverage at [Mon Nov 18 11:51:13 AM CET 2024]
+Bowtie 2 seems to be working fine (tested command 'bowtie2 --version' [2.4.5])
+Output format is BAM (default)
+Alignments will be written out in BAM format. Samtools found here: '/usr/local/bin/samtools'
+Reference genome folder provided is /data/reference_genomes/xenarthra/sloth/data/GCF_015220235.1/	(absolute path is '/data/reference_genomes/xenarthra/sloth/data/GCF_015220235.1/)'
+FastQ format assumed (by default)
+Each Bowtie 2 instance is going to be run with 3 threads. Please monitor performance closely and tune down if necessary!
+
+Input files to be analysed (in current folder '/scratch/Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926'):
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz
+Library is assumed to be strand-specific (directional), alignments to strands complementary to the original top or bottom strands will be ignored (i.e. not performed!)
+Setting parallelization to single-threaded (default)
+
+Summary of all aligner options:	-q --score-min L,0,-0.2 -p 3 --reorder --ignore-quals
+Current working directory is: /scratch/Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926
+
+Now reading in and storing sequence information of the genome specified in: /data/reference_genomes/xenarthra/sloth/data/GCF_015220235.1/
+
+chr NC_051307.1 (250664781 bp)
+chr NC_051308.1 (248084734 bp)
+chr NC_051309.1 (223233325 bp)
+chr NC_051310.1 (196373313 bp)
+chr NC_051311.1 (168700187 bp)
+chr NW_023637573.1 (800127 bp)
+chr NW_023637574.1 (432184 bp)
+chr NW_023637575.1 (400629 bp)
+chr NC_051312.1 (156663619 bp)
+chr NC_051313.1 (156022981 bp)
+chr NC_051314.1 (146178362 bp)
+chr NW_023637576.1 (48891 bp)
+chr NC_051315.1 (135328281 bp)
+chr NC_051316.1 (132469143 bp)
+chr NC_051317.1 (90811022 bp)
+chr NW_023637577.1 (5475474 bp)
+chr NW_023637578.1 (95134 bp)
+chr NW_023637579.1 (5293750 bp)
+chr NW_023637580.1 (3552071 bp)
+chr NW_023637581.1 (2744250 bp)
+chr NW_023637582.1 (806751 bp)
+chr NW_023637583.1 (747953 bp)
+chr NW_023637584.1 (298705 bp)
+chr NW_023637585.1 (167308 bp)
+chr NW_023637586.1 (105043 bp)
+chr NC_051318.1 (102976318 bp)
+chr NW_023637587.1 (299284 bp)
+chr NC_051319.1 (100229138 bp)
+chr NW_023637588.1 (2170093 bp)
+chr NW_023637589.1 (67467 bp)
+chr NC_051320.1 (100080887 bp)
+chr NC_051321.1 (89644403 bp)
+chr NC_051322.1 (86887137 bp)
+chr NC_051323.1 (78810110 bp)
+chr NC_051324.1 (77031504 bp)
+chr NC_051325.1 (66415491 bp)
+chr NC_051326.1 (64556003 bp)
+chr NC_051327.1 (53136999 bp)
+chr NC_051328.1 (44682675 bp)
+chr NC_051329.1 (32044896 bp)
+chr NW_023637590.1 (4056676 bp)
+chr NW_023637591.1 (472200 bp)
+chr NW_023637592.1 (220953 bp)
+chr NW_023637593.1 (204724 bp)
+chr NW_023637594.1 (175958 bp)
+chr NW_023637595.1 (174891 bp)
+chr NW_023637596.1 (1243349 bp)
+chr NW_023637597.1 (1083205 bp)
+chr NW_023637598.1 (655271 bp)
+chr NW_023637599.1 (454956 bp)
+chr NW_023637600.1 (539168 bp)
+chr NW_023637601.1 (525547 bp)
+chr NW_023637602.1 (522814 bp)
+chr NW_023637603.1 (505270 bp)
+chr NC_051330.1 (25766288 bp)
+chr NW_023637604.1 (2347058 bp)
+chr NW_023637605.1 (2157328 bp)
+chr NC_051331.1 (10490878 bp)
+chr NW_023637606.1 (8506328 bp)
+chr NW_023637607.1 (7803001 bp)
+chr NW_023637608.1 (538600 bp)
+chr NW_023637609.1 (314973 bp)
+chr NW_023637610.1 (395942 bp)
+chr NW_023637611.1 (174309 bp)
+chr NW_023637612.1 (70119 bp)
+chr NW_023637613.1 (40955 bp)
+chr NC_051332.1 (17351548 bp)
+chr NW_023637614.1 (4142306 bp)
+chr NW_023637615.1 (3641002 bp)
+chr NW_023637616.1 (553756 bp)
+chr NW_023637617.1 (332597 bp)
+chr NW_023637618.1 (258898 bp)
+chr NW_023637619.1 (55197 bp)
+chr NW_023637620.1 (29951 bp)
+chr NC_051333.1 (26625015 bp)
+chr NC_051334.1 (193839925 bp)
+chr NW_023637621.1 (3090292 bp)
+chr NW_023637622.1 (1127822 bp)
+chr NW_023637623.1 (1121930 bp)
+chr NC_051335.1 (55058534 bp)
+chr NW_023637624.1 (7594001 bp)
+chr NW_023637625.1 (2071512 bp)
+chr NW_023637626.1 (1104806 bp)
+chr NW_023637627.1 (465551 bp)
+chr NW_023637628.1 (333219 bp)
+chr NW_023637629.1 (123904 bp)
+chr NW_023637630.1 (53692 bp)
+chr NW_023637631.1 (102024 bp)
+chr NW_023637632.1 (91434 bp)
+chr NW_023637633.1 (42114 bp)
+chr NW_023637634.1 (80799 bp)
+chr NW_023637635.1 (70098 bp)
+chr NW_023637636.1 (64204 bp)
+chr NW_023637637.1 (61550 bp)
+chr NW_023637638.1 (55156 bp)
+chr NW_023637639.1 (53986 bp)
+chr NW_023637640.1 (49794 bp)
+chr NW_023637641.1 (50041 bp)
+chr NW_023637642.1 (48828 bp)
+chr NW_023637643.1 (43748 bp)
+chr NW_023637644.1 (42635 bp)
+chr NW_023637645.1 (40142 bp)
+chr NW_023637646.1 (35814 bp)
+chr NW_023637647.1 (35893 bp)
+chr NW_023637648.1 (35571 bp)
+chr NW_023637649.1 (35230 bp)
+chr NW_023637650.1 (34550 bp)
+chr NW_023637651.1 (33442 bp)
+chr NW_023637652.1 (31031 bp)
+chr NW_023637653.1 (30364 bp)
+chr NW_023637654.1 (28348 bp)
+chr NW_023637655.1 (27437 bp)
+chr NW_023637656.1 (24246 bp)
+chr NW_023637657.1 (22406 bp)
+chr NW_023637658.1 (21464 bp)
+chr NW_023637659.1 (21003 bp)
+chr NW_023637660.1 (20270 bp)
+chr NW_023637661.1 (19141 bp)
+chr NW_023637662.1 (18059 bp)
+chr NW_023637663.1 (17587 bp)
+chr NW_023637664.1 (16863 bp)
+chr NW_023637665.1 (16768 bp)
+chr NW_023637666.1 (15524 bp)
+chr NW_023637667.1 (15481 bp)
+chr NW_023637668.1 (15084 bp)
+chr NW_023637669.1 (14884 bp)
+chr NW_023637670.1 (14182 bp)
+chr NW_023637671.1 (13896 bp)
+chr NW_023637672.1 (13317 bp)
+chr NW_023637673.1 (11580 bp)
+chr NW_023637674.1 (11158 bp)
+chr NW_023637675.1 (10418 bp)
+chr NW_023637676.1 (9683 bp)
+chr NW_023637677.1 (8830 bp)
+chr NW_023637678.1 (7918 bp)
+chr NW_023637679.1 (5841 bp)
+chr NW_023637680.1 (4821 bp)
+chr NW_023637681.1 (4503 bp)
+chr NW_023637682.1 (4285 bp)
+chr NW_023637683.1 (4242 bp)
+chr NW_023637684.1 (3326 bp)
+chr NW_023637685.1 (2258 bp)
+chr NW_023637686.1 (2025 bp)
+chr NW_023637687.1 (46853 bp)
+chr NW_023637688.1 (77314 bp)
+chr NC_006924.1 (16543 bp)
+
+Single-core mode: setting pid to 1
+
+Single-end alignments will be performed
+=======================================
+
+Input file is in FastQ format
+Writing a C -> T converted version of the input file Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz to Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz_C_to_T.fastq
+
+Created C -> T converted version of the FastQ file Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz (8482550 sequences in total)
+
+Input file is Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz_C_to_T.fastq (FastQ)
+
+Now running 2 instances of Bowtie 2 against the bisulfite genome of /data/reference_genomes/xenarthra/sloth/data/GCF_015220235.1/ with the specified options: -q --score-min L,0,-0.2 -p 3 --reorder --ignore-quals
+
+Now starting the Bowtie 2 aligner for CTreadCTgenome (reading in sequences from Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz_C_to_T.fastq with options -q --score-min L,0,-0.2 -p 3 --reorder --ignore-quals --norc)
+Using Bowtie 2 index: /data/reference_genomes/xenarthra/sloth/data/GCF_015220235.1/Bisulfite_Genome/CT_conversion/BS_CT
+
+Found first alignment:	SRR17851664.1_1_length=51	0	NC_051316.1_CT_converted	29552	42	51M	*	0	0	TGGGGTTTTAGATTGTTTAGAGGAGGGTTTTTTGTTGGTAGGTTAGTTTTT	???????????????????????????????????????????????????	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:51	YT:Z:UU
+Now starting the Bowtie 2 aligner for CTreadGAgenome (reading in sequences from Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz_C_to_T.fastq with options -q --score-min L,0,-0.2 -p 3 --reorder --ignore-quals --nofw)
+Using Bowtie 2 index: /data/reference_genomes/xenarthra/sloth/data/GCF_015220235.1/Bisulfite_Genome/GA_conversion/BS_GA
+
+Found first alignment:	SRR17851664.1_1_length=51	16	NW_023637623.1_GA_converted	1030829	3	51M	*	0	0	AAAAACTAACCTACCAACAAAAAACCCTCCTCTAAACAATCTAAAACCCCA	???????????????????????????????????????????????????	AS:i:-6	XN:i:0	XM:i:1	XO:i:0	XG:i:0	NM:i:1	MD:Z:6C44	YT:Z:UU
+
+>>> Writing bisulfite mapping results to Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1_bismark_bt2.bam <<<
+
+
+Reading in the sequence file Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz
+Processed 1000000 sequences so far
+Chromosomal sequence could not be extracted for	SRR17851664.1038454_1038454_length=51	NW_023637678.1	1
+Chromosomal sequence could not be extracted for	SRR17851664.1365975_1365975_length=51	NW_023637678.1	1
+Processed 2000000 sequences so far
+Processed 3000000 sequences so far
+Chromosomal sequence could not be extracted for	SRR17851664.3666639_3666639_length=51	NW_023637678.1	1
+Processed 4000000 sequences so far
+Processed 5000000 sequences so far
+Processed 6000000 sequences so far
+Processed 7000000 sequences so far
+Processed 8000000 sequences so far
+8482550 reads; of these:
+  8482550 (100.00%) were unpaired; of these:
+    4329585 (51.04%) aligned 0 times
+    2366706 (27.90%) aligned exactly 1 time
+    1786259 (21.06%) aligned >1 times
+48.96% overall alignment rate
+8482550 reads; of these:
+  8482550 (100.00%) were unpaired; of these:
+    4271443 (50.36%) aligned 0 times
+    2418788 (28.51%) aligned exactly 1 time
+    1792319 (21.13%) aligned >1 times
+49.64% overall alignment rate
+Processed 8482550 sequences in total
+
+
+Successfully deleted the temporary file Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz_C_to_T.fastq
+
+Final Alignment report
+======================
+Sequences analysed in total:	8482550
+Number of alignments with a unique best hit from the different alignments:	4736248
+Mapping efficiency:	55.8%
+
+Sequences with no alignments under any condition:	1977780
+Sequences did not map uniquely:	1768522
+Sequences which were discarded because genomic sequence could not be extracted:	3
+
+Number of sequences with unique best (first) alignment came from the bowtie output:
+CT/CT:	2339996	((converted) top strand)
+CT/GA:	2396249	((converted) bottom strand)
+GA/CT:	0	(complementary to (converted) top strand)
+GA/GA:	0	(complementary to (converted) bottom strand)
+
+Number of alignments to (merely theoretical) complementary strands being rejected in total:	0
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	57025091
+
+Total methylated C's in CpG context:	6244197
+Total methylated C's in CHG context:	225232
+Total methylated C's in CHH context:	366275
+Total methylated C's in Unknown context:	410
+
+Total unmethylated C's in CpG context:	4147939
+Total unmethylated C's in CHG context:	13351042
+Total unmethylated C's in CHH context:	32690406
+Total unmethylated C's in Unknown context:	16616
+
+C methylated in CpG context:	60.1%
+C methylated in CHG context:	1.7%
+C methylated in CHH context:	1.1%
+C methylated in Unknown context (CN or CHN):	2.4%
+
+
+Bismark completed in 0d 0h 11m 35s
+
+====================
+Bismark run complete
+====================
+
+Now calculating observed and expected nucleotide coverage statistics... 
+
+--genome /data/reference_genomes/xenarthra/sloth/data/GCF_015220235.1/ --dir '' --samtools_path /usr/local/bin/samtools Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1_bismark_bt2.bam
+Summary of parameters for nucleotide coverage report:
+=====================================================
+Output directory:			><
+Parent directory:			>/scratch/Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926/<
+Genome directory:			>/data/reference_genomes/xenarthra/sloth/data/GCF_015220235.1/<
+Samtools installation:			>/usr/local/bin/samtools<
+
+Now reading in and storing sequence information of the genome specified in: /data/reference_genomes/xenarthra/sloth/data/GCF_015220235.1/
+
+chr NC_051307.1 (250664781 bp)
+chr NC_051308.1 (248084734 bp)
+chr NC_051309.1 (223233325 bp)
+chr NC_051310.1 (196373313 bp)
+chr NC_051311.1 (168700187 bp)
+chr NW_023637573.1 (800127 bp)
+chr NW_023637574.1 (432184 bp)
+chr NW_023637575.1 (400629 bp)
+chr NC_051312.1 (156663619 bp)
+chr NC_051313.1 (156022981 bp)
+chr NC_051314.1 (146178362 bp)
+chr NW_023637576.1 (48891 bp)
+chr NC_051315.1 (135328281 bp)
+chr NC_051316.1 (132469143 bp)
+chr NC_051317.1 (90811022 bp)
+chr NW_023637577.1 (5475474 bp)
+chr NW_023637578.1 (95134 bp)
+chr NW_023637579.1 (5293750 bp)
+chr NW_023637580.1 (3552071 bp)
+chr NW_023637581.1 (2744250 bp)
+chr NW_023637582.1 (806751 bp)
+chr NW_023637583.1 (747953 bp)
+chr NW_023637584.1 (298705 bp)
+chr NW_023637585.1 (167308 bp)
+chr NW_023637586.1 (105043 bp)
+chr NC_051318.1 (102976318 bp)
+chr NW_023637587.1 (299284 bp)
+chr NC_051319.1 (100229138 bp)
+chr NW_023637588.1 (2170093 bp)
+chr NW_023637589.1 (67467 bp)
+chr NC_051320.1 (100080887 bp)
+chr NC_051321.1 (89644403 bp)
+chr NC_051322.1 (86887137 bp)
+chr NC_051323.1 (78810110 bp)
+chr NC_051324.1 (77031504 bp)
+chr NC_051325.1 (66415491 bp)
+chr NC_051326.1 (64556003 bp)
+chr NC_051327.1 (53136999 bp)
+chr NC_051328.1 (44682675 bp)
+chr NC_051329.1 (32044896 bp)
+chr NW_023637590.1 (4056676 bp)
+chr NW_023637591.1 (472200 bp)
+chr NW_023637592.1 (220953 bp)
+chr NW_023637593.1 (204724 bp)
+chr NW_023637594.1 (175958 bp)
+chr NW_023637595.1 (174891 bp)
+chr NW_023637596.1 (1243349 bp)
+chr NW_023637597.1 (1083205 bp)
+chr NW_023637598.1 (655271 bp)
+chr NW_023637599.1 (454956 bp)
+chr NW_023637600.1 (539168 bp)
+chr NW_023637601.1 (525547 bp)
+chr NW_023637602.1 (522814 bp)
+chr NW_023637603.1 (505270 bp)
+chr NC_051330.1 (25766288 bp)
+chr NW_023637604.1 (2347058 bp)
+chr NW_023637605.1 (2157328 bp)
+chr NC_051331.1 (10490878 bp)
+chr NW_023637606.1 (8506328 bp)
+chr NW_023637607.1 (7803001 bp)
+chr NW_023637608.1 (538600 bp)
+chr NW_023637609.1 (314973 bp)
+chr NW_023637610.1 (395942 bp)
+chr NW_023637611.1 (174309 bp)
+chr NW_023637612.1 (70119 bp)
+chr NW_023637613.1 (40955 bp)
+chr NC_051332.1 (17351548 bp)
+chr NW_023637614.1 (4142306 bp)
+chr NW_023637615.1 (3641002 bp)
+chr NW_023637616.1 (553756 bp)
+chr NW_023637617.1 (332597 bp)
+chr NW_023637618.1 (258898 bp)
+chr NW_023637619.1 (55197 bp)
+chr NW_023637620.1 (29951 bp)
+chr NC_051333.1 (26625015 bp)
+chr NC_051334.1 (193839925 bp)
+chr NW_023637621.1 (3090292 bp)
+chr NW_023637622.1 (1127822 bp)
+chr NW_023637623.1 (1121930 bp)
+chr NC_051335.1 (55058534 bp)
+chr NW_023637624.1 (7594001 bp)
+chr NW_023637625.1 (2071512 bp)
+chr NW_023637626.1 (1104806 bp)
+chr NW_023637627.1 (465551 bp)
+chr NW_023637628.1 (333219 bp)
+chr NW_023637629.1 (123904 bp)
+chr NW_023637630.1 (53692 bp)
+chr NW_023637631.1 (102024 bp)
+chr NW_023637632.1 (91434 bp)
+chr NW_023637633.1 (42114 bp)
+chr NW_023637634.1 (80799 bp)
+chr NW_023637635.1 (70098 bp)
+chr NW_023637636.1 (64204 bp)
+chr NW_023637637.1 (61550 bp)
+chr NW_023637638.1 (55156 bp)
+chr NW_023637639.1 (53986 bp)
+chr NW_023637640.1 (49794 bp)
+chr NW_023637641.1 (50041 bp)
+chr NW_023637642.1 (48828 bp)
+chr NW_023637643.1 (43748 bp)
+chr NW_023637644.1 (42635 bp)
+chr NW_023637645.1 (40142 bp)
+chr NW_023637646.1 (35814 bp)
+chr NW_023637647.1 (35893 bp)
+chr NW_023637648.1 (35571 bp)
+chr NW_023637649.1 (35230 bp)
+chr NW_023637650.1 (34550 bp)
+chr NW_023637651.1 (33442 bp)
+chr NW_023637652.1 (31031 bp)
+chr NW_023637653.1 (30364 bp)
+chr NW_023637654.1 (28348 bp)
+chr NW_023637655.1 (27437 bp)
+chr NW_023637656.1 (24246 bp)
+chr NW_023637657.1 (22406 bp)
+chr NW_023637658.1 (21464 bp)
+chr NW_023637659.1 (21003 bp)
+chr NW_023637660.1 (20270 bp)
+chr NW_023637661.1 (19141 bp)
+chr NW_023637662.1 (18059 bp)
+chr NW_023637663.1 (17587 bp)
+chr NW_023637664.1 (16863 bp)
+chr NW_023637665.1 (16768 bp)
+chr NW_023637666.1 (15524 bp)
+chr NW_023637667.1 (15481 bp)
+chr NW_023637668.1 (15084 bp)
+chr NW_023637669.1 (14884 bp)
+chr NW_023637670.1 (14182 bp)
+chr NW_023637671.1 (13896 bp)
+chr NW_023637672.1 (13317 bp)
+chr NW_023637673.1 (11580 bp)
+chr NW_023637674.1 (11158 bp)
+chr NW_023637675.1 (10418 bp)
+chr NW_023637676.1 (9683 bp)
+chr NW_023637677.1 (8830 bp)
+chr NW_023637678.1 (7918 bp)
+chr NW_023637679.1 (5841 bp)
+chr NW_023637680.1 (4821 bp)
+chr NW_023637681.1 (4503 bp)
+chr NW_023637682.1 (4285 bp)
+chr NW_023637683.1 (4242 bp)
+chr NW_023637684.1 (3326 bp)
+chr NW_023637685.1 (2258 bp)
+chr NW_023637686.1 (2025 bp)
+chr NW_023637687.1 (46853 bp)
+chr NW_023637688.1 (77314 bp)
+chr NC_006924.1 (16543 bp)
+
+Stored sequence information of 146 chromosomes/scaffolds in total
+
+==================================================================
+Mono- and di-nucleotide coverage will now be written into a report
+==================================================================
+
+Detected file 'genomic_nucleotide_frequencies.txt' in the genome folder /data/reference_genomes/xenarthra/sloth/data/GCF_015220235.1/ already. Using nucleotide frequencies contained therein ...
+============================================================================================================================================================================================
+
+
+Calculating read frequencies from file 'Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1_bismark_bt2.bam'
+==========================================================================================
+Determined the file to be single-end
+Processed 500000 lines
+Processed 1000000 lines
+Processed 1500000 lines
+Processed 2000000 lines
+Processed 2500000 lines
+Processed 3000000 lines
+Processed 3500000 lines
+Processed 4000000 lines
+Processed 4500000 lines
+
+
+Printing nucleotide stats to >> Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1_bismark_bt2.nucleotide_stats.txt <<
+Final Stage: Calculating averages
+=================================
+
+(di-)nucleotide	count sample	percent sample	count genomic	percent genomic	coverage
+A	59145016	24.83	942312155	30.07	0.063
+C	56290168	23.63	624942660	19.94	0.090
+G	72106839	30.27	624959896	19.94	0.115
+T	50681955	21.27	941495530	30.04	0.054
+AA	16843802	7.21	319513658	10.20	0.053
+AC	10730877	4.59	156116936	4.98	0.069
+AG	19066359	8.16	214833973	6.86	0.089
+AT	11286564	4.83	251847144	8.04	0.045
+CA	15601074	6.68	224584843	7.17	0.069
+CC	15157585	6.49	160185931	5.11	0.095
+CG	10147887	4.35	25488885	0.81	0.398
+CT	14292316	6.12	214682735	6.85	0.067
+GA	17923137	7.67	189427455	6.04	0.095
+GC	15062603	6.45	119348769	3.81	0.126
+GG	26443679	11.32	160257018	5.11	0.165
+GT	11370947	4.87	155926347	4.98	0.073
+TA	8667360	3.71	208785842	6.66	0.042
+TC	11139215	4.77	189290727	6.04	0.059
+TG	16334074	6.99	224379730	7.16	0.073
+TT	13485393	5.77	319038859	10.18	0.042
+Finished bam2nuc calculation ...
+
+[cleanAndExtractBismark] started with file Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw.bam at [Mon Nov 18 12:05:43 PM CET 2024]
+[cleanAndExtractBismark] Data was generated by RRBS. Duplicate read removal is not recommended for these data. Skipping. Ugly but keeping Deduplicated in name for downstream compatibility at [Mon Nov 18 12:05:43 PM CET 2024]
+[cleanAndExtractBismark] Extracting DNA methylation data from SE BAM Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.bam at [Mon Nov 18 12:05:44 PM CET 2024]
+
+ *** Bismark methylation extractor version v0.23.1 ***
+
+
+Summarising Bismark methylation extractor parameters:
+===============================================================
+Bismark single-end SAM format specified (default)
+Number of cores to be used: 12
+Strand-specific outputs will be skipped. Separate output files for cytosines in CpG, CHG and CHH context will be generated
+Merge CHG and CHH context to non-CpG context specified
+Output will be written to the current directory ('/scratch/Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926')
+
+
+Summarising bedGraph parameters:
+===============================================================
+Generating additional output in bedGraph and coverage format
+bedGraph format:	<Chromosome> <Start Position> <End Position> <Methylation Percentage>
+coverage format:	<Chromosome> <Start Position> <End Position> <Methylation Percentage> <count methylated> <count non-methylated>
+
+Using a cutoff of 1 read(s) to report cytosine positions
+Reporting and sorting cytosine methylation information in CpG context only (default)
+The bedGraph UNIX sort command will use the following memory setting:	'10%'. Temporary directory used for sorting is the output directory
+
+
+Summarising genome-wide cytosine methylation report parameters:
+===============================================================
+Generating comprehensive genome-wide cytosine report
+(output format: <Chromosome> <Position> <Strand> <count methylated> <count non-methylated>  <C-context>  <trinucleotide context> )
+Reporting cytosine methylation in CpG context only (default)
+Using 1-based genomic coordinates (default)
+Genome folder was specified as /data/reference_genomes/xenarthra/sloth/data/GCF_015220235.1/
+
+Checking file >>Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.bam<< for signs of file truncation...
+
+Writing result file containing methylation information for C in CpG context to CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz
+Writing result file containing methylation information for C in any other context to Non_CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz
+
+Now reading in Bismark result file Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.bam
+
+
+Now reading in Bismark result file Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.bam
+
+
+Now reading in Bismark result file Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.bam
+
+
+Now reading in Bismark result file Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.bam
+
+
+Now reading in Bismark result file Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.bam
+
+
+Now reading in Bismark result file Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.bam
+
+
+Now reading in Bismark result file Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.bam
+
+
+Now reading in Bismark result file Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.bam
+
+
+Now reading in Bismark result file Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.bam
+
+
+Now reading in Bismark result file Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.bam
+
+Now reading in Bismark result file Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.bam
+
+Now reading in Bismark result file Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.bam
+
+skipping SAM header line:	@HD	VN:1.0	SO:unsorted
+skipping SAM header line:	@SQ	SN:NC_051307.1	LN:250664781
+skipping SAM header line:	@SQ	SN:NC_051308.1	LN:248084734
+skipping SAM header line:	@SQ	SN:NC_051309.1	LN:223233325
+skipping SAM header line:	@SQ	SN:NC_051310.1	LN:196373313
+skipping SAM header line:	@SQ	SN:NC_051311.1	LN:168700187
+skipping SAM header line:	@SQ	SN:NW_023637573.1	LN:800127
+skipping SAM header line:	@SQ	SN:NW_023637574.1	LN:432184
+skipping SAM header line:	@SQ	SN:NW_023637575.1	LN:400629
+skipping SAM header line:	@SQ	SN:NC_051312.1	LN:156663619
+skipping SAM header line:	@SQ	SN:NC_051313.1	LN:156022981
+skipping SAM header line:	@SQ	SN:NC_051314.1	LN:146178362
+skipping SAM header line:	@SQ	SN:NW_023637576.1	LN:48891
+skipping SAM header line:	@SQ	SN:NC_051315.1	LN:135328281
+skipping SAM header line:	@SQ	SN:NC_051316.1	LN:132469143
+skipping SAM header line:	@SQ	SN:NC_051317.1	LN:90811022
+skipping SAM header line:	@SQ	SN:NW_023637577.1	LN:5475474
+skipping SAM header line:	@SQ	SN:NW_023637578.1	LN:95134
+skipping SAM header line:	@SQ	SN:NW_023637579.1	LN:5293750
+skipping SAM header line:	@SQ	SN:NW_023637580.1	LN:3552071
+skipping SAM header line:	@SQ	SN:NW_023637581.1	LN:2744250
+skipping SAM header line:	@SQ	SN:NW_023637582.1	LN:806751
+skipping SAM header line:	@SQ	SN:NW_023637583.1	LN:747953
+skipping SAM header line:	@SQ	SN:NW_023637584.1	LN:298705
+skipping SAM header line:	@SQ	SN:NW_023637585.1	LN:167308
+skipping SAM header line:	@SQ	SN:NW_023637586.1	LN:105043
+skipping SAM header line:	@SQ	SN:NC_051318.1	LN:102976318
+skipping SAM header line:	@SQ	SN:NW_023637587.1	LN:299284
+skipping SAM header line:	@SQ	SN:NC_051319.1	LN:100229138
+skipping SAM header line:	@SQ	SN:NW_023637588.1	LN:2170093
+skipping SAM header line:	@SQ	SN:NW_023637589.1	LN:67467
+skipping SAM header line:	@SQ	SN:NC_051320.1	LN:100080887
+skipping SAM header line:	@SQ	SN:NC_051321.1	LN:89644403
+skipping SAM header line:	@SQ	SN:NC_051322.1	LN:86887137
+skipping SAM header line:	@SQ	SN:NC_051323.1	LN:78810110
+skipping SAM header line:	@SQ	SN:NC_051324.1	LN:77031504
+skipping SAM header line:	@SQ	SN:NC_051325.1	LN:66415491
+skipping SAM header line:	@SQ	SN:NC_051326.1	LN:64556003
+skipping SAM header line:	@SQ	SN:NC_051327.1	LN:53136999
+skipping SAM header line:	@SQ	SN:NC_051328.1	LN:44682675
+skipping SAM header line:	@SQ	SN:NC_051329.1	LN:32044896
+skipping SAM header line:	@SQ	SN:NW_023637590.1	LN:4056676
+skipping SAM header line:	@SQ	SN:NW_023637591.1	LN:472200
+skipping SAM header line:	@SQ	SN:NW_023637592.1	LN:220953
+skipping SAM header line:	@SQ	SN:NW_023637593.1	LN:204724
+skipping SAM header line:	@SQ	SN:NW_023637594.1	LN:175958
+skipping SAM header line:	@SQ	SN:NW_023637595.1	LN:174891
+skipping SAM header line:	@SQ	SN:NW_023637596.1	LN:1243349
+skipping SAM header line:	@SQ	SN:NW_023637597.1	LN:1083205
+skipping SAM header line:	@SQ	SN:NW_023637598.1	LN:655271
+skipping SAM header line:	@SQ	SN:NW_023637599.1	LN:454956
+skipping SAM header line:	@SQ	SN:NW_023637600.1	LN:539168
+skipping SAM header line:	@SQ	SN:NW_023637601.1	LN:525547
+skipping SAM header line:	@SQ	SN:NW_023637602.1	LN:522814
+skipping SAM header line:	@SQ	SN:NW_023637603.1	LN:505270
+skipping SAM header line:	@SQ	SN:NC_051330.1	LN:25766288
+skipping SAM header line:	@SQ	SN:NW_023637604.1	LN:2347058
+skipping SAM header line:	@SQ	SN:NW_023637605.1	LN:2157328
+skipping SAM header line:	@SQ	SN:NC_051331.1	LN:10490878
+skipping SAM header line:	@SQ	SN:NW_023637606.1	LN:8506328
+skipping SAM header line:	@SQ	SN:NW_023637607.1	LN:7803001
+skipping SAM header line:	@SQ	SN:NW_023637608.1	LN:538600
+skipping SAM header line:	@SQ	SN:NW_023637609.1	LN:314973
+skipping SAM header line:	@SQ	SN:NW_023637610.1	LN:395942
+skipping SAM header line:	@SQ	SN:NW_023637611.1	LN:174309
+skipping SAM header line:	@SQ	SN:NW_023637612.1	LN:70119
+skipping SAM header line:	@SQ	SN:NW_023637613.1	LN:40955
+skipping SAM header line:	@SQ	SN:NC_051332.1	LN:17351548
+skipping SAM header line:	@SQ	SN:NW_023637614.1	LN:4142306
+skipping SAM header line:	@SQ	SN:NW_023637615.1	LN:3641002
+skipping SAM header line:	@SQ	SN:NW_023637616.1	LN:553756
+skipping SAM header line:	@SQ	SN:NW_023637617.1	LN:332597
+skipping SAM header line:	@SQ	SN:NW_023637618.1	LN:258898
+skipping SAM header line:	@SQ	SN:NW_023637619.1	LN:55197
+skipping SAM header line:	@SQ	SN:NW_023637620.1	LN:29951
+skipping SAM header line:	@SQ	SN:NC_051333.1	LN:26625015
+skipping SAM header line:	@SQ	SN:NC_051334.1	LN:193839925
+skipping SAM header line:	@SQ	SN:NW_023637621.1	LN:3090292
+skipping SAM header line:	@SQ	SN:NW_023637622.1	LN:1127822
+skipping SAM header line:	@SQ	SN:NW_023637623.1	LN:1121930
+skipping SAM header line:	@SQ	SN:NC_051335.1	LN:55058534
+skipping SAM header line:	@SQ	SN:NW_023637624.1	LN:7594001
+skipping SAM header line:	@SQ	SN:NW_023637625.1	LN:2071512
+skipping SAM header line:	@SQ	SN:NW_023637626.1	LN:1104806
+skipping SAM header line:	@SQ	SN:NW_023637627.1	LN:465551
+skipping SAM header line:	@SQ	SN:NW_023637628.1	LN:333219
+skipping SAM header line:	@SQ	SN:NW_023637629.1	LN:123904
+skipping SAM header line:	@SQ	SN:NW_023637630.1	LN:53692
+skipping SAM header line:	@SQ	SN:NW_023637631.1	LN:102024
+skipping SAM header line:	@SQ	SN:NW_023637632.1	LN:91434
+skipping SAM header line:	@SQ	SN:NW_023637633.1	LN:42114
+skipping SAM header line:	@SQ	SN:NW_023637634.1	LN:80799
+skipping SAM header line:	@SQ	SN:NW_023637635.1	LN:70098
+skipping SAM header line:	@SQ	SN:NW_023637636.1	LN:64204
+skipping SAM header line:	@SQ	SN:NW_023637637.1	LN:61550
+skipping SAM header line:	@SQ	SN:NW_023637638.1	LN:55156
+skipping SAM header line:	@SQ	SN:NW_023637639.1	LN:53986
+skipping SAM header line:	@SQ	SN:NW_023637640.1	LN:49794
+skipping SAM header line:	@SQ	SN:NW_023637641.1	LN:50041
+skipping SAM header line:	@SQ	SN:NW_023637642.1	LN:48828
+skipping SAM header line:	@SQ	SN:NW_023637643.1	LN:43748
+skipping SAM header line:	@SQ	SN:NW_023637644.1	LN:42635
+skipping SAM header line:	@SQ	SN:NW_023637645.1	LN:40142
+skipping SAM header line:	@SQ	SN:NW_023637646.1	LN:35814
+skipping SAM header line:	@SQ	SN:NW_023637647.1	LN:35893
+skipping SAM header line:	@SQ	SN:NW_023637648.1	LN:35571
+skipping SAM header line:	@SQ	SN:NW_023637649.1	LN:35230
+skipping SAM header line:	@SQ	SN:NW_023637650.1	LN:34550
+skipping SAM header line:	@SQ	SN:NW_023637651.1	LN:33442
+skipping SAM header line:	@SQ	SN:NW_023637652.1	LN:31031
+skipping SAM header line:	@SQ	SN:NW_023637653.1	LN:30364
+skipping SAM header line:	@SQ	SN:NW_023637654.1	LN:28348
+skipping SAM header line:	@SQ	SN:NW_023637655.1	LN:27437
+skipping SAM header line:	@SQ	SN:NW_023637656.1	LN:24246
+skipping SAM header line:	@SQ	SN:NW_023637657.1	LN:22406
+skipping SAM header line:	@SQ	SN:NW_023637658.1	LN:21464
+skipping SAM header line:	@SQ	SN:NW_023637659.1	LN:21003
+skipping SAM header line:	@SQ	SN:NW_023637660.1	LN:20270
+skipping SAM header line:	@SQ	SN:NW_023637661.1	LN:19141
+skipping SAM header line:	@SQ	SN:NW_023637662.1	LN:18059
+skipping SAM header line:	@SQ	SN:NW_023637663.1	LN:17587
+skipping SAM header line:	@SQ	SN:NW_023637664.1	LN:16863
+skipping SAM header line:	@SQ	SN:NW_023637665.1	LN:16768
+skipping SAM header line:	@SQ	SN:NW_023637666.1	LN:15524
+skipping SAM header line:	@SQ	SN:NW_023637667.1	LN:15481
+skipping SAM header line:	@SQ	SN:NW_023637668.1	LN:15084
+skipping SAM header line:	@SQ	SN:NW_023637669.1	LN:14884
+skipping SAM header line:	@SQ	SN:NW_023637670.1	LN:14182
+skipping SAM header line:	@SQ	SN:NW_023637671.1	LN:13896
+skipping SAM header line:	@SQ	SN:NW_023637672.1	LN:13317
+skipping SAM header line:	@SQ	SN:NW_023637673.1	LN:11580
+skipping SAM header line:	@SQ	SN:NW_023637674.1	LN:11158
+skipping SAM header line:	@SQ	SN:NW_023637675.1	LN:10418
+skipping SAM header line:	@SQ	SN:NW_023637676.1	LN:9683
+skipping SAM header line:	@SQ	SN:NW_023637677.1	LN:8830
+skipping SAM header line:	@SQ	SN:NW_023637678.1	LN:7918
+skipping SAM header line:	@SQ	SN:NW_023637679.1	LN:5841
+skipping SAM header line:	@SQ	SN:NW_023637680.1	LN:4821
+skipping SAM header line:	@SQ	SN:NW_023637681.1	LN:4503
+skipping SAM header line:	@SQ	SN:NW_023637682.1	LN:4285
+skipping SAM header line:	@SQ	SN:NW_023637683.1	LN:4242
+skipping SAM header line:	@SQ	SN:NW_023637684.1	LN:3326
+skipping SAM header line:	@SQ	SN:NW_023637685.1	LN:2258
+skipping SAM header line:	@SQ	SN:NW_023637686.1	LN:2025
+skipping SAM header line:	@SQ	SN:NW_023637687.1	LN:46853
+skipping SAM header line:	@SQ	SN:NW_023637688.1	LN:77314
+skipping SAM header line:	@SQ	SN:NC_006924.1	LN:16543
+skipping SAM header line:	@PG	ID:Bismark	VN:v0.23.1	CL:"bismark /data/reference_genomes/xenarthra/sloth/data/GCF_015220235.1 -p 3 --bowtie2 --bam --nucleotide_coverage Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1.fastq.gz"
+skipping SAM header line:	@PG	ID:samtools	PN:samtools	PP:Bismark	VN:1.10	CL:/usr/local/bin/samtools view -bSh -
+skipping SAM header line:	@PG	ID:samtools.1	PN:samtools	PP:samtools	VN:1.10	CL:/usr/local/bin/samtools view -h Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.bam
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 500000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1000000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 1500000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2000000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 2500000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3000000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 3500000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4000000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Processed lines: 4500000
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Now waiting for all child processes to complete
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+Finished processing child process. Exiting..
+
+Merging individual splitting reports into overall report: 'Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt'
+Merging from these individual files:
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.1
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.2
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.3
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.4
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.5
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.6
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.7
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.8
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.9
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.10
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.11
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.12
+
+
+Processed 4736245 lines in total
+Total number of methylation call strings processed: 4736245
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	57025091
+
+Total methylated C's in CpG context:	6244197
+Total methylated C's in CHG context:	225232
+Total methylated C's in CHH context:	366275
+
+Total C to T conversions in CpG context:	4147939
+Total C to T conversions in CHG context:	13351042
+Total C to T conversions in CHH context:	32690406
+
+C methylated in CpG context:	60.1%
+C methylated in non-CpG context:	1.3%
+
+
+
+Merging individual M-bias reports into overall M-bias statistics from these 12 individual files:
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.1.mbias
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.2.mbias
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.3.mbias
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.4.mbias
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.5.mbias
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.6.mbias
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.7.mbias
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.8.mbias
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.9.mbias
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.10.mbias
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.11.mbias
+Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup_splitting_report.txt.12.mbias
+
+Determining maximum read length for M-Bias plot
+Maximum read length of Read 1: 51
+
+Perl module GD::Graph::lines is not installed, skipping drawing M-bias plots (only writing out M-bias plot table)
+Determining maximum read length for M-Bias plot
+Maximum read length of Read 1: 51
+
+Perl module GD::Graph::lines is not installed, skipping drawing M-bias plots (only writing out M-bias plot table)
+Deleting unused files ...
+
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz contains data ->	kept
+Non_CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz contains data ->	kept
+
+
+Using these input files: CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz Non_CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz
+
+Summary of parameters for bismark2bedGraph conversion:
+======================================================
+bedGraph output:		Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.bedGraph.gz
+output directory:		><
+remove whitespaces:		no
+CX context:			no (CpG context only, default)
+No-header selected:		no
+Sorting method:			Unix sort-based (smaller memory footprint, but slower)
+Sort buffer size:		10%
+Coverage threshold:		1
+=============================================================================
+Methylation information will now be written into a bedGraph and coverage file
+=============================================================================
+
+Using the following files as Input:
+/scratch/Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926/CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz
+
+Writing bedGraph to file: Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.bedGraph.gz
+Also writing out a coverage file including counts methylated and unmethylated residues to file: Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.bismark.cov.gz
+
+Now writing methylation information for file >>CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz<< to individual files for each chromosome
+Finished writing out individual chromosome files for CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz
+
+Collecting temporary chromosome file information... Processing the following input file(s):
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051317.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051316.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051307.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051310.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051320.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051329.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051328.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051308.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051318.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051327.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051314.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051333.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051312.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051309.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_006924.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051321.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051323.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051322.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051331.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051325.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051313.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051315.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637637.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051311.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637623.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637590.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637606.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051330.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051326.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051319.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051324.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051334.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051335.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637621.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637579.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051332.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637607.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637614.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637661.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637591.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637581.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637605.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637600.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637596.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637577.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637624.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637573.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637599.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637615.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637575.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637603.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637601.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637642.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637602.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637604.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637677.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637632.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637652.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637583.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637597.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637580.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637625.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637626.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637588.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637638.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637592.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637643.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637622.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637617.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637593.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637574.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637594.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637585.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637627.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637608.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637598.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637620.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637628.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637586.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637640.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637587.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637616.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637636.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637634.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637657.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637645.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637644.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637578.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637683.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637670.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637675.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637641.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637649.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637651.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637595.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637611.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637676.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637681.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637629.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637576.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637613.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637687.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637646.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637639.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637648.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637688.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637671.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637647.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637630.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637609.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637619.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637673.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637658.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637653.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637667.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637584.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637668.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637666.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637618.1.methXtractor.temp
+CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637582.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_006924.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_006924.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051307.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051307.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051308.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051308.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051309.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051309.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051310.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051310.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051311.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051311.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051312.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051312.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051313.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051313.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051314.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051314.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051315.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051315.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051316.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051316.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051317.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051317.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051318.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051318.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051319.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051319.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051320.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051320.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051321.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051321.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051322.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051322.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051323.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051323.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051324.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051324.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051325.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051325.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051326.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051326.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051327.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051327.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051328.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051328.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051329.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051329.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051330.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051330.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051331.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051331.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051332.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051332.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051333.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051333.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051334.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051334.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051335.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNC_051335.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637573.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637573.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637574.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637574.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637575.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637575.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637576.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637576.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637577.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637577.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637578.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637578.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637579.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637579.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637580.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637580.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637581.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637581.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637582.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637582.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637583.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637583.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637584.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637584.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637585.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637585.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637586.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637586.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637587.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637587.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637588.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637588.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637590.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637590.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637591.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637591.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637592.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637592.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637593.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637593.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637594.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637594.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637595.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637595.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637596.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637596.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637597.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637597.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637598.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637598.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637599.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637599.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637600.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637600.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637601.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637601.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637602.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637602.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637603.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637603.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637604.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637604.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637605.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637605.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637606.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637606.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637607.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637607.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637608.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637608.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637609.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637609.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637611.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637611.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637613.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637613.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637614.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637614.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637615.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637615.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637616.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637616.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637617.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637617.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637618.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637618.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637619.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637619.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637620.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637620.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637621.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637621.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637622.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637622.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637623.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637623.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637624.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637624.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637625.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637625.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637626.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637626.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637627.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637627.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637628.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637628.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637629.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637629.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637630.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637630.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637632.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637632.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637634.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637634.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637636.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637636.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637637.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637637.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637638.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637638.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637639.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637639.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637640.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637640.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637641.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637641.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637642.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637642.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637643.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637643.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637644.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637644.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637645.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637645.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637646.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637646.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637647.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637647.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637648.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637648.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637649.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637649.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637651.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637651.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637652.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637652.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637653.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637653.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637657.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637657.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637658.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637658.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637661.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637661.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637666.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637666.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637667.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637667.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637668.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637668.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637670.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637670.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637671.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637671.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637673.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637673.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637675.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637675.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637676.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637676.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637677.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637677.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637681.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637681.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637683.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637683.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637687.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637687.1.methXtractor.temp
+
+Sorting input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637688.1.methXtractor.temp by positions (using -S of 10%)
+Successfully deleted the temporary input file CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.txt.gz.chrNW_023637688.1.methXtractor.temp
+
+Finished BedGraph conversion ...
+
+Summary of parameters for genome-wide cytosine report:
+==============================================================================
+Coverage infile:				Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.bismark.cov.gz
+Output directory:				><
+Parent directory:				>/scratch/Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926/<
+Genome directory:				>/data/reference_genomes/xenarthra/sloth/data/GCF_015220235.1/<
+Coverage threshold				0 (all positions will be reported, default)
+CX context:					no (CpG context only, default)
+Genome coordinates used:			1-based (default)
+GZIP compression:				yes
+Split by chromosome:				no
+
+
+Now reading in and storing sequence information of the genome specified in: /data/reference_genomes/xenarthra/sloth/data/GCF_015220235.1/
+
+chr NC_051307.1 (250664781 bp)
+chr NC_051308.1 (248084734 bp)
+chr NC_051309.1 (223233325 bp)
+chr NC_051310.1 (196373313 bp)
+chr NC_051311.1 (168700187 bp)
+chr NW_023637573.1 (800127 bp)
+chr NW_023637574.1 (432184 bp)
+chr NW_023637575.1 (400629 bp)
+chr NC_051312.1 (156663619 bp)
+chr NC_051313.1 (156022981 bp)
+chr NC_051314.1 (146178362 bp)
+chr NW_023637576.1 (48891 bp)
+chr NC_051315.1 (135328281 bp)
+chr NC_051316.1 (132469143 bp)
+chr NC_051317.1 (90811022 bp)
+chr NW_023637577.1 (5475474 bp)
+chr NW_023637578.1 (95134 bp)
+chr NW_023637579.1 (5293750 bp)
+chr NW_023637580.1 (3552071 bp)
+chr NW_023637581.1 (2744250 bp)
+chr NW_023637582.1 (806751 bp)
+chr NW_023637583.1 (747953 bp)
+chr NW_023637584.1 (298705 bp)
+chr NW_023637585.1 (167308 bp)
+chr NW_023637586.1 (105043 bp)
+chr NC_051318.1 (102976318 bp)
+chr NW_023637587.1 (299284 bp)
+chr NC_051319.1 (100229138 bp)
+chr NW_023637588.1 (2170093 bp)
+chr NW_023637589.1 (67467 bp)
+chr NC_051320.1 (100080887 bp)
+chr NC_051321.1 (89644403 bp)
+chr NC_051322.1 (86887137 bp)
+chr NC_051323.1 (78810110 bp)
+chr NC_051324.1 (77031504 bp)
+chr NC_051325.1 (66415491 bp)
+chr NC_051326.1 (64556003 bp)
+chr NC_051327.1 (53136999 bp)
+chr NC_051328.1 (44682675 bp)
+chr NC_051329.1 (32044896 bp)
+chr NW_023637590.1 (4056676 bp)
+chr NW_023637591.1 (472200 bp)
+chr NW_023637592.1 (220953 bp)
+chr NW_023637593.1 (204724 bp)
+chr NW_023637594.1 (175958 bp)
+chr NW_023637595.1 (174891 bp)
+chr NW_023637596.1 (1243349 bp)
+chr NW_023637597.1 (1083205 bp)
+chr NW_023637598.1 (655271 bp)
+chr NW_023637599.1 (454956 bp)
+chr NW_023637600.1 (539168 bp)
+chr NW_023637601.1 (525547 bp)
+chr NW_023637602.1 (522814 bp)
+chr NW_023637603.1 (505270 bp)
+chr NC_051330.1 (25766288 bp)
+chr NW_023637604.1 (2347058 bp)
+chr NW_023637605.1 (2157328 bp)
+chr NC_051331.1 (10490878 bp)
+chr NW_023637606.1 (8506328 bp)
+chr NW_023637607.1 (7803001 bp)
+chr NW_023637608.1 (538600 bp)
+chr NW_023637609.1 (314973 bp)
+chr NW_023637610.1 (395942 bp)
+chr NW_023637611.1 (174309 bp)
+chr NW_023637612.1 (70119 bp)
+chr NW_023637613.1 (40955 bp)
+chr NC_051332.1 (17351548 bp)
+chr NW_023637614.1 (4142306 bp)
+chr NW_023637615.1 (3641002 bp)
+chr NW_023637616.1 (553756 bp)
+chr NW_023637617.1 (332597 bp)
+chr NW_023637618.1 (258898 bp)
+chr NW_023637619.1 (55197 bp)
+chr NW_023637620.1 (29951 bp)
+chr NC_051333.1 (26625015 bp)
+chr NC_051334.1 (193839925 bp)
+chr NW_023637621.1 (3090292 bp)
+chr NW_023637622.1 (1127822 bp)
+chr NW_023637623.1 (1121930 bp)
+chr NC_051335.1 (55058534 bp)
+chr NW_023637624.1 (7594001 bp)
+chr NW_023637625.1 (2071512 bp)
+chr NW_023637626.1 (1104806 bp)
+chr NW_023637627.1 (465551 bp)
+chr NW_023637628.1 (333219 bp)
+chr NW_023637629.1 (123904 bp)
+chr NW_023637630.1 (53692 bp)
+chr NW_023637631.1 (102024 bp)
+chr NW_023637632.1 (91434 bp)
+chr NW_023637633.1 (42114 bp)
+chr NW_023637634.1 (80799 bp)
+chr NW_023637635.1 (70098 bp)
+chr NW_023637636.1 (64204 bp)
+chr NW_023637637.1 (61550 bp)
+chr NW_023637638.1 (55156 bp)
+chr NW_023637639.1 (53986 bp)
+chr NW_023637640.1 (49794 bp)
+chr NW_023637641.1 (50041 bp)
+chr NW_023637642.1 (48828 bp)
+chr NW_023637643.1 (43748 bp)
+chr NW_023637644.1 (42635 bp)
+chr NW_023637645.1 (40142 bp)
+chr NW_023637646.1 (35814 bp)
+chr NW_023637647.1 (35893 bp)
+chr NW_023637648.1 (35571 bp)
+chr NW_023637649.1 (35230 bp)
+chr NW_023637650.1 (34550 bp)
+chr NW_023637651.1 (33442 bp)
+chr NW_023637652.1 (31031 bp)
+chr NW_023637653.1 (30364 bp)
+chr NW_023637654.1 (28348 bp)
+chr NW_023637655.1 (27437 bp)
+chr NW_023637656.1 (24246 bp)
+chr NW_023637657.1 (22406 bp)
+chr NW_023637658.1 (21464 bp)
+chr NW_023637659.1 (21003 bp)
+chr NW_023637660.1 (20270 bp)
+chr NW_023637661.1 (19141 bp)
+chr NW_023637662.1 (18059 bp)
+chr NW_023637663.1 (17587 bp)
+chr NW_023637664.1 (16863 bp)
+chr NW_023637665.1 (16768 bp)
+chr NW_023637666.1 (15524 bp)
+chr NW_023637667.1 (15481 bp)
+chr NW_023637668.1 (15084 bp)
+chr NW_023637669.1 (14884 bp)
+chr NW_023637670.1 (14182 bp)
+chr NW_023637671.1 (13896 bp)
+chr NW_023637672.1 (13317 bp)
+chr NW_023637673.1 (11580 bp)
+chr NW_023637674.1 (11158 bp)
+chr NW_023637675.1 (10418 bp)
+chr NW_023637676.1 (9683 bp)
+chr NW_023637677.1 (8830 bp)
+chr NW_023637678.1 (7918 bp)
+chr NW_023637679.1 (5841 bp)
+chr NW_023637680.1 (4821 bp)
+chr NW_023637681.1 (4503 bp)
+chr NW_023637682.1 (4285 bp)
+chr NW_023637683.1 (4242 bp)
+chr NW_023637684.1 (3326 bp)
+chr NW_023637685.1 (2258 bp)
+chr NW_023637686.1 (2025 bp)
+chr NW_023637687.1 (46853 bp)
+chr NW_023637688.1 (77314 bp)
+chr NC_006924.1 (16543 bp)
+
+Stored sequence information of 146 chromosomes/scaffolds in total
+
+==============================================================================
+Methylation information will now be written into a genome-wide cytosine report
+==============================================================================
+
+Adding context-specific methylation summaries
+
+>>> Writing genome-wide cytosine report to: Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.CpG_report.txt.gz <<<
+
+>>> Writing all cytosine context summary file to: Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.cytosine_context_summary.txt <<<
+
+Storing all covered cytosine positions for chromosome: NC_006924.1
+Writing cytosine report for chromosome NC_006924.1 (stored 564 different covered positions)
+Writing cytosine report for chromosome NC_051307.1 (stored 109733 different covered positions)
+Writing cytosine report for chromosome NC_051308.1 (stored 154993 different covered positions)
+Writing cytosine report for chromosome NC_051309.1 (stored 80011 different covered positions)
+Writing cytosine report for chromosome NC_051310.1 (stored 116062 different covered positions)
+Writing cytosine report for chromosome NC_051311.1 (stored 73620 different covered positions)
+Writing cytosine report for chromosome NC_051312.1 (stored 108608 different covered positions)
+Writing cytosine report for chromosome NC_051313.1 (stored 78403 different covered positions)
+Writing cytosine report for chromosome NC_051314.1 (stored 101108 different covered positions)
+Writing cytosine report for chromosome NC_051315.1 (stored 75228 different covered positions)
+Writing cytosine report for chromosome NC_051316.1 (stored 88669 different covered positions)
+Writing cytosine report for chromosome NC_051317.1 (stored 38271 different covered positions)
+Writing cytosine report for chromosome NC_051318.1 (stored 48638 different covered positions)
+Writing cytosine report for chromosome NC_051319.1 (stored 30352 different covered positions)
+Writing cytosine report for chromosome NC_051320.1 (stored 58805 different covered positions)
+Writing cytosine report for chromosome NC_051321.1 (stored 81809 different covered positions)
+Writing cytosine report for chromosome NC_051322.1 (stored 50246 different covered positions)
+Writing cytosine report for chromosome NC_051323.1 (stored 64720 different covered positions)
+Writing cytosine report for chromosome NC_051324.1 (stored 135897 different covered positions)
+Writing cytosine report for chromosome NC_051325.1 (stored 72434 different covered positions)
+Writing cytosine report for chromosome NC_051326.1 (stored 51389 different covered positions)
+Writing cytosine report for chromosome NC_051327.1 (stored 105190 different covered positions)
+Writing cytosine report for chromosome NC_051328.1 (stored 63916 different covered positions)
+Writing cytosine report for chromosome NC_051329.1 (stored 52172 different covered positions)
+Writing cytosine report for chromosome NC_051330.1 (stored 15862 different covered positions)
+Writing cytosine report for chromosome NC_051331.1 (stored 44483 different covered positions)
+Writing cytosine report for chromosome NC_051332.1 (stored 1720 different covered positions)
+Writing cytosine report for chromosome NC_051333.1 (stored 68317 different covered positions)
+Writing cytosine report for chromosome NC_051334.1 (stored 33839 different covered positions)
+Writing cytosine report for chromosome NC_051335.1 (stored 4992 different covered positions)
+Writing cytosine report for chromosome NW_023637573.1 (stored 94 different covered positions)
+Writing cytosine report for chromosome NW_023637574.1 (stored 47 different covered positions)
+Writing cytosine report for chromosome NW_023637575.1 (stored 43 different covered positions)
+Writing cytosine report for chromosome NW_023637576.1 (stored 13 different covered positions)
+Writing cytosine report for chromosome NW_023637577.1 (stored 4765 different covered positions)
+Writing cytosine report for chromosome NW_023637578.1 (stored 23 different covered positions)
+Writing cytosine report for chromosome NW_023637579.1 (stored 2749 different covered positions)
+Writing cytosine report for chromosome NW_023637580.1 (stored 191 different covered positions)
+Writing cytosine report for chromosome NW_023637581.1 (stored 296 different covered positions)
+Writing cytosine report for chromosome NW_023637582.1 (stored 2 different covered positions)
+Writing cytosine report for chromosome NW_023637583.1 (stored 73 different covered positions)
+Writing cytosine report for chromosome NW_023637584.1 (stored 2 different covered positions)
+Writing cytosine report for chromosome NW_023637585.1 (stored 81 different covered positions)
+Writing cytosine report for chromosome NW_023637586.1 (stored 21 different covered positions)
+Writing cytosine report for chromosome NW_023637587.1 (stored 30 different covered positions)
+Writing cytosine report for chromosome NW_023637588.1 (stored 18 different covered positions)
+Writing cytosine report for chromosome NW_023637590.1 (stored 21441 different covered positions)
+Writing cytosine report for chromosome NW_023637591.1 (stored 491 different covered positions)
+Writing cytosine report for chromosome NW_023637592.1 (stored 305 different covered positions)
+Writing cytosine report for chromosome NW_023637593.1 (stored 128 different covered positions)
+Writing cytosine report for chromosome NW_023637594.1 (stored 188 different covered positions)
+Writing cytosine report for chromosome NW_023637595.1 (stored 7 different covered positions)
+Writing cytosine report for chromosome NW_023637596.1 (stored 704 different covered positions)
+Writing cytosine report for chromosome NW_023637597.1 (stored 626 different covered positions)
+Writing cytosine report for chromosome NW_023637598.1 (stored 277 different covered positions)
+Writing cytosine report for chromosome NW_023637599.1 (stored 239 different covered positions)
+Writing cytosine report for chromosome NW_023637600.1 (stored 380 different covered positions)
+Writing cytosine report for chromosome NW_023637601.1 (stored 448 different covered positions)
+Writing cytosine report for chromosome NW_023637602.1 (stored 204 different covered positions)
+Writing cytosine report for chromosome NW_023637603.1 (stored 617 different covered positions)
+Writing cytosine report for chromosome NW_023637604.1 (stored 133 different covered positions)
+Writing cytosine report for chromosome NW_023637605.1 (stored 594 different covered positions)
+Writing cytosine report for chromosome NW_023637606.1 (stored 41552 different covered positions)
+Writing cytosine report for chromosome NW_023637607.1 (stored 3542 different covered positions)
+Writing cytosine report for chromosome NW_023637608.1 (stored 8 different covered positions)
+Writing cytosine report for chromosome NW_023637609.1 (stored 5 different covered positions)
+Writing cytosine report for chromosome NW_023637611.1 (stored 9 different covered positions)
+Writing cytosine report for chromosome NW_023637613.1 (stored 1 different covered positions)
+Writing cytosine report for chromosome NW_023637614.1 (stored 711 different covered positions)
+Writing cytosine report for chromosome NW_023637615.1 (stored 448 different covered positions)
+Writing cytosine report for chromosome NW_023637616.1 (stored 23 different covered positions)
+Writing cytosine report for chromosome NW_023637617.1 (stored 102 different covered positions)
+Writing cytosine report for chromosome NW_023637618.1 (stored 3 different covered positions)
+Writing cytosine report for chromosome NW_023637619.1 (stored 2 different covered positions)
+Writing cytosine report for chromosome NW_023637620.1 (stored 67 different covered positions)
+Writing cytosine report for chromosome NW_023637621.1 (stored 1991 different covered positions)
+Writing cytosine report for chromosome NW_023637622.1 (stored 127 different covered positions)
+Writing cytosine report for chromosome NW_023637623.1 (stored 2234 different covered positions)
+Writing cytosine report for chromosome NW_023637624.1 (stored 801 different covered positions)
+Writing cytosine report for chromosome NW_023637625.1 (stored 122 different covered positions)
+Writing cytosine report for chromosome NW_023637626.1 (stored 52 different covered positions)
+Writing cytosine report for chromosome NW_023637627.1 (stored 96 different covered positions)
+Writing cytosine report for chromosome NW_023637628.1 (stored 141 different covered positions)
+Writing cytosine report for chromosome NW_023637629.1 (stored 2 different covered positions)
+Writing cytosine report for chromosome NW_023637630.1 (stored 1 different covered positions)
+Writing cytosine report for chromosome NW_023637632.1 (stored 116 different covered positions)
+Writing cytosine report for chromosome NW_023637634.1 (stored 3 different covered positions)
+Writing cytosine report for chromosome NW_023637636.1 (stored 148 different covered positions)
+Writing cytosine report for chromosome NW_023637637.1 (stored 1240 different covered positions)
+Writing cytosine report for chromosome NW_023637638.1 (stored 194 different covered positions)
+Writing cytosine report for chromosome NW_023637639.1 (stored 26 different covered positions)
+Writing cytosine report for chromosome NW_023637640.1 (stored 42 different covered positions)
+Writing cytosine report for chromosome NW_023637641.1 (stored 2 different covered positions)
+Writing cytosine report for chromosome NW_023637642.1 (stored 442 different covered positions)
+Writing cytosine report for chromosome NW_023637643.1 (stored 86 different covered positions)
+Writing cytosine report for chromosome NW_023637644.1 (stored 55 different covered positions)
+Writing cytosine report for chromosome NW_023637645.1 (stored 30 different covered positions)
+Writing cytosine report for chromosome NW_023637646.1 (stored 3 different covered positions)
+Writing cytosine report for chromosome NW_023637647.1 (stored 17 different covered positions)
+Writing cytosine report for chromosome NW_023637648.1 (stored 2 different covered positions)
+Writing cytosine report for chromosome NW_023637649.1 (stored 2 different covered positions)
+Writing cytosine report for chromosome NW_023637651.1 (stored 4 different covered positions)
+Writing cytosine report for chromosome NW_023637652.1 (stored 379 different covered positions)
+Writing cytosine report for chromosome NW_023637653.1 (stored 4 different covered positions)
+Writing cytosine report for chromosome NW_023637657.1 (stored 4 different covered positions)
+Writing cytosine report for chromosome NW_023637658.1 (stored 1 different covered positions)
+Writing cytosine report for chromosome NW_023637661.1 (stored 36 different covered positions)
+Writing cytosine report for chromosome NW_023637666.1 (stored 1 different covered positions)
+Writing cytosine report for chromosome NW_023637667.1 (stored 2 different covered positions)
+Writing cytosine report for chromosome NW_023637668.1 (stored 1 different covered positions)
+Writing cytosine report for chromosome NW_023637670.1 (stored 8 different covered positions)
+Writing cytosine report for chromosome NW_023637671.1 (stored 3 different covered positions)
+Writing cytosine report for chromosome NW_023637673.1 (stored 1 different covered positions)
+Writing cytosine report for chromosome NW_023637675.1 (stored 1 different covered positions)
+Writing cytosine report for chromosome NW_023637676.1 (stored 4 different covered positions)
+Writing cytosine report for chromosome NW_023637677.1 (stored 72 different covered positions)
+Writing cytosine report for chromosome NW_023637681.1 (stored 15 different covered positions)
+Writing cytosine report for chromosome NW_023637683.1 (stored 35 different covered positions)
+Writing cytosine report for chromosome NW_023637687.1 (stored 15 different covered positions)
+Writing cytosine report for last chromosome NW_023637688.1 (stored 3 different covered positions)
+Finished writing out cytosine report for covered chromosomes (processed 120 chromosomes/scaffolds in total)
+
+Now processing chromosomes that were not covered by any methylation calls in the coverage file...
+Writing cytosine report for not covered chromosome NW_023637589.1
+Writing cytosine report for not covered chromosome NW_023637610.1
+Writing cytosine report for not covered chromosome NW_023637612.1
+Writing cytosine report for not covered chromosome NW_023637631.1
+Writing cytosine report for not covered chromosome NW_023637633.1
+Writing cytosine report for not covered chromosome NW_023637635.1
+Writing cytosine report for not covered chromosome NW_023637650.1
+Writing cytosine report for not covered chromosome NW_023637654.1
+Writing cytosine report for not covered chromosome NW_023637655.1
+Writing cytosine report for not covered chromosome NW_023637656.1
+Writing cytosine report for not covered chromosome NW_023637659.1
+Writing cytosine report for not covered chromosome NW_023637660.1
+Writing cytosine report for not covered chromosome NW_023637662.1
+Writing cytosine report for not covered chromosome NW_023637663.1
+Writing cytosine report for not covered chromosome NW_023637664.1
+Writing cytosine report for not covered chromosome NW_023637665.1
+Writing cytosine report for not covered chromosome NW_023637669.1
+Writing cytosine report for not covered chromosome NW_023637672.1
+Writing cytosine report for not covered chromosome NW_023637674.1
+Writing cytosine report for not covered chromosome NW_023637678.1
+Writing cytosine report for not covered chromosome NW_023637679.1
+Writing cytosine report for not covered chromosome NW_023637680.1
+Writing cytosine report for not covered chromosome NW_023637682.1
+Writing cytosine report for not covered chromosome NW_023637684.1
+Writing cytosine report for not covered chromosome NW_023637685.1
+Writing cytosine report for not covered chromosome NW_023637686.1
+Finished writing out cytosine report (processed 146 chromosomes/scaffolds in total). coverage2cytosine processing complete.
+
+
+
+Finished generating genome-wide cytosine report
+
+[cleanAndExtractBismark] Done extracting DNA methylation data from SE BAM Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.bam at [Mon Nov 18 01:09:20 PM CET 2024]
+[masterAlign Bismark] Alignment of Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926 completed! at [Mon Nov 18 01:09:20 PM CET 2024]
+[collapseSEPEbismark] Combining Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926 SE and PE files at [Mon Nov 18 01:09:20 PM CET 2024]
+[collectBismarkStats] Collecting bisulphite conversion rate and coverage for files Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw.bam at [Mon Nov 18 01:09:20 PM CET 2024]
+[collectBismarkStats] Counting the number of lamba methylated (Z,X,H) and unmethylated (z,x,h) Cs at [Mon Nov 18 01:09:20 PM CET 2024]
+cat: 'CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926*.txt': No such file or directory
+cat: 'Non_CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926*.txt': No such file or directory
+rm: cannot remove 'Non_CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926*.txt': No such file or directory
+rm: cannot remove 'CpG_context_Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926*.txt': No such file or directory
+[collectBismarkStats] No lambda-phase spike in DNA found. Uh oh! at [Mon Nov 18 01:09:20 PM CET 2024]
+13:09:22.261 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/robin/bin/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Mon Nov 18 13:09:22 CET 2024] SortSam --INPUT Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw.bam --OUTPUT Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_sort.bam --SORT_ORDER coordinate --VALIDATION_STRINGENCY SILENT --VERBOSITY INFO --QUIET false --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+[Mon Nov 18 13:09:22 CET 2024] Executing as robin@epipax.ijm.univ-paris-diderot.priv on Linux 6.1.0-25-amd64 amd64; OpenJDK 64-Bit Server VM 1.8.0_332-b09; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: Version:2.26.2
+INFO	2024-11-18 13:09:22	SortSam	Seen many non-increasing record positions. Printing Read-names as well.
+INFO	2024-11-18 13:09:40	SortSam	Finished reading inputs, merging and writing to output now.
+[Mon Nov 18 13:09:56 CET 2024] picard.sam.SortSam done. Elapsed time: 0.57 minutes.
+Runtime.totalMemory()=1240989696
+13:09:56.956 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/robin/bin/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Mon Nov 18 13:09:57 CET 2024] MarkDuplicates --INPUT Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_sort.bam --OUTPUT Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_mrkDup.bam --METRICS_FILE trash.txt --VALIDATION_STRINGENCY SILENT --MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP 50000 --MAX_FILE_HANDLES_FOR_READ_ENDS_MAP 8000 --SORTING_COLLECTION_SIZE_RATIO 0.25 --TAG_DUPLICATE_SET_MEMBERS false --REMOVE_SEQUENCING_DUPLICATES false --TAGGING_POLICY DontTag --CLEAR_DT true --DUPLEX_UMI false --ADD_PG_TAG_TO_READS true --REMOVE_DUPLICATES false --ASSUME_SORTED false --DUPLICATE_SCORING_STRATEGY SUM_OF_BASE_QUALITIES --PROGRAM_RECORD_ID MarkDuplicates --PROGRAM_GROUP_NAME MarkDuplicates --READ_NAME_REGEX <optimized capture of last three ':' separated fields as numeric values> --OPTICAL_DUPLICATE_PIXEL_DISTANCE 100 --MAX_OPTICAL_DUPLICATE_SET_SIZE 300000 --VERBOSITY INFO --QUIET false --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+[Mon Nov 18 13:09:57 CET 2024] Executing as robin@epipax.ijm.univ-paris-diderot.priv on Linux 6.1.0-25-amd64 amd64; OpenJDK 64-Bit Server VM 1.8.0_332-b09; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: Version:2.26.2
+INFO	2024-11-18 13:09:57	MarkDuplicates	Start of doWork freeMemory: 501475128; totalMemory: 514850816; maxMemory: 1908932608
+INFO	2024-11-18 13:09:57	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2024-11-18 13:09:57	MarkDuplicates	Will retain up to 6916422 data points before spilling to disk.
+WARNING	2024-11-18 13:09:57	AbstractOpticalDuplicateFinderCommandLineProgram	A field field parsed out of a read name was expected to contain an integer and did not. Read name: SRR17851664.4727438_4727438_length=51. Cause: String 'SRR17851664.4727438_4727438_length=51' did not start with a parsable number.
+INFO	2024-11-18 13:10:01	MarkDuplicates	Read     1,000,000 records.  Elapsed time: 00:00:04s.  Time for last 1,000,000:    4s.  Last read position: NC_051310.1:111,690,527
+INFO	2024-11-18 13:10:01	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-11-18 13:10:04	MarkDuplicates	Read     2,000,000 records.  Elapsed time: 00:00:07s.  Time for last 1,000,000:    3s.  Last read position: NC_051315.1:116,089,780
+INFO	2024-11-18 13:10:04	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-11-18 13:10:08	MarkDuplicates	Read     3,000,000 records.  Elapsed time: 00:00:10s.  Time for last 1,000,000:    3s.  Last read position: NC_051323.1:628,189
+INFO	2024-11-18 13:10:08	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-11-18 13:10:11	MarkDuplicates	Read     4,000,000 records.  Elapsed time: 00:00:14s.  Time for last 1,000,000:    3s.  Last read position: NC_051329.1:15,192,544
+INFO	2024-11-18 13:10:11	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-11-18 13:10:17	MarkDuplicates	Read 4736245 records. 0 pairs never matched.
+INFO	2024-11-18 13:10:21	MarkDuplicates	After buildSortedReadEndLists freeMemory: 813357072; totalMemory: 1226309632; maxMemory: 1908932608
+INFO	2024-11-18 13:10:21	MarkDuplicates	Will retain up to 59654144 duplicate indices before spilling to disk.
+INFO	2024-11-18 13:10:21	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2024-11-18 13:10:21	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2024-11-18 13:10:26	MarkDuplicates	Sorting list of duplicate records.
+INFO	2024-11-18 13:10:26	MarkDuplicates	After generateDuplicateIndexes freeMemory: 1609618416; totalMemory: 2102919168; maxMemory: 2102919168
+INFO	2024-11-18 13:10:26	MarkDuplicates	Marking 3757886 records as duplicates.
+INFO	2024-11-18 13:10:26	MarkDuplicates	Found 0 optical duplicate clusters.
+INFO	2024-11-18 13:10:26	MarkDuplicates	Reads are assumed to be ordered by: coordinate
+INFO	2024-11-18 13:10:48	MarkDuplicates	Writing complete. Closing input iterator.
+INFO	2024-11-18 13:10:48	MarkDuplicates	Duplicate Index cleanup.
+INFO	2024-11-18 13:10:48	MarkDuplicates	Getting Memory Stats.
+INFO	2024-11-18 13:10:48	MarkDuplicates	Before output close freeMemory: 2092628464; totalMemory: 2110259200; maxMemory: 2110259200
+INFO	2024-11-18 13:10:48	MarkDuplicates	Closed outputs. Getting more Memory Stats.
+INFO	2024-11-18 13:10:48	MarkDuplicates	After output close freeMemory: 2067986928; totalMemory: 2085617664; maxMemory: 2085617664
+[Mon Nov 18 13:10:48 CET 2024] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 0.87 minutes.
+Runtime.totalMemory()=2085617664
+[trueStats] Collecting alignment statistics for Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_mrkDup.bam at [Mon Nov 18 01:10:54 PM CET 2024]
+awk: cmd. line:1: fatal: division by zero attempted
+mv: cannot stat 'Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SEPE_mrkDup.bam': No such file or directory
+[E::hts_open_format] Failed to open file "Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.bam" : No such file or directory
+samtools index: failed to open "Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926.bam": No such file or directory
+[bamToWigCPMsmooth] Started with bin size 1 and smoothing over 0 bp at [Mon Nov 18 01:11:18 PM CET 2024]
+[bamToWigCPMsmooth] finished successfully at [Mon Nov 18 01:11:19 PM CET 2024]
+[bamToWigCPMsmooth] Started with bin size 1 and smoothing over 0 bp at [Mon Nov 18 01:11:19 PM CET 2024]
+[bamToWigCPMsmooth] finished successfully at [Mon Nov 18 01:11:19 PM CET 2024]
+[bamToWigCPMsmooth] Started with bin size 1 and smoothing over 0 bp at [Mon Nov 18 01:11:19 PM CET 2024]
+[bamToWigCPMsmooth] finished successfully at [Mon Nov 18 01:11:20 PM CET 2024]
+[collectBismarkStats] done! at [Mon Nov 18 01:11:20 PM CET 2024]
+[mergeTwoStrandMethylation] Started mergeTwoStrandMethylation on Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.CpG_report.txt.gz at [Mon Nov 18 01:11:20 PM CET 2024]
+[mergeTwoStrandMethylation] mergeTwoStrandMethylation on Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.CpG_report.txt.gz complete! at [Mon Nov 18 01:14:29 PM CET 2024]
+[CpGReportToBigWig] Started on file Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.CpG_report_mergeTwoStrands.txt with min coverage x1 at [Mon Nov 18 01:14:29 PM CET 2024]
+[CpGReportToBigWig] Counting the number of covered CpGs by 1 at [Mon Nov 18 01:14:59 PM CET 2024]
+[CpGReportToBigWig] Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.CpG_report_mergeTwoStrands.txt x1 CpG_report -> bigWig done! at [Mon Nov 18 01:14:59 PM CET 2024]
+
+[CpGReportToBigWig] Started on file Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.CpG_report_mergeTwoStrands.txt with min coverage x5 at [Mon Nov 18 01:14:59 PM CET 2024]
+[CpGReportToBigWig] Counting the number of covered CpGs by 5 at [Mon Nov 18 01:15:23 PM CET 2024]
+[CpGReportToBigWig] Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_SE_raw_rmDup.CpG_report_mergeTwoStrands.txt x5 CpG_report -> bigWig done! at [Mon Nov 18 01:15:23 PM CET 2024]
+
+[file cleanup bismark] Moving relevant output files. Good job! at [Mon Nov 18 01:15:24 PM CET 2024]
+mv: preserving times for '/data/cpg_reports/Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1_GCF_015220235.1_SE_raw_rmDup.CpG_report_mergeTwoStrands.txt': Operation not permitted
+mv: preserving permissions for ‘/data/cpg_reports/Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1_GCF_015220235.1_SE_raw_rmDup.CpG_report_mergeTwoStrands.txt’: Operation not permitted
+cp: cannot stat '*.pdf': No such file or directory
+mv: cannot stat 'Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1_GCF_015220235.1.bam': No such file or directory
+[E::hts_open_format] Failed to open file "/data/bams/Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1_bsmrk_GCF_015220235.1_mrkdup.bam" : No such file or directory
+samtools index: failed to open "/data/bams/Sloth_heart_xenarthra_RRBS_Klughammer2023_GSM5852926_trimV1_bsmrk_GCF_015220235.1_mrkdup.bam": No such file or directory

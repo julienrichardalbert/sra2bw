@@ -1,0 +1,51 @@
+SCRATCH: /scratch
+ls: cannot access '/data/fastq/Klughammer2023/Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213*_R2.fastq.gz': No such file or directory
+[masterDownload] Data are single-end. at [Mon Nov 18 01:24:51 AM CET 2024]
+ln: failed to create symbolic link './Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz': File exists
+[checkDependencies] Checking Dependencies [Mon Nov 18 01:24:51 AM CET 2024] at [Mon Nov 18 01:24:51 AM CET 2024]
+[setup checkDependencies] /home/robin/edirect/esearch... at [Mon Nov 18 01:24:51 AM CET 2024]
+[setup checkDependencies] /home/robin/edirect/efetch... at [Mon Nov 18 01:24:51 AM CET 2024]
+[setup checkDependencies] trimmomatic... at [Mon Nov 18 01:24:51 AM CET 2024]
+[setup checkDependencies] STAR... at [Mon Nov 18 01:24:51 AM CET 2024]
+[setup checkDependencies] bismark... at [Mon Nov 18 01:24:51 AM CET 2024]
+[setup checkDependencies] bowtie2... at [Mon Nov 18 01:24:51 AM CET 2024]
+[setup checkDependencies] samtools... at [Mon Nov 18 01:24:51 AM CET 2024]
+[setup checkDependencies] picard... at [Mon Nov 18 01:24:51 AM CET 2024]
+[setup checkDependencies] awk... at [Mon Nov 18 01:24:51 AM CET 2024]
+[setup checkDependencies] bamCoverage... at [Mon Nov 18 01:24:51 AM CET 2024]
+[setup checkDependencies] fastqc... at [Mon Nov 18 01:24:51 AM CET 2024]
+[setup checkDependencies] fastq_screen... at [Mon Nov 18 01:24:51 AM CET 2024]
+[setup checkDependencies] stringtie... at [Mon Nov 18 01:24:51 AM CET 2024]
+[setup checkDependencies] clumpify.sh... at [Mon Nov 18 01:24:51 AM CET 2024]
+PAIRED: false
+[setUpLogFile] Script started at [Mon Nov 18 01:24:51 AM CET 2024] at [Mon Nov 18 01:24:51 AM CET 2024]
+[trimReads] Started using version trimV1 parameters at [Mon Nov 18 01:24:51 AM CET 2024]
+ILLUMINACLIP:/data/reference_genomes/adapters/adapters.fa:2:30:10 SLIDINGWINDOW:4:20 MINLEN:36
+[trimReads] Trimming Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz... at [Mon Nov 18 01:24:51 AM CET 2024]
+cat: Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213_trimSummary.txt: No such file or directory
+[trimReads] Finished successfully at [Mon Nov 18 01:24:52 AM CET 2024]
+[fastQC] started on Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz at [Mon Nov 18 01:24:52 AM CET 2024]
+Started analysis of Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz
+Approx 5% complete for Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz
+Approx 10% complete for Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz
+Approx 15% complete for Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz
+Approx 20% complete for Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz
+Approx 25% complete for Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz
+Approx 30% complete for Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz
+Approx 35% complete for Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz
+Approx 40% complete for Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz
+Approx 45% complete for Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz
+Approx 50% complete for Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz
+Approx 55% complete for Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz
+Approx 60% complete for Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz
+Approx 65% complete for Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz
+Approx 70% complete for Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz
+Approx 75% complete for Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz
+Approx 80% complete for Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz
+Approx 85% complete for Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz
+Approx 90% complete for Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz
+Approx 95% complete for Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz
+Analysis complete for Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213.fastq.gz
+[fastQC] finished succesfully at [Mon Nov 18 01:25:48 AM CET 2024]
+[Bismark alignment] started with reference /data/reference_genomes/lemur and arguments /data/reference_genomes/lemur -p 3 --bowtie2 --bam --nucleotide_coverage at [Mon Nov 18 01:25:48 AM CET 2024]
+Error: File Lemur_liver_primate_RRBS_Klughammer2023_GSM5854213_trimV1.fastq.gz does not exist

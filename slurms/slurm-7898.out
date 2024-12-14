@@ -1,0 +1,23 @@
+SCRATCH: /scratch
+ls: cannot access '/data/fastq/Klughammer2023/Mouse_RRBS_liver_boreotheria_Klughammer2023_GSM5852817.fastq.gz*_R2.fastq.gz': No such file or directory
+[masterDownload] Data are single-end. at [Fri Nov 15 11:37:48 AM CET 2024]
+[checkDependencies] Checking Dependencies [Fri Nov 15 11:37:48 AM CET 2024] at [Fri Nov 15 11:37:48 AM CET 2024]
+[setup checkDependencies] /home/robin/edirect/esearch... at [Fri Nov 15 11:37:48 AM CET 2024]
+[setup checkDependencies] /home/robin/edirect/efetch... at [Fri Nov 15 11:37:48 AM CET 2024]
+[setup checkDependencies] trimmomatic... at [Fri Nov 15 11:37:48 AM CET 2024]
+[setup checkDependencies] STAR... at [Fri Nov 15 11:37:48 AM CET 2024]
+[setup checkDependencies] bismark... at [Fri Nov 15 11:37:48 AM CET 2024]
+[setup checkDependencies] bowtie2... at [Fri Nov 15 11:37:48 AM CET 2024]
+[setup checkDependencies] samtools... at [Fri Nov 15 11:37:48 AM CET 2024]
+[setup checkDependencies] picard... at [Fri Nov 15 11:37:48 AM CET 2024]
+[setup checkDependencies] awk... at [Fri Nov 15 11:37:48 AM CET 2024]
+[setup checkDependencies] bamCoverage... at [Fri Nov 15 11:37:49 AM CET 2024]
+[setup checkDependencies] fastqc... at [Fri Nov 15 11:37:49 AM CET 2024]
+[setup checkDependencies] fastq_screen... at [Fri Nov 15 11:37:49 AM CET 2024]
+[setup checkDependencies] stringtie... at [Fri Nov 15 11:37:49 AM CET 2024]
+[setup checkDependencies] clumpify.sh... at [Fri Nov 15 11:37:49 AM CET 2024]
+PAIRED: false
+[setUpLogFile] Script started at [Fri Nov 15 11:37:49 AM CET 2024] at [Fri Nov 15 11:37:49 AM CET 2024]
+[trimReads] Started using version trimV1 parameters at [Fri Nov 15 11:37:49 AM CET 2024]
+ILLUMINACLIP:/data/reference_genomes/adapters/adapters.fa:2:30:10 SLIDINGWINDOW:4:20 MINLEN:36
+Error: File Mouse_RRBS_liver_boreotheria_Klughammer2023_GSM5852817.fastq.gz.fastq.gz does not exist

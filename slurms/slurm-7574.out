@@ -1,0 +1,238 @@
+SCRATCH: /scratch
+[setupVariables] Data are paired-end. at [Mon Sep 9 02:50:33 PM CEST 2024]
+[checkDependencies] Checking Dependencies [Mon Sep 9 02:50:33 PM CEST 2024] at [Mon Sep 9 02:50:33 PM CEST 2024]
+[setup checkDependencies] trimmomatic... at [Mon Sep 9 02:50:33 PM CEST 2024]
+[setup checkDependencies] STAR... at [Mon Sep 9 02:50:33 PM CEST 2024]
+[setup checkDependencies] bismark... at [Mon Sep 9 02:50:33 PM CEST 2024]
+[setup checkDependencies] bowtie2... at [Mon Sep 9 02:50:33 PM CEST 2024]
+[setup checkDependencies] samtools... at [Mon Sep 9 02:50:33 PM CEST 2024]
+[setup checkDependencies] picard... at [Mon Sep 9 02:50:33 PM CEST 2024]
+[setup checkDependencies] awk... at [Mon Sep 9 02:50:33 PM CEST 2024]
+[setup checkDependencies] bamCoverage... at [Mon Sep 9 02:50:33 PM CEST 2024]
+[setup checkDependencies] fastqc... at [Mon Sep 9 02:50:33 PM CEST 2024]
+[setup checkDependencies] fastq_screen... at [Mon Sep 9 02:50:33 PM CEST 2024]
+[setup checkDependencies] stringtie... at [Mon Sep 9 02:50:33 PM CEST 2024]
+[setup checkDependencies] clumpify.sh... at [Mon Sep 9 02:50:33 PM CEST 2024]
+PAIRED: true
+[setUpLogFile] Script started at [Mon Sep 9 02:50:33 PM CEST 2024] at [Mon Sep 9 02:50:33 PM CEST 2024]
+[fastQC] started on raw FASTQs at [Mon Sep 9 02:50:33 PM CEST 2024]
+Started analysis of E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1_raw.fastq.gz
+Started analysis of E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2_raw.fastq.gz
+Approx 5% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1_raw.fastq.gz
+Approx 5% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2_raw.fastq.gz
+Approx 10% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1_raw.fastq.gz
+Approx 10% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2_raw.fastq.gz
+Approx 15% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1_raw.fastq.gz
+Approx 15% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2_raw.fastq.gz
+Approx 20% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1_raw.fastq.gz
+Approx 20% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2_raw.fastq.gz
+Approx 25% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1_raw.fastq.gz
+Approx 25% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2_raw.fastq.gz
+Approx 30% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1_raw.fastq.gz
+Approx 30% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2_raw.fastq.gz
+Approx 35% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1_raw.fastq.gz
+Approx 35% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2_raw.fastq.gz
+Approx 40% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1_raw.fastq.gz
+Approx 40% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2_raw.fastq.gz
+Approx 45% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1_raw.fastq.gz
+Approx 45% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2_raw.fastq.gz
+Approx 50% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1_raw.fastq.gz
+Approx 50% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2_raw.fastq.gz
+Approx 55% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1_raw.fastq.gz
+Approx 55% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2_raw.fastq.gz
+Approx 60% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1_raw.fastq.gz
+Approx 60% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2_raw.fastq.gz
+Approx 65% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1_raw.fastq.gz
+Approx 65% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2_raw.fastq.gz
+Approx 70% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1_raw.fastq.gz
+Approx 70% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2_raw.fastq.gz
+Approx 75% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1_raw.fastq.gz
+Approx 75% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2_raw.fastq.gz
+Approx 80% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1_raw.fastq.gz
+Approx 80% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2_raw.fastq.gz
+Approx 85% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1_raw.fastq.gz
+Approx 85% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2_raw.fastq.gz
+Approx 90% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1_raw.fastq.gz
+Approx 90% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2_raw.fastq.gz
+Approx 95% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1_raw.fastq.gz
+Approx 95% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2_raw.fastq.gz
+Analysis complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1_raw.fastq.gz
+Analysis complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2_raw.fastq.gz
+[fastQC] on raw FASTQs finished succesfully. Will remove PCR duplicates now at [Mon Sep 9 02:54:48 PM CEST 2024]
+Reads are length: 151 at [Mon Sep 9 02:54:49 PM CEST 2024]
+Reads with same sequence 2 or fewer substitutions will be marked as PCR duplicates at [Mon Sep 9 02:54:49 PM CEST 2024]
+Removal of PCR duplicates complete! at [Mon Sep 9 03:18:46 PM CEST 2024]
+[trimReads] Started using version trimV5 parameters at [Mon Sep 9 03:18:46 PM CEST 2024]
+ILLUMINACLIP:/data/reference_genomes/adapters/adapters.fa:2:30:10 SLIDINGWINDOW:4:20 MINLEN:24
+[trimReads] Trimming E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1.fastq.gz and E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2.fastq.gz... at [Mon Sep 9 03:18:46 PM CEST 2024]
+[trimReads] Finished successfully at [Mon Sep 9 03:21:22 PM CEST 2024]
+[fastQC] started on E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1.fastq.gz E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2.fastq.gz E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R1.fastq.gz E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R2.fastq.gz at [Mon Sep 9 03:21:22 PM CEST 2024]
+Started analysis of E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1.fastq.gz
+Started analysis of E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2.fastq.gz
+Started analysis of E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R1.fastq.gz
+Started analysis of E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R2.fastq.gz
+Approx 5% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R1.fastq.gz
+Approx 5% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R2.fastq.gz
+Approx 5% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1.fastq.gz
+Approx 10% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R1.fastq.gz
+Approx 10% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R2.fastq.gz
+Approx 5% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2.fastq.gz
+Approx 15% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R1.fastq.gz
+Approx 15% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R2.fastq.gz
+Approx 10% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1.fastq.gz
+Approx 20% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R1.fastq.gz
+Approx 20% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R2.fastq.gz
+Approx 25% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R1.fastq.gz
+Approx 15% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1.fastq.gz
+Approx 25% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R2.fastq.gz
+Approx 10% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2.fastq.gz
+Approx 30% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R1.fastq.gz
+Approx 30% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R2.fastq.gz
+Approx 20% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1.fastq.gz
+Approx 35% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R1.fastq.gz
+Approx 35% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R2.fastq.gz
+Approx 40% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R1.fastq.gz
+Approx 40% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R2.fastq.gz
+Approx 15% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2.fastq.gz
+Approx 25% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1.fastq.gz
+Approx 45% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R1.fastq.gz
+Approx 45% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R2.fastq.gz
+Approx 50% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R1.fastq.gz
+Approx 50% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R2.fastq.gz
+Approx 30% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1.fastq.gz
+Approx 55% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R1.fastq.gz
+Approx 20% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2.fastq.gz
+Approx 55% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R2.fastq.gz
+Approx 60% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R1.fastq.gz
+Approx 35% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1.fastq.gz
+Approx 60% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R2.fastq.gz
+Approx 65% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R1.fastq.gz
+Approx 65% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R2.fastq.gz
+Approx 70% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R1.fastq.gz
+Approx 40% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1.fastq.gz
+Approx 25% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2.fastq.gz
+Approx 70% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R2.fastq.gz
+Approx 75% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R1.fastq.gz
+Approx 75% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R2.fastq.gz
+Approx 80% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R1.fastq.gz
+Approx 45% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1.fastq.gz
+Approx 80% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R2.fastq.gz
+Approx 85% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R1.fastq.gz
+Approx 30% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2.fastq.gz
+Approx 85% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R2.fastq.gz
+Approx 50% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1.fastq.gz
+Approx 90% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R1.fastq.gz
+Approx 90% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R2.fastq.gz
+Approx 95% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R1.fastq.gz
+Approx 55% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1.fastq.gz
+Approx 95% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R2.fastq.gz
+Analysis complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R1.fastq.gz
+Approx 35% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2.fastq.gz
+Analysis complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_R2.fastq.gz
+Approx 60% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1.fastq.gz
+Approx 40% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2.fastq.gz
+Approx 65% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1.fastq.gz
+Approx 45% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2.fastq.gz
+Approx 70% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1.fastq.gz
+Approx 50% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2.fastq.gz
+Approx 75% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1.fastq.gz
+Approx 55% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2.fastq.gz
+Approx 80% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1.fastq.gz
+Approx 60% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2.fastq.gz
+Approx 85% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1.fastq.gz
+Approx 65% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2.fastq.gz
+Approx 90% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1.fastq.gz
+Approx 70% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2.fastq.gz
+Approx 95% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1.fastq.gz
+Approx 75% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2.fastq.gz
+Analysis complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R1.fastq.gz
+Approx 80% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2.fastq.gz
+Approx 85% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2.fastq.gz
+Approx 90% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2.fastq.gz
+Approx 95% complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2.fastq.gz
+Analysis complete for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_R2.fastq.gz
+[fastQC] finished succesfully at [Mon Sep 9 03:22:26 PM CEST 2024]
+[bowtie2 alignment] started with reference /data/reference_genomes/mm10/mm10 at [Mon Sep 9 03:22:26 PM CEST 2024]
+[alignment] Bowtie2 alignment finished successfully at [Mon Sep 9 03:51:58 PM CEST 2024]
+[sam grooming] started at [Mon Sep 9 03:52:19 PM CEST 2024]
+15:52:20.936 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/robin/bin/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Mon Sep 09 15:52:20 CEST 2024] CleanSam --INPUT E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_raw.sam --OUTPUT E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_cleaned.sam --TMP_DIR . --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+[Mon Sep 09 15:52:20 CEST 2024] Executing as robin@epipax.ijm.univ-paris-diderot.priv on Linux 6.1.0-25-amd64 amd64; OpenJDK 64-Bit Server VM 1.8.0_332-b09; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: Version:2.26.2
+INFO	2024-09-09 15:52:21	CleanSam	Seen many non-increasing record positions. Printing Read-names as well.
+INFO	2024-09-09 15:52:27	CleanSam	Processed     1,000,000 records.  Elapsed time: 00:00:06s.  Time for last 1,000,000:    6s.  Last read position: chr16:22,097,168.  Last read name: LH00169:454:22GG57LT4:2:1454:28619:14966
+INFO	2024-09-09 15:52:33	CleanSam	Processed     2,000,000 records.  Elapsed time: 00:00:12s.  Time for last 1,000,000:    6s.  Last read position: chr12:91,062,121.  Last read name: LH00169:454:22GG57LT4:2:2377:49108:19532
+INFO	2024-09-09 15:52:40	CleanSam	Processed     3,000,000 records.  Elapsed time: 00:00:19s.  Time for last 1,000,000:    6s.  Last read position: chr17:25,506,947.  Last read name: LH00169:454:22GG57LT4:2:1425:7781:28932
+INFO	2024-09-09 15:52:46	CleanSam	Processed     4,000,000 records.  Elapsed time: 00:00:25s.  Time for last 1,000,000:    6s.  Last read position: chr13:52,484,668.  Last read name: LH00169:454:22GG57LT4:2:1404:4043:4922
+INFO	2024-09-09 15:52:52	CleanSam	Processed     5,000,000 records.  Elapsed time: 00:00:31s.  Time for last 1,000,000:    6s.  Last read position: chr2:78,087,205.  Last read name: LH00169:454:22GG57LT4:2:1405:8526:9293
+INFO	2024-09-09 15:52:59	CleanSam	Processed     6,000,000 records.  Elapsed time: 00:00:37s.  Time for last 1,000,000:    6s.  Last read position: chr5:136,763,860.  Last read name: LH00169:454:22GG57LT4:2:1452:18981:17725
+[Mon Sep 09 15:53:05 CEST 2024] picard.sam.CleanSam done. Elapsed time: 0.75 minutes.
+Runtime.totalMemory()=783810560
+15:53:06.859 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/robin/bin/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Mon Sep 09 15:53:06 CEST 2024] SamFormatConverter --INPUT E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_cleaned.sam --OUTPUT E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_unsorted.bam --TMP_DIR . --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+[Mon Sep 09 15:53:06 CEST 2024] Executing as robin@epipax.ijm.univ-paris-diderot.priv on Linux 6.1.0-25-amd64 amd64; OpenJDK 64-Bit Server VM 1.8.0_332-b09; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: Version:2.26.2
+INFO	2024-09-09 15:53:07	SamFormatConverter	Seen many non-increasing record positions. Printing Read-names as well.
+INFO	2024-09-09 15:53:19	SamFormatConverter	Processed     1,000,000 records.  Elapsed time: 00:00:12s.  Time for last 1,000,000:   12s.  Last read position: chr16:22,097,168.  Last read name: LH00169:454:22GG57LT4:2:1454:28619:14966
+INFO	2024-09-09 15:53:30	SamFormatConverter	Processed     2,000,000 records.  Elapsed time: 00:00:23s.  Time for last 1,000,000:   11s.  Last read position: chr12:91,062,121.  Last read name: LH00169:454:22GG57LT4:2:2377:49108:19532
+INFO	2024-09-09 15:53:42	SamFormatConverter	Processed     3,000,000 records.  Elapsed time: 00:00:34s.  Time for last 1,000,000:   11s.  Last read position: chr17:25,506,947.  Last read name: LH00169:454:22GG57LT4:2:1425:7781:28932
+INFO	2024-09-09 15:53:53	SamFormatConverter	Processed     4,000,000 records.  Elapsed time: 00:00:46s.  Time for last 1,000,000:   11s.  Last read position: chr13:52,484,668.  Last read name: LH00169:454:22GG57LT4:2:1404:4043:4922
+INFO	2024-09-09 15:54:04	SamFormatConverter	Processed     5,000,000 records.  Elapsed time: 00:00:57s.  Time for last 1,000,000:   11s.  Last read position: chr2:78,087,205.  Last read name: LH00169:454:22GG57LT4:2:1405:8526:9293
+INFO	2024-09-09 15:54:16	SamFormatConverter	Processed     6,000,000 records.  Elapsed time: 00:01:08s.  Time for last 1,000,000:   11s.  Last read position: chr5:136,763,860.  Last read name: LH00169:454:22GG57LT4:2:1452:18981:17725
+[Mon Sep 09 15:54:23 CEST 2024] picard.sam.SamFormatConverter done. Elapsed time: 1.27 minutes.
+Runtime.totalMemory()=749731840
+15:54:24.109 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/robin/bin/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Mon Sep 09 15:54:24 CEST 2024] SortSam --INPUT E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_unsorted.bam --OUTPUT E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_sorted.bam --SORT_ORDER coordinate --TMP_DIR . --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+[Mon Sep 09 15:54:24 CEST 2024] Executing as robin@epipax.ijm.univ-paris-diderot.priv on Linux 6.1.0-25-amd64 amd64; OpenJDK 64-Bit Server VM 1.8.0_332-b09; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: Version:2.26.2
+INFO	2024-09-09 15:54:24	SortSam	Seen many non-increasing record positions. Printing Read-names as well.
+INFO	2024-09-09 15:55:13	SortSam	Finished reading inputs, merging and writing to output now.
+[Mon Sep 09 15:55:52 CEST 2024] picard.sam.SortSam done. Elapsed time: 1.47 minutes.
+Runtime.totalMemory()=1673527296
+15:55:53.461 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/robin/bin/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Mon Sep 09 15:55:53 CEST 2024] MarkDuplicates --INPUT E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_sorted.bam --OUTPUT E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68.bam --METRICS_FILE E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_markDupeMetrics.txt --REMOVE_DUPLICATES false --TMP_DIR . --MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP 50000 --MAX_FILE_HANDLES_FOR_READ_ENDS_MAP 8000 --SORTING_COLLECTION_SIZE_RATIO 0.25 --TAG_DUPLICATE_SET_MEMBERS false --REMOVE_SEQUENCING_DUPLICATES false --TAGGING_POLICY DontTag --CLEAR_DT true --DUPLEX_UMI false --ADD_PG_TAG_TO_READS true --ASSUME_SORTED false --DUPLICATE_SCORING_STRATEGY SUM_OF_BASE_QUALITIES --PROGRAM_RECORD_ID MarkDuplicates --PROGRAM_GROUP_NAME MarkDuplicates --READ_NAME_REGEX <optimized capture of last three ':' separated fields as numeric values> --OPTICAL_DUPLICATE_PIXEL_DISTANCE 100 --MAX_OPTICAL_DUPLICATE_SET_SIZE 300000 --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+[Mon Sep 09 15:55:53 CEST 2024] Executing as robin@epipax.ijm.univ-paris-diderot.priv on Linux 6.1.0-25-amd64 amd64; OpenJDK 64-Bit Server VM 1.8.0_332-b09; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: Version:2.26.2
+INFO	2024-09-09 15:55:53	MarkDuplicates	Start of doWork freeMemory: 501502600; totalMemory: 514850816; maxMemory: 1908932608
+INFO	2024-09-09 15:55:53	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2024-09-09 15:55:53	MarkDuplicates	Will retain up to 6916422 data points before spilling to disk.
+INFO	2024-09-09 15:55:57	MarkDuplicates	Read     1,000,000 records.  Elapsed time: 00:00:04s.  Time for last 1,000,000:    4s.  Last read position: chr2:158,540,790
+INFO	2024-09-09 15:55:57	MarkDuplicates	Tracking 5732 as yet unmatched pairs. 106 records in RAM.
+INFO	2024-09-09 15:56:01	MarkDuplicates	Read     2,000,000 records.  Elapsed time: 00:00:07s.  Time for last 1,000,000:    3s.  Last read position: chr6:13,139,726
+INFO	2024-09-09 15:56:01	MarkDuplicates	Tracking 11090 as yet unmatched pairs. 780 records in RAM.
+INFO	2024-09-09 15:56:05	MarkDuplicates	Read     3,000,000 records.  Elapsed time: 00:00:12s.  Time for last 1,000,000:    4s.  Last read position: chr9:44,786,294
+INFO	2024-09-09 15:56:05	MarkDuplicates	Tracking 12574 as yet unmatched pairs. 818 records in RAM.
+INFO	2024-09-09 15:56:09	MarkDuplicates	Read     4,000,000 records.  Elapsed time: 00:00:15s.  Time for last 1,000,000:    3s.  Last read position: chr13:6,263,475
+INFO	2024-09-09 15:56:09	MarkDuplicates	Tracking 11310 as yet unmatched pairs. 1530 records in RAM.
+INFO	2024-09-09 15:56:14	MarkDuplicates	Read     5,000,000 records.  Elapsed time: 00:00:20s.  Time for last 1,000,000:    5s.  Last read position: chr17:29,707,594
+INFO	2024-09-09 15:56:14	MarkDuplicates	Tracking 6652 as yet unmatched pairs. 1128 records in RAM.
+INFO	2024-09-09 15:56:17	MarkDuplicates	Read 5784618 records. 0 pairs never matched.
+INFO	2024-09-09 15:56:19	MarkDuplicates	After buildSortedReadEndLists freeMemory: 902965472; totalMemory: 1592262656; maxMemory: 1908932608
+INFO	2024-09-09 15:56:19	MarkDuplicates	Will retain up to 59654144 duplicate indices before spilling to disk.
+INFO	2024-09-09 15:56:19	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2024-09-09 15:56:21	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2024-09-09 15:56:22	MarkDuplicates	Sorting list of duplicate records.
+INFO	2024-09-09 15:56:22	MarkDuplicates	After generateDuplicateIndexes freeMemory: 1561280584; totalMemory: 2054160384; maxMemory: 2054160384
+INFO	2024-09-09 15:56:22	MarkDuplicates	Marking 3342325 records as duplicates.
+INFO	2024-09-09 15:56:22	MarkDuplicates	Found 69372 optical duplicate clusters.
+INFO	2024-09-09 15:56:22	MarkDuplicates	Reads are assumed to be ordered by: coordinate
+INFO	2024-09-09 15:57:21	MarkDuplicates	Writing complete. Closing input iterator.
+INFO	2024-09-09 15:57:21	MarkDuplicates	Duplicate Index cleanup.
+INFO	2024-09-09 15:57:21	MarkDuplicates	Getting Memory Stats.
+INFO	2024-09-09 15:57:21	MarkDuplicates	Before output close freeMemory: 2009480232; totalMemory: 2026373120; maxMemory: 2026373120
+INFO	2024-09-09 15:57:21	MarkDuplicates	Closed outputs. Getting more Memory Stats.
+INFO	2024-09-09 15:57:21	MarkDuplicates	After output close freeMemory: 2030451752; totalMemory: 2047344640; maxMemory: 2047344640
+[Mon Sep 09 15:57:21 CEST 2024] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 1.48 minutes.
+Runtime.totalMemory()=2047344640
+[sam grooming] finished successfully at [Mon Sep 9 03:57:24 PM CEST 2024]
+[trueStats] Collecting alignment statistics for E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68.bam at [Mon Sep 9 03:57:36 PM CEST 2024]
+[bamToWigCPMsmoothKeepDup] Started with bin size: 1 and smoothing over 0 bp and KEEPING DUPLICATES at [Mon Sep 9 03:58:11 PM CEST 2024]
+There are 5516784 alignments, of which 524489 are completely within a blacklist region.
+Due to filtering, 91.62071031018493% of the aforementioned alignments will be used 4573976.139779846
+[bamToWigCPMsmoothKeepDup] finished successfully at [Mon Sep 9 04:10:46 PM CEST 2024]
+[file cleanup] started. Good job! at [Mon Sep 9 04:10:46 PM CEST 2024]
+cp: cannot stat '*.pdf': No such file or directory
+mv: cannot stat '*.bed': No such file or directory
+mv: preserving times for '/data/bigWigs/E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_mm10_kpDup_q10_b1_s0_CPM.bw': Operation not permitted
+mv: preserving permissions for ‘/data/bigWigs/E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_mm10_kpDup_q10_b1_s0_CPM.bw’: Operation not permitted
+mv: preserving times for '/data/bams/E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_mm10.bam': Operation not permitted
+mv: preserving permissions for ‘/data/bams/E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_mm10.bam’: Operation not permitted
+mv: preserving times for '/data/bams/E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_mm10.bam.bai': Operation not permitted
+mv: preserving permissions for ‘/data/bams/E14_D0_DnmtWT_Tir_PCGF6_ChIP_TU68_trimV5_mm10.bam.bai’: Operation not permitted
+mv: cannot stat '*.gtf': No such file or directory

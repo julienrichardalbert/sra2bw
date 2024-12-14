@@ -34,4 +34,5 @@ collectBismarkStats
 mergeTwoStrandMethylation
 convertMethylationToBigWig 1
 convertMethylationToBigWig 5
+cp *bam /data/bams/
 cleanupBismark

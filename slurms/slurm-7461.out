@@ -1,0 +1,312 @@
+SCRATCH: /scratch
+ls: cannot access '/data/fastq/E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697*_R2.fastq.gz': No such file or directory
+[masterDownload] Data are single-end. at [Wed Jul 3 08:58:41 PM CEST 2024]
+[checkDependencies] Checking Dependencies [Wed Jul 3 08:58:41 PM CEST 2024] at [Wed Jul 3 08:58:41 PM CEST 2024]
+[setup checkDependencies] trimmomatic... at [Wed Jul 3 08:58:41 PM CEST 2024]
+[setup checkDependencies] STAR... at [Wed Jul 3 08:58:41 PM CEST 2024]
+[setup checkDependencies] bismark... at [Wed Jul 3 08:58:41 PM CEST 2024]
+[setup checkDependencies] bowtie2... at [Wed Jul 3 08:58:41 PM CEST 2024]
+[setup checkDependencies] samtools... at [Wed Jul 3 08:58:41 PM CEST 2024]
+[setup checkDependencies] picard... at [Wed Jul 3 08:58:41 PM CEST 2024]
+[setup checkDependencies] awk... at [Wed Jul 3 08:58:41 PM CEST 2024]
+[setup checkDependencies] bamCoverage... at [Wed Jul 3 08:58:41 PM CEST 2024]
+[setup checkDependencies] fastqc... at [Wed Jul 3 08:58:41 PM CEST 2024]
+[setup checkDependencies] fastq_screen... at [Wed Jul 3 08:58:41 PM CEST 2024]
+[setup checkDependencies] stringtie... at [Wed Jul 3 08:58:41 PM CEST 2024]
+[setup checkDependencies] clumpify.sh... at [Wed Jul 3 08:58:41 PM CEST 2024]
+PAIRED: false
+[setUpLogFile] Script started at [Wed Jul 3 08:58:41 PM CEST 2024] at [Wed Jul 3 08:58:41 PM CEST 2024]
+[fastQC] started on raw FASTQs at [Wed Jul 3 08:58:41 PM CEST 2024]
+Started analysis of E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_raw.fastq.gz
+Approx 5% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_raw.fastq.gz
+Approx 10% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_raw.fastq.gz
+Approx 15% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_raw.fastq.gz
+Approx 20% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_raw.fastq.gz
+Approx 25% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_raw.fastq.gz
+Approx 30% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_raw.fastq.gz
+Approx 35% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_raw.fastq.gz
+Approx 40% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_raw.fastq.gz
+Approx 45% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_raw.fastq.gz
+Approx 50% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_raw.fastq.gz
+Approx 55% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_raw.fastq.gz
+Approx 60% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_raw.fastq.gz
+Approx 65% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_raw.fastq.gz
+Approx 70% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_raw.fastq.gz
+Approx 75% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_raw.fastq.gz
+Approx 80% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_raw.fastq.gz
+Approx 85% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_raw.fastq.gz
+Approx 90% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_raw.fastq.gz
+Approx 95% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_raw.fastq.gz
+Analysis complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_raw.fastq.gz
+[fastQC] on raw FASTQs finished succesfully. Will remove PCR duplicates now at [Wed Jul 3 09:03:03 PM CEST 2024]
+Reads are length: 52 at [Wed Jul 3 09:03:03 PM CEST 2024]
+Reads with same sequence 1 or fewer substitutions will be marked as PCR duplicates at [Wed Jul 3 09:03:03 PM CEST 2024]
+Removal of PCR duplicates complete! at [Wed Jul 3 09:25:05 PM CEST 2024]
+[trimReads] Started using version trimV5 parameters at [Wed Jul 3 09:25:05 PM CEST 2024]
+ILLUMINACLIP:/data/reference_genomes/adapters/adapters.fa:2:30:10 SLIDINGWINDOW:4:20 MINLEN:24
+[trimReads] Trimming E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.fastq.gz... at [Wed Jul 3 09:25:05 PM CEST 2024]
+[trimReads] Finished successfully at [Wed Jul 3 09:33:01 PM CEST 2024]
+[fastQC] started on E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.fastq.gz E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5.fastq.gz at [Wed Jul 3 09:33:01 PM CEST 2024]
+Started analysis of E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.fastq.gz
+Started analysis of E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5.fastq.gz
+Approx 5% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5.fastq.gz
+Approx 5% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.fastq.gz
+Approx 10% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5.fastq.gz
+Approx 10% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.fastq.gz
+Approx 15% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5.fastq.gz
+Approx 15% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.fastq.gz
+Approx 20% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5.fastq.gz
+Approx 20% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.fastq.gz
+Approx 25% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5.fastq.gz
+Approx 25% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.fastq.gz
+Approx 30% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5.fastq.gz
+Approx 30% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.fastq.gz
+Approx 35% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5.fastq.gz
+Approx 35% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.fastq.gz
+Approx 40% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5.fastq.gz
+Approx 40% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.fastq.gz
+Approx 45% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5.fastq.gz
+Approx 45% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.fastq.gz
+Approx 50% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5.fastq.gz
+Approx 50% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.fastq.gz
+Approx 55% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5.fastq.gz
+Approx 55% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.fastq.gz
+Approx 60% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5.fastq.gz
+Approx 60% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.fastq.gz
+Approx 65% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5.fastq.gz
+Approx 65% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.fastq.gz
+Approx 70% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5.fastq.gz
+Approx 70% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.fastq.gz
+Approx 75% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5.fastq.gz
+Approx 75% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.fastq.gz
+Approx 80% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5.fastq.gz
+Approx 80% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.fastq.gz
+Approx 85% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5.fastq.gz
+Approx 85% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.fastq.gz
+Approx 90% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5.fastq.gz
+Approx 90% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.fastq.gz
+Approx 95% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5.fastq.gz
+Approx 95% complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.fastq.gz
+Analysis complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5.fastq.gz
+Analysis complete for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.fastq.gz
+[fastQC] finished succesfully at [Wed Jul 3 09:35:29 PM CEST 2024]
+[bowtie2 alignment] started with reference /data/reference_genomes/mm10/mm10 at [Wed Jul 3 09:35:29 PM CEST 2024]
+[alignment] Bowtie2 alignment finished successfully at [Wed Jul 3 09:54:20 PM CEST 2024]
+[sam grooming] started at [Wed Jul 3 09:55:39 PM CEST 2024]
+21:55:40.397 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/robin/bin/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Wed Jul 03 21:55:40 CEST 2024] CleanSam --INPUT E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_raw.sam --OUTPUT E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_cleaned.sam --TMP_DIR . --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+[Wed Jul 03 21:55:40 CEST 2024] Executing as robin@epipax.ijm.univ-paris-diderot.priv on Linux 6.1.0-21-amd64 amd64; OpenJDK 64-Bit Server VM 1.8.0_332-b09; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: Version:2.26.2
+INFO	2024-07-03 21:55:40	CleanSam	Seen many non-increasing record positions. Printing Read-names as well.
+INFO	2024-07-03 21:55:46	CleanSam	Processed     1,000,000 records.  Elapsed time: 00:00:05s.  Time for last 1,000,000:    5s.  Last read position: chr10:67,995,116.  Last read name: SRR7624385.21300904
+INFO	2024-07-03 21:55:50	CleanSam	Processed     2,000,000 records.  Elapsed time: 00:00:10s.  Time for last 1,000,000:    4s.  Last read position: chr3:159,083,798.  Last read name: SRR7624385.37404625
+INFO	2024-07-03 21:55:55	CleanSam	Processed     3,000,000 records.  Elapsed time: 00:00:15s.  Time for last 1,000,000:    4s.  Last read position: chr2:20,494,186.  Last read name: SRR7624385.1180103
+INFO	2024-07-03 21:56:00	CleanSam	Processed     4,000,000 records.  Elapsed time: 00:00:20s.  Time for last 1,000,000:    4s.  Last read position: chr13:49,382,858.  Last read name: SRR7624385.27725959
+INFO	2024-07-03 21:56:05	CleanSam	Processed     5,000,000 records.  Elapsed time: 00:00:25s.  Time for last 1,000,000:    5s.  Last read position: chr2:40,965,933.  Last read name: SRR7624385.7293674
+INFO	2024-07-03 21:56:11	CleanSam	Processed     6,000,000 records.  Elapsed time: 00:00:30s.  Time for last 1,000,000:    5s.  Last read position: chr9:89,603,116.  Last read name: SRR7624385.20233594
+INFO	2024-07-03 21:56:16	CleanSam	Processed     7,000,000 records.  Elapsed time: 00:00:35s.  Time for last 1,000,000:    5s.  Last read position: chr13:73,537,149.  Last read name: SRR7624385.30506036
+INFO	2024-07-03 21:56:21	CleanSam	Processed     8,000,000 records.  Elapsed time: 00:00:40s.  Time for last 1,000,000:    5s.  Last read position: chr1:59,945,374.  Last read name: SRR7624385.3334203
+INFO	2024-07-03 21:56:26	CleanSam	Processed     9,000,000 records.  Elapsed time: 00:00:45s.  Time for last 1,000,000:    5s.  Last read position: chr15:27,905,256.  Last read name: SRR7624385.43100605
+INFO	2024-07-03 21:56:31	CleanSam	Processed    10,000,000 records.  Elapsed time: 00:00:50s.  Time for last 1,000,000:    5s.  Last read position: chr9:9,447,845.  Last read name: SRR7624385.26284108
+INFO	2024-07-03 21:56:36	CleanSam	Processed    11,000,000 records.  Elapsed time: 00:00:56s.  Time for last 1,000,000:    5s.  Last read position: chr1:171,320,436.  Last read name: SRR7624385.12150990
+INFO	2024-07-03 21:56:42	CleanSam	Processed    12,000,000 records.  Elapsed time: 00:01:01s.  Time for last 1,000,000:    5s.  Last read position: chr15:77,094,893.  Last read name: SRR7624385.49598633
+INFO	2024-07-03 21:56:47	CleanSam	Processed    13,000,000 records.  Elapsed time: 00:01:06s.  Time for last 1,000,000:    5s.  Last read position: chr7:104,247,854.  Last read name: SRR7624385.10930274
+INFO	2024-07-03 21:56:51	CleanSam	Processed    14,000,000 records.  Elapsed time: 00:01:11s.  Time for last 1,000,000:    4s.  Last read position: chr6:115,036,542.  Last read name: SRR7624385.28839231
+INFO	2024-07-03 21:56:57	CleanSam	Processed    15,000,000 records.  Elapsed time: 00:01:16s.  Time for last 1,000,000:    5s.  Last read position: chr13:38,037,900.  Last read name: SRR7624385.33358069
+INFO	2024-07-03 21:57:02	CleanSam	Processed    16,000,000 records.  Elapsed time: 00:01:22s.  Time for last 1,000,000:    5s.  Last read position: chr17:29,381,384.  Last read name: SRR7624385.15965264
+INFO	2024-07-03 21:57:08	CleanSam	Processed    17,000,000 records.  Elapsed time: 00:01:27s.  Time for last 1,000,000:    5s.  Last read position: chr11:86,757,287.  Last read name: SRR7624385.15436890
+INFO	2024-07-03 21:57:13	CleanSam	Processed    18,000,000 records.  Elapsed time: 00:01:33s.  Time for last 1,000,000:    5s.  Last read position: chr2:53,190,742.  Last read name: SRR7624385.33995521
+INFO	2024-07-03 21:57:19	CleanSam	Processed    19,000,000 records.  Elapsed time: 00:01:38s.  Time for last 1,000,000:    5s.  Last read position: chr1:113,535,460.  Last read name: SRR7624385.6296390
+INFO	2024-07-03 21:57:25	CleanSam	Processed    20,000,000 records.  Elapsed time: 00:01:44s.  Time for last 1,000,000:    5s.  Last read position: chr7:49,460,276.  Last read name: SRR7624385.23015308
+INFO	2024-07-03 21:57:30	CleanSam	Processed    21,000,000 records.  Elapsed time: 00:01:50s.  Time for last 1,000,000:    5s.  Last read position: chr6:140,550,078.  Last read name: SRR7624385.10827548
+INFO	2024-07-03 21:57:36	CleanSam	Processed    22,000,000 records.  Elapsed time: 00:01:55s.  Time for last 1,000,000:    5s.  Last read position: chr10:80,538,667.  Last read name: SRR7624385.27425147
+INFO	2024-07-03 21:57:41	CleanSam	Processed    23,000,000 records.  Elapsed time: 00:02:00s.  Time for last 1,000,000:    5s.  Last read position: chr6:37,215,460.  Last read name: SRR7624385.34592746
+INFO	2024-07-03 21:57:46	CleanSam	Processed    24,000,000 records.  Elapsed time: 00:02:05s.  Time for last 1,000,000:    4s.  Last read position: chr6:87,825,968.  Last read name: SRR7624385.34633778
+INFO	2024-07-03 21:57:51	CleanSam	Processed    25,000,000 records.  Elapsed time: 00:02:10s.  Time for last 1,000,000:    5s.  Last read position: chr2:180,919,829.  Last read name: SRR7624385.40455304
+INFO	2024-07-03 21:57:56	CleanSam	Processed    26,000,000 records.  Elapsed time: 00:02:16s.  Time for last 1,000,000:    5s.  Last read position: chr4:83,183,086.  Last read name: SRR7624385.50355245
+INFO	2024-07-03 21:58:02	CleanSam	Processed    27,000,000 records.  Elapsed time: 00:02:21s.  Time for last 1,000,000:    5s.  Last read position: chr1:186,749,568.  Last read name: SRR7624385.42476257
+INFO	2024-07-03 21:58:07	CleanSam	Processed    28,000,000 records.  Elapsed time: 00:02:26s.  Time for last 1,000,000:    5s.  Last read position: chr13:74,349,729.  Last read name: SRR7624385.49425152
+INFO	2024-07-03 21:58:12	CleanSam	Processed    29,000,000 records.  Elapsed time: 00:02:31s.  Time for last 1,000,000:    4s.  Last read position: chr12:100,570,346.  Last read name: SRR7624385.49340109
+INFO	2024-07-03 21:58:17	CleanSam	Processed    30,000,000 records.  Elapsed time: 00:02:36s.  Time for last 1,000,000:    4s.  Last read position: chr17:70,853,901.  Last read name: SRR7624385.40073104
+INFO	2024-07-03 21:58:22	CleanSam	Processed    31,000,000 records.  Elapsed time: 00:02:41s.  Time for last 1,000,000:    4s.  Last read position: chr4:33,246,300.  Last read name: SRR7624385.10461367
+INFO	2024-07-03 21:58:27	CleanSam	Processed    32,000,000 records.  Elapsed time: 00:02:47s.  Time for last 1,000,000:    5s.  Last read position: chr7:35,056,404.  Last read name: SRR7624385.19935974
+INFO	2024-07-03 21:58:33	CleanSam	Processed    33,000,000 records.  Elapsed time: 00:02:52s.  Time for last 1,000,000:    5s.  Last read position: chr2:30,595,615.  Last read name: SRR7624385.31022895
+INFO	2024-07-03 21:58:38	CleanSam	Processed    34,000,000 records.  Elapsed time: 00:02:57s.  Time for last 1,000,000:    5s.  Last read position: chr7:98,600,705.  Last read name: SRR7624385.13936275
+INFO	2024-07-03 21:58:43	CleanSam	Processed    35,000,000 records.  Elapsed time: 00:03:02s.  Time for last 1,000,000:    5s.  Last read position: chr7:85,387,450.  Last read name: SRR7624385.37900131
+INFO	2024-07-03 21:58:48	CleanSam	Processed    36,000,000 records.  Elapsed time: 00:03:07s.  Time for last 1,000,000:    4s.  Last read position: chr8:57,825,044.  Last read name: SRR7624385.45286146
+INFO	2024-07-03 21:58:53	CleanSam	Processed    37,000,000 records.  Elapsed time: 00:03:12s.  Time for last 1,000,000:    4s.  Last read position: chr1:171,076,221.  Last read name: SRR7624385.32927169
+[Wed Jul 03 21:59:07 CEST 2024] picard.sam.CleanSam done. Elapsed time: 3.46 minutes.
+Runtime.totalMemory()=1073217536
+21:59:09.606 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/robin/bin/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Wed Jul 03 21:59:09 CEST 2024] SamFormatConverter --INPUT E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_cleaned.sam --OUTPUT E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_unsorted.bam --TMP_DIR . --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+[Wed Jul 03 21:59:09 CEST 2024] Executing as robin@epipax.ijm.univ-paris-diderot.priv on Linux 6.1.0-21-amd64 amd64; OpenJDK 64-Bit Server VM 1.8.0_332-b09; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: Version:2.26.2
+INFO	2024-07-03 21:59:10	SamFormatConverter	Seen many non-increasing record positions. Printing Read-names as well.
+INFO	2024-07-03 21:59:20	SamFormatConverter	Processed     1,000,000 records.  Elapsed time: 00:00:09s.  Time for last 1,000,000:    9s.  Last read position: chr10:67,995,116.  Last read name: SRR7624385.21300904
+INFO	2024-07-03 21:59:28	SamFormatConverter	Processed     2,000,000 records.  Elapsed time: 00:00:18s.  Time for last 1,000,000:    8s.  Last read position: chr3:159,083,798.  Last read name: SRR7624385.37404625
+INFO	2024-07-03 21:59:38	SamFormatConverter	Processed     3,000,000 records.  Elapsed time: 00:00:27s.  Time for last 1,000,000:    9s.  Last read position: chr2:20,494,186.  Last read name: SRR7624385.1180103
+INFO	2024-07-03 21:59:47	SamFormatConverter	Processed     4,000,000 records.  Elapsed time: 00:00:36s.  Time for last 1,000,000:    8s.  Last read position: chr13:49,382,858.  Last read name: SRR7624385.27725959
+INFO	2024-07-03 21:59:55	SamFormatConverter	Processed     5,000,000 records.  Elapsed time: 00:00:44s.  Time for last 1,000,000:    8s.  Last read position: chr2:40,965,933.  Last read name: SRR7624385.7293674
+INFO	2024-07-03 22:00:03	SamFormatConverter	Processed     6,000,000 records.  Elapsed time: 00:00:53s.  Time for last 1,000,000:    8s.  Last read position: chr9:89,603,116.  Last read name: SRR7624385.20233594
+INFO	2024-07-03 22:00:12	SamFormatConverter	Processed     7,000,000 records.  Elapsed time: 00:01:01s.  Time for last 1,000,000:    8s.  Last read position: chr13:73,537,149.  Last read name: SRR7624385.30506036
+INFO	2024-07-03 22:00:21	SamFormatConverter	Processed     8,000,000 records.  Elapsed time: 00:01:10s.  Time for last 1,000,000:    9s.  Last read position: chr1:59,945,374.  Last read name: SRR7624385.3334203
+INFO	2024-07-03 22:00:29	SamFormatConverter	Processed     9,000,000 records.  Elapsed time: 00:01:19s.  Time for last 1,000,000:    8s.  Last read position: chr15:27,905,256.  Last read name: SRR7624385.43100605
+INFO	2024-07-03 22:00:38	SamFormatConverter	Processed    10,000,000 records.  Elapsed time: 00:01:28s.  Time for last 1,000,000:    8s.  Last read position: chr9:9,447,845.  Last read name: SRR7624385.26284108
+INFO	2024-07-03 22:00:47	SamFormatConverter	Processed    11,000,000 records.  Elapsed time: 00:01:36s.  Time for last 1,000,000:    8s.  Last read position: chr1:171,320,436.  Last read name: SRR7624385.12150990
+INFO	2024-07-03 22:00:55	SamFormatConverter	Processed    12,000,000 records.  Elapsed time: 00:01:45s.  Time for last 1,000,000:    8s.  Last read position: chr15:77,094,893.  Last read name: SRR7624385.49598633
+INFO	2024-07-03 22:01:04	SamFormatConverter	Processed    13,000,000 records.  Elapsed time: 00:01:54s.  Time for last 1,000,000:    9s.  Last read position: chr7:104,247,854.  Last read name: SRR7624385.10930274
+INFO	2024-07-03 22:01:13	SamFormatConverter	Processed    14,000,000 records.  Elapsed time: 00:02:02s.  Time for last 1,000,000:    8s.  Last read position: chr6:115,036,542.  Last read name: SRR7624385.28839231
+INFO	2024-07-03 22:01:22	SamFormatConverter	Processed    15,000,000 records.  Elapsed time: 00:02:11s.  Time for last 1,000,000:    9s.  Last read position: chr13:38,037,900.  Last read name: SRR7624385.33358069
+INFO	2024-07-03 22:01:30	SamFormatConverter	Processed    16,000,000 records.  Elapsed time: 00:02:19s.  Time for last 1,000,000:    8s.  Last read position: chr17:29,381,384.  Last read name: SRR7624385.15965264
+INFO	2024-07-03 22:01:39	SamFormatConverter	Processed    17,000,000 records.  Elapsed time: 00:02:28s.  Time for last 1,000,000:    8s.  Last read position: chr11:86,757,287.  Last read name: SRR7624385.15436890
+INFO	2024-07-03 22:01:48	SamFormatConverter	Processed    18,000,000 records.  Elapsed time: 00:02:37s.  Time for last 1,000,000:    9s.  Last read position: chr2:53,190,742.  Last read name: SRR7624385.33995521
+INFO	2024-07-03 22:01:56	SamFormatConverter	Processed    19,000,000 records.  Elapsed time: 00:02:45s.  Time for last 1,000,000:    8s.  Last read position: chr1:113,535,460.  Last read name: SRR7624385.6296390
+INFO	2024-07-03 22:02:04	SamFormatConverter	Processed    20,000,000 records.  Elapsed time: 00:02:53s.  Time for last 1,000,000:    8s.  Last read position: chr7:49,460,276.  Last read name: SRR7624385.23015308
+INFO	2024-07-03 22:02:13	SamFormatConverter	Processed    21,000,000 records.  Elapsed time: 00:03:02s.  Time for last 1,000,000:    8s.  Last read position: chr6:140,550,078.  Last read name: SRR7624385.10827548
+INFO	2024-07-03 22:02:22	SamFormatConverter	Processed    22,000,000 records.  Elapsed time: 00:03:11s.  Time for last 1,000,000:    8s.  Last read position: chr10:80,538,667.  Last read name: SRR7624385.27425147
+INFO	2024-07-03 22:02:30	SamFormatConverter	Processed    23,000,000 records.  Elapsed time: 00:03:19s.  Time for last 1,000,000:    8s.  Last read position: chr6:37,215,460.  Last read name: SRR7624385.34592746
+INFO	2024-07-03 22:02:39	SamFormatConverter	Processed    24,000,000 records.  Elapsed time: 00:03:28s.  Time for last 1,000,000:    8s.  Last read position: chr6:87,825,968.  Last read name: SRR7624385.34633778
+INFO	2024-07-03 22:02:47	SamFormatConverter	Processed    25,000,000 records.  Elapsed time: 00:03:37s.  Time for last 1,000,000:    8s.  Last read position: chr2:180,919,829.  Last read name: SRR7624385.40455304
+INFO	2024-07-03 22:02:56	SamFormatConverter	Processed    26,000,000 records.  Elapsed time: 00:03:45s.  Time for last 1,000,000:    8s.  Last read position: chr4:83,183,086.  Last read name: SRR7624385.50355245
+INFO	2024-07-03 22:03:04	SamFormatConverter	Processed    27,000,000 records.  Elapsed time: 00:03:54s.  Time for last 1,000,000:    8s.  Last read position: chr1:186,749,568.  Last read name: SRR7624385.42476257
+INFO	2024-07-03 22:03:13	SamFormatConverter	Processed    28,000,000 records.  Elapsed time: 00:04:02s.  Time for last 1,000,000:    8s.  Last read position: chr13:74,349,729.  Last read name: SRR7624385.49425152
+INFO	2024-07-03 22:03:21	SamFormatConverter	Processed    29,000,000 records.  Elapsed time: 00:04:10s.  Time for last 1,000,000:    8s.  Last read position: chr12:100,570,346.  Last read name: SRR7624385.49340109
+INFO	2024-07-03 22:03:30	SamFormatConverter	Processed    30,000,000 records.  Elapsed time: 00:04:19s.  Time for last 1,000,000:    8s.  Last read position: chr17:70,853,901.  Last read name: SRR7624385.40073104
+INFO	2024-07-03 22:03:39	SamFormatConverter	Processed    31,000,000 records.  Elapsed time: 00:04:28s.  Time for last 1,000,000:    9s.  Last read position: chr4:33,246,300.  Last read name: SRR7624385.10461367
+INFO	2024-07-03 22:03:47	SamFormatConverter	Processed    32,000,000 records.  Elapsed time: 00:04:37s.  Time for last 1,000,000:    8s.  Last read position: chr7:35,056,404.  Last read name: SRR7624385.19935974
+INFO	2024-07-03 22:03:56	SamFormatConverter	Processed    33,000,000 records.  Elapsed time: 00:04:46s.  Time for last 1,000,000:    8s.  Last read position: chr2:30,595,615.  Last read name: SRR7624385.31022895
+INFO	2024-07-03 22:04:04	SamFormatConverter	Processed    34,000,000 records.  Elapsed time: 00:04:54s.  Time for last 1,000,000:    7s.  Last read position: chr7:98,600,705.  Last read name: SRR7624385.13936275
+INFO	2024-07-03 22:04:12	SamFormatConverter	Processed    35,000,000 records.  Elapsed time: 00:05:02s.  Time for last 1,000,000:    8s.  Last read position: chr7:85,387,450.  Last read name: SRR7624385.37900131
+INFO	2024-07-03 22:04:22	SamFormatConverter	Processed    36,000,000 records.  Elapsed time: 00:05:11s.  Time for last 1,000,000:    9s.  Last read position: chr8:57,825,044.  Last read name: SRR7624385.45286146
+INFO	2024-07-03 22:04:30	SamFormatConverter	Processed    37,000,000 records.  Elapsed time: 00:05:20s.  Time for last 1,000,000:    8s.  Last read position: chr1:171,076,221.  Last read name: SRR7624385.32927169
+[Wed Jul 03 22:04:35 CEST 2024] picard.sam.SamFormatConverter done. Elapsed time: 5.44 minutes.
+Runtime.totalMemory()=1073217536
+22:04:37.758 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/robin/bin/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Wed Jul 03 22:04:38 CEST 2024] SortSam --INPUT E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_unsorted.bam --OUTPUT E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_sorted.bam --SORT_ORDER coordinate --TMP_DIR . --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+[Wed Jul 03 22:04:38 CEST 2024] Executing as robin@epipax.ijm.univ-paris-diderot.priv on Linux 6.1.0-21-amd64 amd64; OpenJDK 64-Bit Server VM 1.8.0_332-b09; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: Version:2.26.2
+INFO	2024-07-03 22:04:38	SortSam	Seen many non-increasing record positions. Printing Read-names as well.
+INFO	2024-07-03 22:05:50	SortSam	Read    10,000,000 records.  Elapsed time: 00:01:11s.  Time for last 10,000,000:   71s.  Last read position: chr9:9,447,845.  Last read name: SRR7624385.26284108
+INFO	2024-07-03 22:06:55	SortSam	Read    20,000,000 records.  Elapsed time: 00:02:16s.  Time for last 10,000,000:   64s.  Last read position: chr7:49,460,276.  Last read name: SRR7624385.23015308
+INFO	2024-07-03 22:08:03	SortSam	Read    30,000,000 records.  Elapsed time: 00:03:25s.  Time for last 10,000,000:   68s.  Last read position: chr17:70,853,901.  Last read name: SRR7624385.40073104
+INFO	2024-07-03 22:08:51	SortSam	Finished reading inputs, merging and writing to output now.
+INFO	2024-07-03 22:09:38	SortSam	Wrote    10,000,000 records from a sorting collection.  Elapsed time: 00:05:00s.  Time for last 10,000,000:   47s.  Last read position: chr5:36,465,064
+INFO	2024-07-03 22:10:25	SortSam	Wrote    20,000,000 records from a sorting collection.  Elapsed time: 00:05:46s.  Time for last 10,000,000:   46s.  Last read position: chr10:5,233,172
+INFO	2024-07-03 22:11:11	SortSam	Wrote    30,000,000 records from a sorting collection.  Elapsed time: 00:06:33s.  Time for last 10,000,000:   46s.  Last read position: chr15:81,486,659
+[Wed Jul 03 22:11:45 CEST 2024] picard.sam.SortSam done. Elapsed time: 7.13 minutes.
+Runtime.totalMemory()=1770520576
+22:11:46.805 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/robin/bin/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Wed Jul 03 22:11:46 CEST 2024] MarkDuplicates --INPUT E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_sorted.bam --OUTPUT E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.bam --METRICS_FILE E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_markDupeMetrics.txt --REMOVE_DUPLICATES false --TMP_DIR . --MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP 50000 --MAX_FILE_HANDLES_FOR_READ_ENDS_MAP 8000 --SORTING_COLLECTION_SIZE_RATIO 0.25 --TAG_DUPLICATE_SET_MEMBERS false --REMOVE_SEQUENCING_DUPLICATES false --TAGGING_POLICY DontTag --CLEAR_DT true --DUPLEX_UMI false --ADD_PG_TAG_TO_READS true --ASSUME_SORTED false --DUPLICATE_SCORING_STRATEGY SUM_OF_BASE_QUALITIES --PROGRAM_RECORD_ID MarkDuplicates --PROGRAM_GROUP_NAME MarkDuplicates --READ_NAME_REGEX <optimized capture of last three ':' separated fields as numeric values> --OPTICAL_DUPLICATE_PIXEL_DISTANCE 100 --MAX_OPTICAL_DUPLICATE_SET_SIZE 300000 --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+[Wed Jul 03 22:11:46 CEST 2024] Executing as robin@epipax.ijm.univ-paris-diderot.priv on Linux 6.1.0-21-amd64 amd64; OpenJDK 64-Bit Server VM 1.8.0_332-b09; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: Version:2.26.2
+INFO	2024-07-03 22:11:46	MarkDuplicates	Start of doWork freeMemory: 501502520; totalMemory: 514850816; maxMemory: 1908932608
+INFO	2024-07-03 22:11:46	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2024-07-03 22:11:46	MarkDuplicates	Will retain up to 6916422 data points before spilling to disk.
+WARNING	2024-07-03 22:11:47	AbstractOpticalDuplicateFinderCommandLineProgram	A field field parsed out of a read name was expected to contain an integer and did not. Read name: SRR7624385.33124269. Cause: String 'SRR7624385.33124269' did not start with a parsable number.
+INFO	2024-07-03 22:11:51	MarkDuplicates	Read     1,000,000 records.  Elapsed time: 00:00:03s.  Time for last 1,000,000:    3s.  Last read position: chr1:87,756,515
+INFO	2024-07-03 22:11:51	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:11:54	MarkDuplicates	Read     2,000,000 records.  Elapsed time: 00:00:07s.  Time for last 1,000,000:    3s.  Last read position: chr1:175,041,378
+INFO	2024-07-03 22:11:54	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:11:58	MarkDuplicates	Read     3,000,000 records.  Elapsed time: 00:00:11s.  Time for last 1,000,000:    3s.  Last read position: chr2:48,813,803
+INFO	2024-07-03 22:11:58	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:12:02	MarkDuplicates	Read     4,000,000 records.  Elapsed time: 00:00:15s.  Time for last 1,000,000:    4s.  Last read position: chr2:119,168,067
+INFO	2024-07-03 22:12:02	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:12:06	MarkDuplicates	Read     5,000,000 records.  Elapsed time: 00:00:18s.  Time for last 1,000,000:    3s.  Last read position: chr2:172,907,200
+INFO	2024-07-03 22:12:06	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:12:09	MarkDuplicates	Read     6,000,000 records.  Elapsed time: 00:00:22s.  Time for last 1,000,000:    3s.  Last read position: chr3:84,662,705
+INFO	2024-07-03 22:12:09	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:12:15	MarkDuplicates	Read     7,000,000 records.  Elapsed time: 00:00:28s.  Time for last 1,000,000:    6s.  Last read position: chr3:153,723,576
+INFO	2024-07-03 22:12:15	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:12:19	MarkDuplicates	Read     8,000,000 records.  Elapsed time: 00:00:32s.  Time for last 1,000,000:    3s.  Last read position: chr4:94,602,683
+INFO	2024-07-03 22:12:19	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:12:22	MarkDuplicates	Read     9,000,000 records.  Elapsed time: 00:00:35s.  Time for last 1,000,000:    3s.  Last read position: chr4:140,362,425
+INFO	2024-07-03 22:12:22	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:12:26	MarkDuplicates	Read    10,000,000 records.  Elapsed time: 00:00:39s.  Time for last 1,000,000:    3s.  Last read position: chr5:36,465,064
+INFO	2024-07-03 22:12:26	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:12:29	MarkDuplicates	Read    11,000,000 records.  Elapsed time: 00:00:42s.  Time for last 1,000,000:    3s.  Last read position: chr5:117,473,102
+INFO	2024-07-03 22:12:29	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:12:34	MarkDuplicates	Read    12,000,000 records.  Elapsed time: 00:00:47s.  Time for last 1,000,000:    4s.  Last read position: chr6:23,680,117
+INFO	2024-07-03 22:12:34	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:12:37	MarkDuplicates	Read    13,000,000 records.  Elapsed time: 00:00:50s.  Time for last 1,000,000:    3s.  Last read position: chr6:100,603,614
+INFO	2024-07-03 22:12:37	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:12:43	MarkDuplicates	Read    14,000,000 records.  Elapsed time: 00:00:55s.  Time for last 1,000,000:    5s.  Last read position: chr7:19,359,283
+INFO	2024-07-03 22:12:43	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:12:46	MarkDuplicates	Read    15,000,000 records.  Elapsed time: 00:00:59s.  Time for last 1,000,000:    3s.  Last read position: chr7:80,379,598
+INFO	2024-07-03 22:12:46	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:12:49	MarkDuplicates	Read    16,000,000 records.  Elapsed time: 00:01:02s.  Time for last 1,000,000:    3s.  Last read position: chr7:143,685,392
+INFO	2024-07-03 22:12:49	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:12:52	MarkDuplicates	Read    17,000,000 records.  Elapsed time: 00:01:05s.  Time for last 1,000,000:    3s.  Last read position: chr8:78,520,193
+INFO	2024-07-03 22:12:52	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:12:58	MarkDuplicates	Read    18,000,000 records.  Elapsed time: 00:01:11s.  Time for last 1,000,000:    5s.  Last read position: chr9:3,022,095
+INFO	2024-07-03 22:12:58	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:13:01	MarkDuplicates	Read    19,000,000 records.  Elapsed time: 00:01:14s.  Time for last 1,000,000:    3s.  Last read position: chr9:64,354,212
+INFO	2024-07-03 22:13:01	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:13:05	MarkDuplicates	Read    20,000,000 records.  Elapsed time: 00:01:17s.  Time for last 1,000,000:    3s.  Last read position: chr10:5,233,172
+INFO	2024-07-03 22:13:05	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:13:10	MarkDuplicates	Read    21,000,000 records.  Elapsed time: 00:01:23s.  Time for last 1,000,000:    5s.  Last read position: chr10:79,760,912
+INFO	2024-07-03 22:13:10	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:13:15	MarkDuplicates	Read    22,000,000 records.  Elapsed time: 00:01:26s.  Time for last 1,000,000:    3s.  Last read position: chr11:10,504,635
+INFO	2024-07-03 22:13:15	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:13:18	MarkDuplicates	Read    23,000,000 records.  Elapsed time: 00:01:30s.  Time for last 1,000,000:    4s.  Last read position: chr11:72,457,626
+INFO	2024-07-03 22:13:18	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:13:23	MarkDuplicates	Read    24,000,000 records.  Elapsed time: 00:01:36s.  Time for last 1,000,000:    5s.  Last read position: chr11:108,878,823
+INFO	2024-07-03 22:13:23	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:13:27	MarkDuplicates	Read    25,000,000 records.  Elapsed time: 00:01:39s.  Time for last 1,000,000:    3s.  Last read position: chr12:63,186,479
+INFO	2024-07-03 22:13:27	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:13:30	MarkDuplicates	Read    26,000,000 records.  Elapsed time: 00:01:43s.  Time for last 1,000,000:    3s.  Last read position: chr13:19,529,653
+INFO	2024-07-03 22:13:30	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:13:34	MarkDuplicates	Read    27,000,000 records.  Elapsed time: 00:01:46s.  Time for last 1,000,000:    3s.  Last read position: chr13:84,410,766
+INFO	2024-07-03 22:13:34	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:13:39	MarkDuplicates	Read    28,000,000 records.  Elapsed time: 00:01:52s.  Time for last 1,000,000:    5s.  Last read position: chr14:32,317,798
+INFO	2024-07-03 22:13:39	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:13:43	MarkDuplicates	Read    29,000,000 records.  Elapsed time: 00:01:56s.  Time for last 1,000,000:    3s.  Last read position: chr14:122,254,015
+INFO	2024-07-03 22:13:43	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:13:47	MarkDuplicates	Read    30,000,000 records.  Elapsed time: 00:02:00s.  Time for last 1,000,000:    4s.  Last read position: chr15:81,486,659
+INFO	2024-07-03 22:13:47	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:13:52	MarkDuplicates	Read    31,000,000 records.  Elapsed time: 00:02:05s.  Time for last 1,000,000:    4s.  Last read position: chr16:27,441,108
+INFO	2024-07-03 22:13:52	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:13:58	MarkDuplicates	Read    32,000,000 records.  Elapsed time: 00:02:11s.  Time for last 1,000,000:    6s.  Last read position: chr17:18,235,370
+INFO	2024-07-03 22:13:58	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:14:02	MarkDuplicates	Read    33,000,000 records.  Elapsed time: 00:02:14s.  Time for last 1,000,000:    3s.  Last read position: chr17:60,603,107
+INFO	2024-07-03 22:14:02	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:14:06	MarkDuplicates	Read    34,000,000 records.  Elapsed time: 00:02:19s.  Time for last 1,000,000:    4s.  Last read position: chr18:42,275,050
+INFO	2024-07-03 22:14:06	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:14:11	MarkDuplicates	Read    35,000,000 records.  Elapsed time: 00:02:24s.  Time for last 1,000,000:    5s.  Last read position: chr19:18,714,505
+INFO	2024-07-03 22:14:11	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:14:15	MarkDuplicates	Read    36,000,000 records.  Elapsed time: 00:02:28s.  Time for last 1,000,000:    3s.  Last read position: chrX:55,580,882
+INFO	2024-07-03 22:14:15	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:14:19	MarkDuplicates	Read    37,000,000 records.  Elapsed time: 00:02:32s.  Time for last 1,000,000:    4s.  Last read position: chrUn_GL456389:12,341
+INFO	2024-07-03 22:14:19	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2024-07-03 22:14:20	MarkDuplicates	Read 37177446 records. 0 pairs never matched.
+INFO	2024-07-03 22:14:21	MarkDuplicates	After buildSortedReadEndLists freeMemory: 1549388376; totalMemory: 1594884096; maxMemory: 1908932608
+INFO	2024-07-03 22:14:21	MarkDuplicates	Will retain up to 59654144 duplicate indices before spilling to disk.
+INFO	2024-07-03 22:14:21	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2024-07-03 22:14:21	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2024-07-03 22:14:30	MarkDuplicates	Sorting list of duplicate records.
+INFO	2024-07-03 22:14:31	MarkDuplicates	After generateDuplicateIndexes freeMemory: 1081582400; totalMemory: 1576009728; maxMemory: 1908932608
+INFO	2024-07-03 22:14:31	MarkDuplicates	Marking 662025 records as duplicates.
+INFO	2024-07-03 22:14:31	MarkDuplicates	Found 0 optical duplicate clusters.
+INFO	2024-07-03 22:14:31	MarkDuplicates	Reads are assumed to be ordered by: coordinate
+INFO	2024-07-03 22:15:37	MarkDuplicates	Written    10,000,000 records.  Elapsed time: 00:01:06s.  Time for last 10,000,000:   66s.  Last read position: chr5:36,465,064
+INFO	2024-07-03 22:16:43	MarkDuplicates	Written    20,000,000 records.  Elapsed time: 00:02:12s.  Time for last 10,000,000:   65s.  Last read position: chr10:5,233,172
+INFO	2024-07-03 22:17:52	MarkDuplicates	Written    30,000,000 records.  Elapsed time: 00:03:21s.  Time for last 10,000,000:   69s.  Last read position: chr15:81,486,659
+INFO	2024-07-03 22:18:42	MarkDuplicates	Writing complete. Closing input iterator.
+INFO	2024-07-03 22:18:42	MarkDuplicates	Duplicate Index cleanup.
+INFO	2024-07-03 22:18:42	MarkDuplicates	Getting Memory Stats.
+INFO	2024-07-03 22:18:42	MarkDuplicates	Before output close freeMemory: 1618063960; totalMemory: 1636827136; maxMemory: 1908932608
+INFO	2024-07-03 22:18:43	MarkDuplicates	Closed outputs. Getting more Memory Stats.
+INFO	2024-07-03 22:18:43	MarkDuplicates	After output close freeMemory: 1618063960; totalMemory: 1636827136; maxMemory: 1908932608
+[Wed Jul 03 22:18:43 CEST 2024] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 6.95 minutes.
+Runtime.totalMemory()=1636827136
+[sam grooming] finished successfully at [Wed Jul 3 10:18:54 PM CEST 2024]
+[trueStats] Collecting alignment statistics for E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697.bam at [Wed Jul 3 10:19:42 PM CEST 2024]
+[bamToWigCPMsmoothKeepDup] Started with bin size: 1 and smoothing over 0 bp and KEEPING DUPLICATES at [Wed Jul 3 10:22:58 PM CEST 2024]
+There are 35882427 alignments, of which 532387 are completely within a blacklist region.
+Due to filtering, 89.24884784221994% of the aforementioned alignments will be used 31549503.411763888
+[bamToWigCPMsmoothKeepDup] finished successfully at [Wed Jul 3 10:41:12 PM CEST 2024]
+[file cleanup] started. Good job! at [Wed Jul 3 10:41:12 PM CEST 2024]
+cp: cannot stat '*.pdf': No such file or directory
+mv: cannot stat '*.bed': No such file or directory
+mv: preserving times for '/data/bigWigs/E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5_mm10_kpDup_q10_b1_s0_CPM.bw': Operation not permitted
+mv: preserving permissions for ‘/data/bigWigs/E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5_mm10_kpDup_q10_b1_s0_CPM.bw’: Operation not permitted
+mv: preserving times for '/data/bams/E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5_mm10.bam': Operation not permitted
+mv: preserving permissions for ‘/data/bams/E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5_mm10.bam’: Operation not permitted
+mv: preserving times for '/data/bams/E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5_mm10.bam.bai': Operation not permitted
+mv: preserving permissions for ‘/data/bams/E14_24h_H3K4me3_ChIP_Yang2019_GSM3314697_trimV5_mm10.bam.bai’: Operation not permitted
+mv: cannot stat '*.gtf': No such file or directory
